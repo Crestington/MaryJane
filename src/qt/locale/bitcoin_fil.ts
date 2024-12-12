@@ -97,8 +97,8 @@
         <translation>Ipakita ang pangkalahatan ng walet</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Magpadala ng coins sa Reddcoin address</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Magpadala ng coins sa MaryJane address</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -125,15 +125,15 @@
         <translation>Ipakita ang impormasyon tungkol sa Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Pumirma ng mga mensahe gamit ang iyong mga Reddcoin address upang mapatunayan na pagmamay-ari mo ang mga ito</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Pumirma ng mga mensahe gamit ang iyong mga MaryJane address upang mapatunayan na pagmamay-ari mo ang mga ito</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">I-verify ang mga mensahe upang matiyak na sila ay napirmahan ng tinukoy na mga Reddcoin address.</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">I-verify ang mga mensahe upang matiyak na sila ay napirmahan ng tinukoy na mga MaryJane address.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -340,8 +340,8 @@
         <translation>Pangunahin</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Kusang buksan ang Reddcoin client port sa router. Gumagana lamang ito kapag ang iyong router ay sumusuporta ng UPnP at ito ay pinagana.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Kusang buksan ang MaryJane client port sa router. Gumagana lamang ito kapag ang iyong router ay sumusuporta ng UPnP at ito ay pinagana.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -447,8 +447,8 @@
         <translation>Balanseng namina ngunit hindi pa puedeng gastusin</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Ang ipinapakitang impormasyon ay maaaring luma na. Kusang mag-sy-synchronize ang iyong walet sa Reddcoin network pagkatapos maitatag ang koneksyon, ngunit hindi pa nakukumpleto ang prosesong ito.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Ang ipinapakitang impormasyon ay maaaring luma na. Kusang mag-sy-synchronize ang iyong walet sa MaryJane network pagkatapos maitatag ang koneksyon, ngunit hindi pa nakukumpleto ang prosesong ito.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -617,12 +617,12 @@
         <translation>Kopyahin ang kasalukuyang address sa system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Pirmahan ang mensahe upang mapatunayan na pagmamay-ari mo ang Reddcoin address na ito</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Pirmahan ang mensahe upang mapatunayan na pagmamay-ari mo ang MaryJane address na ito</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Tiyakin ang katotohanan ng mensahe upang siguruhin na ito'y napirmahan ng tinukoy na Reddcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Tiyakin ang katotohanan ng mensahe upang siguruhin na ito'y napirmahan ng tinukoy na MaryJane address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

@@ -88,12 +88,12 @@
         <context-group purpose="location"><context context-type="linenumber">98</context></context-group>
       </trans-unit>
       <trans-unit id="_msg17">
-        <source xml:space="preserve">These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source xml:space="preserve">These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">105</context></context-group>
       </trans-unit>
       <trans-unit id="_msg18">
-        <source xml:space="preserve">These are your Reddcoin addresses for receiving payments. Use the &apos;Create new receiving address&apos; button in the receive tab to create new addresses.
+        <source xml:space="preserve">These are your MaryJane addresses for receiving payments. Use the &apos;Create new receiving address&apos; button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">110</context></context-group>
@@ -229,12 +229,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">122</context></context-group>
       </trans-unit>
       <trans-unit id="_msg42">
-        <source xml:space="preserve">Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
+        <source xml:space="preserve">Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">122</context></context-group>
       </trans-unit>
       <trans-unit id="_msg43">
-        <source xml:space="preserve">Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
+        <source xml:space="preserve">Remember that encrypting your wallet cannot fully protect your maryjanes from being stolen by malware infecting your computer.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">129</context></context-group>
       </trans-unit>
@@ -404,12 +404,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">316</context></context-group>
       </trans-unit>
       <trans-unit id="_msg72">
-        <source xml:space="preserve">Send coins to a Reddcoin address</source>
+        <source xml:space="preserve">Send coins to a MaryJane address</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">323</context></context-group>
       </trans-unit>
       <trans-unit id="_msg73">
-        <source xml:space="preserve">Request payments (generates QR codes and reddcoin: URIs)</source>
+        <source xml:space="preserve">Request payments (generates QR codes and maryjane: URIs)</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">334</context></context-group>
       </trans-unit>
@@ -469,32 +469,32 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">389</context></context-group>
       </trans-unit>
       <trans-unit id="_msg85">
-        <source xml:space="preserve">Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source xml:space="preserve">Sign messages with your MaryJane addresses to prove you own them</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">411</context></context-group>
       </trans-unit>
       <trans-unit id="_msg86">
-        <source xml:space="preserve">Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source xml:space="preserve">Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">413</context></context-group>
       </trans-unit>
       <trans-unit id="_msg87">
-        <source xml:space="preserve">Load Partially Signed Reddcoin Transaction</source>
+        <source xml:space="preserve">Load Partially Signed MaryJane Transaction</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">415</context></context-group>
       </trans-unit>
       <trans-unit id="_msg88">
-        <source xml:space="preserve">Load Partially Signed Reddcoin Transaction from clipboard</source>
+        <source xml:space="preserve">Load Partially Signed MaryJane Transaction from clipboard</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">417</context></context-group>
       </trans-unit>
       <trans-unit id="_msg89">
-        <source xml:space="preserve">Open a reddcoin: URI</source>
+        <source xml:space="preserve">Open a maryjane: URI</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">431</context></context-group>
       </trans-unit>
       <trans-unit id="_msg90">
-        <source xml:space="preserve">Show the %1 help message to get a list with possible Reddcoin command-line options</source>
+        <source xml:space="preserve">Show the %1 help message to get a list with possible MaryJane command-line options</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">450</context></context-group>
       </trans-unit>
@@ -517,12 +517,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">1161</context></context-group>
         <note annotates="source" from="developer">A substring of the tooltip.</note>
         <trans-unit id="_msg94[0]">
-          <source xml:space="preserve">%n active connection(s) to Reddcoin network.</source>
-          <target xml:space="preserve" state="needs-review-translation">%n active connection to Reddcoin network.</target>
+          <source xml:space="preserve">%n active connection(s) to MaryJane network.</source>
+          <target xml:space="preserve" state="needs-review-translation">%n active connection to MaryJane network.</target>
         </trans-unit>
         <trans-unit id="_msg94[1]">
-          <source xml:space="preserve">%n active connection(s) to Reddcoin network.</source>
-          <target xml:space="preserve" state="needs-review-translation">%n active connections to Reddcoin network.</target>
+          <source xml:space="preserve">%n active connection(s) to MaryJane network.</source>
+          <target xml:space="preserve" state="needs-review-translation">%n active connections to MaryJane network.</target>
         </trans-unit>
       </group>
       <trans-unit id="_msg95">
@@ -844,12 +844,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">456</context></context-group>
       </trans-unit>
       <trans-unit id="_msg157">
-        <source xml:space="preserve">&amp;Website - reddcoin.com</source>
+        <source xml:space="preserve">&amp;Website - maryjane.com</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">459</context></context-group>
       </trans-unit>
       <trans-unit id="_msg158">
-        <source xml:space="preserve">Open the Reddcoin website in a web browser.</source>
+        <source xml:space="preserve">Open the MaryJane website in a web browser.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">460</context></context-group>
       </trans-unit>
@@ -864,12 +864,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">463</context></context-group>
       </trans-unit>
       <trans-unit id="_msg161">
-        <source xml:space="preserve">&amp;Website - Reddcoin Wiki</source>
+        <source xml:space="preserve">&amp;Website - MaryJane Wiki</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">465</context></context-group>
       </trans-unit>
       <trans-unit id="_msg162">
-        <source xml:space="preserve">Open the Reddcoin Wiki website in a web browser.</source>
+        <source xml:space="preserve">Open the MaryJane Wiki website in a web browser.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">466</context></context-group>
       </trans-unit>
@@ -879,7 +879,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">468</context></context-group>
       </trans-unit>
       <trans-unit id="_msg164">
-        <source xml:space="preserve">Open the Reddcoin Discord chat in a web browser.</source>
+        <source xml:space="preserve">Open the MaryJane Discord chat in a web browser.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">469</context></context-group>
       </trans-unit>
@@ -889,7 +889,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">471</context></context-group>
       </trans-unit>
       <trans-unit id="_msg166">
-        <source xml:space="preserve">Open reddcointalk.org in a web browser.</source>
+        <source xml:space="preserve">Open maryjanetalk.org in a web browser.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">472</context></context-group>
       </trans-unit>
@@ -1608,7 +1608,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">124</context></context-group>
       </trans-unit>
       <trans-unit id="_msg298">
-        <source xml:space="preserve">The entered address &quot;%1&quot; is not a valid Reddcoin address.</source>
+        <source xml:space="preserve">The entered address &quot;%1&quot; is not a valid MaryJane address.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">114</context></context-group>
       </trans-unit>
@@ -1686,7 +1686,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         </trans-unit>
       </group>
       <trans-unit id="_msg311">
-        <source xml:space="preserve">%1 will download and store a copy of the Reddcoin block chain.</source>
+        <source xml:space="preserve">%1 will download and store a copy of the MaryJane block chain.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">399</context></context-group>
       </trans-unit>
@@ -1701,12 +1701,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">257</context></context-group>
       </trans-unit>
       <trans-unit id="_msg314">
-        <source xml:space="preserve">Reddcoin</source>
+        <source xml:space="preserve">MaryJane</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">140</context></context-group>
       </trans-unit>
       <trans-unit id="_msg315">
-        <source xml:space="preserve">Blockchain pruning is not compatible with Reddcoin</source>
+        <source xml:space="preserve">Blockchain pruning is not compatible with MaryJane</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">149</context></context-group>
       </trans-unit>
@@ -2063,12 +2063,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">235</context></context-group>
       </trans-unit>
       <trans-unit id="_msg379">
-        <source xml:space="preserve">Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the reddcoin network, as detailed below.</source>
+        <source xml:space="preserve">Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the maryjane network, as detailed below.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">133</context></context-group>
       </trans-unit>
       <trans-unit id="_msg380">
-        <source xml:space="preserve">Attempting to spend reddcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source xml:space="preserve">Attempting to spend maryjanes that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">152</context></context-group>
       </trans-unit>
@@ -2123,7 +2123,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
   <file original="../forms/openuridialog.ui" datatype="x-trolltech-designer-ui" source-language="en" target-language="en"><body>
     <group restype="x-trolltech-linguist-context" resname="OpenURIDialog">
       <trans-unit id="_msg389">
-        <source xml:space="preserve">Open reddcoin URI</source>
+        <source xml:space="preserve">Open maryjane URI</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">14</context></context-group>
       </trans-unit>
@@ -2172,22 +2172,22 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">151</context></context-group>
       </trans-unit>
       <trans-unit id="_msg398">
-        <source xml:space="preserve">Full path to a Reddcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <source xml:space="preserve">Full path to a MaryJane Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">253</context></context-group>
       </trans-unit>
       <trans-unit id="_msg399">
-        <source xml:space="preserve">Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source xml:space="preserve">Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">285</context></context-group>
       </trans-unit>
       <trans-unit id="_msg400">
-        <source xml:space="preserve">Automatically open the Reddcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <source xml:space="preserve">Automatically open the MaryJane client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">295</context></context-group>
       </trans-unit>
       <trans-unit id="_msg401">
-        <source xml:space="preserve">Connect to the Reddcoin network through a SOCKS5 proxy.</source>
+        <source xml:space="preserve">Connect to the MaryJane network through a SOCKS5 proxy.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">315</context></context-group>
       </trans-unit>
@@ -2205,7 +2205,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">467</context></context-group>
       </trans-unit>
       <trans-unit id="_msg404">
-        <source xml:space="preserve">Connect to the Reddcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source xml:space="preserve">Connect to the MaryJane network through a separate SOCKS5 proxy for Tor onion services.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">502</context></context-group>
       </trans-unit>
@@ -2504,7 +2504,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
   <file original="../optionsdialog.cpp" datatype="cpp" source-language="en" target-language="en"><body>
     <group restype="x-trolltech-linguist-context" resname="OptionsDialog">
       <trans-unit id="_msg462">
-        <source xml:space="preserve">Blockchain pruning is not compatible with Reddcoin</source>
+        <source xml:space="preserve">Blockchain pruning is not compatible with MaryJane</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">52</context></context-group>
       </trans-unit>
@@ -2632,7 +2632,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">60</context></context-group>
       </trans-unit>
       <trans-unit id="_msg486">
-        <source xml:space="preserve">The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source xml:space="preserve">The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">76</context></context-group>
         <context-group purpose="location"><context context-type="linenumber">411</context></context-group>
@@ -2855,17 +2855,17 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">174</context></context-group>
       </trans-unit>
       <trans-unit id="_msg527">
-        <source xml:space="preserve">Cannot start reddcoin: click-to-pay handler</source>
+        <source xml:space="preserve">Cannot start maryjane: click-to-pay handler</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">175</context></context-group>
       </trans-unit>
       <trans-unit id="_msg528">
-        <source xml:space="preserve">&apos;reddcoin://&apos; is not a valid URI. Use &apos;reddcoin:&apos; instead.</source>
+        <source xml:space="preserve">&apos;maryjane://&apos; is not a valid URI. Use &apos;maryjane:&apos; instead.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">225</context></context-group>
       </trans-unit>
       <trans-unit id="_msg529">
-        <source xml:space="preserve">URI cannot be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
+        <source xml:space="preserve">URI cannot be parsed! This can be caused by an invalid MaryJane address or malformed URI parameters.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">255</context></context-group>
       </trans-unit>
@@ -2956,7 +2956,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
   <file original="../guiutil.cpp" datatype="cpp" source-language="en" target-language="en"><body>
     <group restype="x-trolltech-linguist-context" resname="QObject">
       <trans-unit id="_msg542">
-        <source xml:space="preserve">Enter a Reddcoin address (e.g. %1)</source>
+        <source xml:space="preserve">Enter a MaryJane address (e.g. %1)</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">130</context></context-group>
       </trans-unit>
@@ -3869,7 +3869,7 @@ For more information on using this console, type %6.
         <context-group purpose="location"><context context-type="linenumber">193</context></context-group>
       </trans-unit>
       <trans-unit id="_msg696">
-        <source xml:space="preserve">An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
+        <source xml:space="preserve">An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">50</context></context-group>
       </trans-unit>
@@ -4175,7 +4175,7 @@ For more information on using this console, type %6.
         <context-group purpose="location"><context context-type="linenumber">803</context></context-group>
       </trans-unit>
       <trans-unit id="_msg753">
-        <source xml:space="preserve">When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for reddcoin transactions than the network can process.</source>
+        <source xml:space="preserve">When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for maryjane transactions than the network can process.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">886</context></context-group>
       </trans-unit>
@@ -4368,7 +4368,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">331</context></context-group>
       </trans-unit>
       <trans-unit id="_msg790">
-        <source xml:space="preserve">Please, review your transaction proposal. This will produce a Partially Signed Reddcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source xml:space="preserve">Please, review your transaction proposal. This will produce a Partially Signed MaryJane Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">336</context></context-group>
       </trans-unit>
@@ -4426,7 +4426,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">681</context></context-group>
       </trans-unit>
       <trans-unit id="_msg801">
-        <source xml:space="preserve">Warning: Invalid Reddcoin address</source>
+        <source xml:space="preserve">Warning: Invalid MaryJane address</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">955</context></context-group>
       </trans-unit>
@@ -4436,7 +4436,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">379</context></context-group>
       </trans-unit>
       <trans-unit id="_msg803">
-        <source xml:space="preserve">Creates a Partially Signed Reddcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source xml:space="preserve">Creates a Partially Signed MaryJane Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">216</context></context-group>
       </trans-unit>
@@ -4568,7 +4568,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">39</context></context-group>
       </trans-unit>
       <trans-unit id="_msg827">
-        <source xml:space="preserve">The Reddcoin address to send the payment to</source>
+        <source xml:space="preserve">The MaryJane address to send the payment to</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">57</context></context-group>
       </trans-unit>
@@ -4610,7 +4610,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">170</context></context-group>
       </trans-unit>
       <trans-unit id="_msg835">
-        <source xml:space="preserve">The fee will be deducted from the amount being sent. The recipient will receive less reddcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source xml:space="preserve">The fee will be deducted from the amount being sent. The recipient will receive less maryjanes than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">177</context></context-group>
       </trans-unit>
@@ -4630,7 +4630,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">196</context></context-group>
       </trans-unit>
       <trans-unit id="_msg839">
-        <source xml:space="preserve">A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
+        <source xml:space="preserve">A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">206</context></context-group>
       </trans-unit>
@@ -4677,12 +4677,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">27</context></context-group>
       </trans-unit>
       <trans-unit id="_msg847">
-        <source xml:space="preserve">You can sign messages/agreements with your addresses to prove you can receive reddcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source xml:space="preserve">You can sign messages/agreements with your addresses to prove you can receive maryjanes sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">33</context></context-group>
       </trans-unit>
       <trans-unit id="_msg848">
-        <source xml:space="preserve">The Reddcoin address to sign the message with</source>
+        <source xml:space="preserve">The MaryJane address to sign the message with</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">51</context></context-group>
       </trans-unit>
@@ -4725,17 +4725,17 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">140</context></context-group>
       </trans-unit>
       <trans-unit id="_msg856">
-        <source xml:space="preserve">Sign the message to prove you own this Reddcoin address</source>
+        <source xml:space="preserve">Sign the message to prove you own this MaryJane address</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">161</context></context-group>
       </trans-unit>
       <trans-unit id="_msg857">
-        <source xml:space="preserve">The Reddcoin address the message was signed with</source>
+        <source xml:space="preserve">The MaryJane address the message was signed with</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">267</context></context-group>
       </trans-unit>
       <trans-unit id="_msg858">
-        <source xml:space="preserve">Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source xml:space="preserve">Verify the message to ensure it was signed with the specified MaryJane address</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">318</context></context-group>
       </trans-unit>
@@ -5816,12 +5816,12 @@ Go to File &gt; Open Wallet to load a wallet.
         <context-group purpose="location"><context context-type="linenumber">90</context></context-group>
       </trans-unit>
       <trans-unit id="_msg1055">
-        <source xml:space="preserve">%s corrupt. Try using the wallet tool reddcoin-wallet to salvage or restoring a backup.</source>
+        <source xml:space="preserve">%s corrupt. Try using the wallet tool maryjane-wallet to salvage or restoring a backup.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">13</context></context-group>
       </trans-unit>
       <trans-unit id="_msg1056">
-        <source xml:space="preserve">Error: Dumpfile version is not supported. This version of reddcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
+        <source xml:space="preserve">Error: Dumpfile version is not supported. This version of maryjane-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">41</context></context-group>
       </trans-unit>
@@ -6236,12 +6236,12 @@ Go to File &gt; Open Wallet to load a wallet.
         <context-group purpose="location"><context context-type="linenumber">198</context></context-group>
       </trans-unit>
       <trans-unit id="_msg1139">
-        <source xml:space="preserve">Prune mode is incompatible with Reddcoin and -coinstatsindex.</source>
+        <source xml:space="preserve">Prune mode is incompatible with MaryJane and -coinstatsindex.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">199</context></context-group>
       </trans-unit>
       <trans-unit id="_msg1140">
-        <source xml:space="preserve">Prune mode is incompatible with Reddcoin and -txindex.</source>
+        <source xml:space="preserve">Prune mode is incompatible with MaryJane and -txindex.</source>
         <target xml:space="preserve"></target>
         <context-group purpose="location"><context context-type="linenumber">200</context></context-group>
       </trans-unit>

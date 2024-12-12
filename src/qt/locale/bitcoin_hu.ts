@@ -62,8 +62,8 @@
         <translation type="unfinished">Fogadó címek</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ezekről a címekről küldhetsz Reddcoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ezekről a címekről küldhetsz MaryJanet. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -144,8 +144,8 @@
         <translation type="unfinished">Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES REDDCOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES MARYJANEODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -250,12 +250,12 @@
         <translation>A tárca általános áttekintése</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Reddcoin küldése megadott címre</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">MaryJane küldése megadott címre</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Fizetési kérelem (QR-kódot és "reddcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Fizetési kérelem (QR-kódot és "maryjane:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -282,15 +282,15 @@
         <translation>Információk a Qt-ról</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Üzenetek aláírása a Reddcoin-címeivel, amivel bizonyíthatja hogy a cím az Öné</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Üzenetek aláírása a MaryJane-címeivel, amivel bizonyíthatja hogy a cím az Öné</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Üzenetek ellenőrzése, hogy valóban a megjelölt Reddcoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Üzenetek ellenőrzése, hogy valóban a megjelölt MaryJane-címekkel vannak-e aláírva</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -579,8 +579,8 @@
         <translation type="unfinished">Tárca feloldása sikertelen</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">A megadott "%1" cím nem egy érvényes Reddcoin-cím.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">A megadott "%1" cím nem egy érvényes MaryJane-cím.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -718,8 +718,8 @@
         <translation type="unfinished">A&amp;datbázis gyorsítótár mérete</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">A Reddcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">A MaryJane-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -849,8 +849,8 @@
         <translation>Bányászott egyenleg amely még nem érett be.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">A kijelzett információ lehet, hogy elavult. A kapcsolat létrehozatalát követően tárcája automatikusan szinkronba kerül a Reddcoin hálózattal, de ez a folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">A kijelzett információ lehet, hogy elavult. A kapcsolat létrehozatalát követően tárcája automatikusan szinkronba kerül a MaryJane hálózattal, de ez a folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -871,8 +871,8 @@
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">A reddcoint nem lehet elindítani: click-to-pay handler</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">A maryjanet nem lehet elindítani: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1219,8 +1219,8 @@
         <translation type="unfinished">Biztos benne, hogy el akarja küldeni?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Figyelmeztetés: Érvénytelen Reddcoin cím</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Figyelmeztetés: Érvénytelen MaryJane cím</translation>
     </message>
     <message>
         <source>or</source>
@@ -1240,7 +1240,7 @@
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation type="unfinished">Nincs ennyi reddcoin az egyenlegeden.</translation>
+        <translation type="unfinished">Nincs ennyi maryjane az egyenlegeden.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
@@ -1331,12 +1331,12 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">Üzenet</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Ellenőrizze az üzenetet, hogy valóban a megjelölt Reddcoin címmel van-e aláírva</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Ellenőrizze az üzenetet, hogy valóban a megjelölt MaryJane címmel van-e aláírva</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1767,7 +1767,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation type="unfinished">Nincs elég reddcoinod.</translation>
+        <translation type="unfinished">Nincs elég maryjaneod.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>

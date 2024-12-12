@@ -111,8 +111,8 @@
         <translation>Prikaži opšti pregled novčanika</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Pošalji novčiće na Reddcoin adresu</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Pošalji novčiće na MaryJane adresu</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -139,15 +139,15 @@
         <translation>Prikaži informacije o Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Potpišite poruke sa svojim Reddcoin adresama da biste dokazali njihovo vlasništvo</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Potpišite poruke sa svojim MaryJane adresama da biste dokazali njihovo vlasništvo</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Proverite poruke da biste utvrdili sa kojim Reddcoin adresama su potpisane</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Proverite poruke da biste utvrdili sa kojim MaryJane adresama su potpisane</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -359,7 +359,7 @@
         <translation>&amp;Главни</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Аутоматски отвори Биткоин клијент порт на рутеру. Ова опција ради само уколико твој рутер подржава и има омогућен UPnP.</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>Салдо рударења који још увек није доспео</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">Приказана информација може бити застарела. Ваш новчаник се аутоматски синхронизује са Биткоин мрежом након успостављања конекције, али овај процес је још увек у току.</translation>
     </message>
     <message>
@@ -657,11 +657,11 @@
         <translation>Копирајте тренутни потпис у системску базу за копирање</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">Потпишите поруку да докажете да сте власник ове Биткоин адресе</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished">Потврдите поруку да осигурате да је потписана са одговарајућом Биткоин адресом</translation>
     </message>
     <message>

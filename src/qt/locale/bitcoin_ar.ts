@@ -137,7 +137,7 @@
         <translation>إظهار نظرة عامة على المحفظة</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">ارسل عملات الى عنوان بيتكوين</translation>
     </message>
     <message>
@@ -165,15 +165,15 @@
         <translation>اظهر المعلومات</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">وقَع الرسائل بواسطة ال: Reddcoin الخاص بك لإثبات امتلاكك لهم</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">وقَع الرسائل بواسطة ال: MaryJane الخاص بك لإثبات امتلاكك لهم</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Reddcoin محدَدة</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">تحقق من الرسائل للتأكد من أنَها وُقعت برسائل MaryJane محدَدة</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -404,7 +404,7 @@
         <translation>&amp;الرئيسي</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">فتح منفذ خادم البتكوين تلقائيا على الموجه. هذا فقط يعمل عندما يكون الموجه الخاص بك يدعم UPnP ومفعل ايضا.</translation>
     </message>
     <message>
@@ -515,7 +515,7 @@
         <translation>الرصيد المعدّن الذي لم ينضج بعد</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">قد تكون المعلومات المعروضة قديمة. تتزامن محفظتك تلقائيًا مع شبكة البتكوين بعد إنشاء الاتصال، ولكن هذه العملية لم تكتمل بعد.</translation>
     </message>
     <message>
@@ -725,11 +725,11 @@
         <translation>نسخ التوقيع الحالي إلى حافظة النظام</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">وقع الرسالة لتثبت انك تمتلك عنوان البت كوين هذا</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished">تحقق من الرسالة للتأكد من توقيعها مع عنوان البتكوين المحدد</translation>
     </message>
     <message>

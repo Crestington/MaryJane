@@ -52,10 +52,10 @@ static int AppInitUtil(ArgsManager& args, int argc, char* argv[])
 
     if (HelpRequested(args) || args.IsArgSet("-version")) {
         // First part of help message is specific to this utility
-        std::string strUsage = PACKAGE_NAME " reddcoin-util utility version " + FormatFullVersion() + "\n";
+        std::string strUsage = PACKAGE_NAME " maryjane-util utility version " + FormatFullVersion() + "\n";
         if (!args.IsArgSet("-version")) {
             strUsage += "\n"
-                "Usage:  reddcoin-util [options] [commands]  Do stuff\n";
+                "Usage:  maryjane-util [options] [commands]  Do stuff\n";
             strUsage += "\n" + args.GetHelpMessage();
         }
 

@@ -1,9 +1,9 @@
 4.22.4 Alpha Notes
 ==================
 
-Reddcoin Core version 4.22.4 alpha is available from:
+MaryJane Core version 4.22.4 alpha is available from:
 
-  <https://download.reddcoin.com/bin/reddcoin-core-4.22.4/alpha/>
+  <https://download.maryjane.com/bin/maryjane-core-4.22.4/alpha/>
 
 This release includes new features, various bug fixes and performance
 improvements, as well as updated translations.
@@ -14,7 +14,7 @@ v[Major].[Minor].[Build]
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/reddcoin-project/reddcoin-0.22/issues>
+  <https://github.com/maryjane-project/maryjane-0.22/issues>
 
 To receive security and update notifications, please subscribe to:
 
@@ -23,7 +23,7 @@ To receive security and update notifications, please subscribe to:
 How to Run
 ==============
 
-While Reddcoin Core version 4.22.4 alpha is capabile to run on mainnet, it is intended to run on testnet only.
+While MaryJane Core version 4.22.4 alpha is capabile to run on mainnet, it is intended to run on testnet only.
 
 To launch the wallet add the '-testnet' switch to the command line.
 If -testnet is not set, the program will assert on launch
@@ -34,38 +34,38 @@ wallet with that location.
 Putting that all together
 ```shell
 cd ~
-mkdir .reddcoin-alpha
+mkdir .maryjane-alpha
 cd <installation location>
-./reddcoin-qt -testnet -datadir=/home/user/.reddcoin-alpha
+./maryjane-qt -testnet -datadir=/home/user/.maryjane-alpha
 ```
 
 How to Upgrade
 ==============
 
-**WARNING:** This is an alpha release of Reddcoin Core version 4.22.0, by running this version you acknowledge that there
+**WARNING:** This is an alpha release of MaryJane Core version 4.22.0, by running this version you acknowledge that there
 is a real risk of losing coins (both mainnet and testnet.
 
-Upgrading from earlier versions of Reddcoin Core runs the risk of losing coins. **PLEASE DONT DO IT**.
+Upgrading from earlier versions of MaryJane Core runs the risk of losing coins. **PLEASE DONT DO IT**.
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes in some cases), then run the
-installer (on Windows) or just copy over `/Applications/Reddcoin-Qt` (on Mac)
-or `reddcoind`/`reddcoin-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/MaryJane-Qt` (on Mac)
+or `maryjaned`/`maryjane-qt` (on Linux).
 
-Upgrading directly from a version of Reddcoin Core that has reached its EOL is
+Upgrading directly from a version of MaryJane Core that has reached its EOL is
 possible, but it might take some time if the data directory needs to be migrated. Old
-wallet versions of Reddcoin Core are generally supported.
+wallet versions of MaryJane Core are generally supported.
 
 Compatibility
 ==============
 
-Reddcoin Core is supported and extensively tested on operating systems
-using the Linux kernel, macOS 10.14+, and Windows 7 and newer.  Reddcoin
+MaryJane Core is supported and extensively tested on operating systems
+using the Linux kernel, macOS 10.14+, and Windows 7 and newer.  MaryJane
 Core should also work on most other Unix-like systems but is not as
-frequently tested on them.  It is not recommended to use Reddcoin Core on
+frequently tested on them.  It is not recommended to use MaryJane Core on
 unsupported systems.
 
-From Reddcoin Core 22.0 onwards, macOS versions earlier than 10.14 are no longer supported.
+From MaryJane Core 22.0 onwards, macOS versions earlier than 10.14 are no longer supported.
 
 Notable changes
 ===============
@@ -97,7 +97,7 @@ Notable changes
  - 3210c0773 doc: Add 23061 release notes
  - 6c37a435a Fix (inverse) meaning of -persistmempool
  - 4466956cf build: Restrict check for CRC32C intrinsic to aarch64
- - 4cd5e748f refactor rpc commands for reddcoin
+ - 4cd5e748f refactor rpc commands for maryjane
  - 0a43aac1f move social channels to submenu
  - 9bc363eb2 include Wiki social channel
  - 863d77526 add social channels to the UI help menu
@@ -114,13 +114,13 @@ Notable changes
 
 P2P and network changes
 -----------------------
-- Added support for running Reddcoin Core as an
+- Added support for running MaryJane Core as an
   [I2P (Invisible Internet Project)](https://en.wikipedia.org/wiki/I2P) service
-  and connect to such services. See [i2p.md](https://github.com/reddcoin-project/reddcoin-0.22/blob/22.x/doc/i2p.md) for details. (#20685)
+  and connect to such services. See [i2p.md](https://github.com/maryjane-project/maryjane-0.22/blob/22.x/doc/i2p.md) for details. (#20685)
 - This release removes support for Tor version 2 hidden services in favor of Tor
   v3 only, as the Tor network [dropped support for Tor
   v2](https://blog.torproject.org/v2-deprecation-timeline) with the release of
-  Tor version 0.4.6.  Henceforth, Reddcoin Core ignores Tor v2 addresses; it
+  Tor version 0.4.6.  Henceforth, MaryJane Core ignores Tor v2 addresses; it
   neither rumors them over the network to other peers, nor stores them in memory
   or to `peers.dat`.  (#22050)
 
@@ -172,7 +172,7 @@ New and Updated RPCs
   of `decodescript` these fields are top-level attributes, and included again as attributes
   of the `scriptPubKey` object. (#20286)
 
-- When creating a hex-encoded reddcoin transaction using the `reddcoin-tx` utility
+- When creating a hex-encoded maryjane transaction using the `maryjane-tx` utility
   with the `-json` option set, the following fields: `addresses`, `reqSigs` are no longer
   returned in the tx output of the response. (#20286)
 
@@ -207,7 +207,7 @@ Build System
 
 - Release binaries are now produced using the new `guix`-based build system.
   The [/doc/release-process.md](/doc/release-process.md) document has been updated accordingly.
-- OpenSSL continues to be used by Reddcoin Core for external calls to https (Specifically https://api.github.com).
+- OpenSSL continues to be used by MaryJane Core for external calls to https (Specifically https://api.github.com).
 
 Files
 -----
@@ -215,7 +215,7 @@ Files
 - The list of banned hosts and networks (via `setban` RPC) is now saved on disk
   in JSON format in `banlist.json` instead of `banlist.dat`. `banlist.dat` is
   only read on startup if `banlist.json` is not present. Changes are only written to the new
-  `banlist.json`. A future version of Reddcoin Core may completely ignore
+  `banlist.json`. A future version of MaryJane Core may completely ignore
   `banlist.dat`. (#20966)
 
 New settings
@@ -234,7 +234,7 @@ Updated settings
 
 Changes to Wallet or GUI related settings can be found in the GUI or Wallet section below.
 
-- Passing an invalid `-rpcauth` argument now cause reddcoind to fail to start.  (#20461)
+- Passing an invalid `-rpcauth` argument now cause maryjaned to fail to start.  (#20461)
 
 Tools and Utilities
 -------------------
@@ -242,17 +242,17 @@ Tools and Utilities
 - A new CLI `-addrinfo` command returns the number of addresses known to the
   node per network type (including Tor v2 versus v3) and total. This can be
   useful to see if the node knows enough addresses in a network to use options
-  like `-onlynet=<network>` or to upgrade to this release of Reddcoin Core 22.0
+  like `-onlynet=<network>` or to upgrade to this release of MaryJane Core 22.0
   that supports Tor v3 only.  (#21595)
 
-- A new `-rpcwaittimeout` argument to `reddcoin-cli` sets the timeout
+- A new `-rpcwaittimeout` argument to `maryjane-cli` sets the timeout
   in seconds to use with `-rpcwait`. If the timeout expires,
-  `reddcoin-cli` will report a failure. (#21056)
+  `maryjane-cli` will report a failure. (#21056)
 
 Wallet
 ------
 
-- External signers such as hardware wallets can now be used through the new RPC methods `enumeratesigners` and `displayaddress`. Support is also added to the `send` RPC call. This feature is experimental. See [external-signer.md](https://github.com/reddcoin-project/reddcoin-0.22/blob/22.x/doc/external-signer.md) for details. (#16546)
+- External signers such as hardware wallets can now be used through the new RPC methods `enumeratesigners` and `displayaddress`. Support is also added to the `send` RPC call. This feature is experimental. See [external-signer.md](https://github.com/maryjane-project/maryjane-0.22/blob/22.x/doc/external-signer.md) for details. (#16546)
 
 - A new `listdescriptors` RPC is available to inspect the contents of descriptor-enabled wallets.
   The RPC returns public versions of all imported descriptors, including their timestamp and flags.
@@ -269,7 +269,7 @@ Wallet
 - We now support up to 20 keys in `multi()` and `sortedmulti()` descriptors
   under `wsh()`. (#20867)
 
-- Taproot descriptors can be imported into the wallet only after activation has occurred on the network (e.g. mainnet, testnet, signet) in use. See [descriptors.md](https://github.com/reddcoin-project/reddcoin-0.22/blob/22.x/doc/descriptors.md) for supported descriptors.
+- Taproot descriptors can be imported into the wallet only after activation has occurred on the network (e.g. mainnet, testnet, signet) in use. See [descriptors.md](https://github.com/maryjane-project/maryjane-0.22/blob/22.x/doc/descriptors.md) for supported descriptors.
 
 GUI changes
 -----------

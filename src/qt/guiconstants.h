@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -46,12 +46,12 @@ static const int TOOLTIP_WRAP_THRESHOLD = 80;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Reddcoin"
-#define QAPP_ORG_DOMAIN "reddcoin.com"
-#define QAPP_APP_NAME_DEFAULT "Reddcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Reddcoin-Qt-testnet"
-#define QAPP_APP_NAME_SIGNET "Reddcoin-Qt-signet"
-#define QAPP_APP_NAME_REGTEST "Reddcoin-Qt-regtest"
+#define QAPP_ORG_NAME "MaryJane"
+#define QAPP_ORG_DOMAIN "maryjane.com"
+#define QAPP_APP_NAME_DEFAULT "MaryJane-Qt"
+#define QAPP_APP_NAME_TESTNET "MaryJane-Qt-testnet"
+#define QAPP_APP_NAME_SIGNET "MaryJane-Qt-signet"
+#define QAPP_APP_NAME_REGTEST "MaryJane-Qt-regtest"
 
 /* Colors for minting tab for each coin age group */
 #define COLOR_MINT_YOUNG QColor(255, 224, 226)

@@ -1,5 +1,5 @@
 // Copyright (c) 2018-2020 The Bitcoin Core developers
-// Copyright (c) 2018-2024 The Reddcoin Core developers
+// Copyright (c) 2018-2024 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -28,7 +28,7 @@
 #define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Core developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Reddcoin Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "MaryJane Core"
 
 /* Copyright year */
 #define COPYRIGHT_YEAR 2024
@@ -249,19 +249,19 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://github.com/reddcoin-project/reddcoin/issues"
+#define PACKAGE_BUGREPORT "https://github.com/Crestington/MaryJane/issues"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Reddcoin Core"
+#define PACKAGE_NAME "MaryJane Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Reddcoin Core 4.22.6"
+#define PACKAGE_STRING "MaryJane Core 4.22.6"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "reddcoin"
+#define PACKAGE_TARNAME "maryjane"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://reddcoin.com/"
+#define PACKAGE_URL "https://maryjane.com/"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "4.22.6"

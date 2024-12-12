@@ -67,13 +67,13 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation type="unfinished">Menerima Alamat</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ini adalah alamat Reddcoin anda untuk menghantar bayaran. Sentiasa semak jumlah yand diterima sebelum menghantar syilling.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ini adalah alamat MaryJane anda untuk menghantar bayaran. Sentiasa semak jumlah yand diterima sebelum menghantar syilling.</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your MaryJane addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ini adalah alamat Reddcoin anda untuk menerima bayaran. Guna butang 'Cipta alamat menerima baru' di terima tab untuk cipta alamat baru. Menandatangani hanya boleh dilakukan dengan alamat jenis 'warisan</translation>
+        <translation type="unfinished">Ini adalah alamat MaryJane anda untuk menerima bayaran. Guna butang 'Cipta alamat menerima baru' di terima tab untuk cipta alamat baru. Menandatangani hanya boleh dilakukan dengan alamat jenis 'warisan</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,12 +160,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Adakah anda pasti mahu menyulitkan dompet anda?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Amaran: Jika anda menyulitkan dompet anda dan kehilangan frasa laluan anda, anda akan &lt;b&gt;HILANG SEMUA REDDCOIN ANDA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Amaran: Jika anda menyulitkan dompet anda dan kehilangan frasa laluan anda, anda akan &lt;b&gt;HILANG SEMUA MARYJANE ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Ingat bahawa menyulitkan dompet anda tidak dapat melindungi sepenuhnya reddcoin anda daripada dicuri oleh perisian hasad yang menjangkiti komputer anda.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your maryjanes from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Ingat bahawa menyulitkan dompet anda tidak dapat melindungi sepenuhnya maryjane anda daripada dicuri oleh perisian hasad yang menjangkiti komputer anda.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -328,12 +328,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Tunjuk gambaran keseluruhan umum dompet</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Menghantar koin kepada alamat Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Menghantar koin kepada alamat MaryJane</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Minta pembayaran (menjana kod QR dan reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Minta pembayaran (menjana kod QR dan maryjane: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -376,35 +376,35 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ubah suai pilihan konfigurasi untuk %1</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">sahkan mesej bersama alamat reddcoin anda untuk menunjukkan alamat ini anda punya</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">sahkan mesej bersama alamat maryjane anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Reddcoin yang ditentukan</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat MaryJane yang ditentukan</translation>
     </message>
     <message>
-        <source>Load Partially Signed Reddcoin Transaction</source>
-        <translation type="unfinished">Muatkan Transaksi Reddcoin yang Ditandatangani Separa</translation>
+        <source>Load Partially Signed MaryJane Transaction</source>
+        <translation type="unfinished">Muatkan Transaksi MaryJane yang Ditandatangani Separa</translation>
     </message>
     <message>
-        <source>Load Partially Signed Reddcoin Transaction from clipboard</source>
-        <translation type="unfinished">Muatkan Transaksi Reddcoin yang Ditandatangani Separa dari papan keratan</translation>
+        <source>Load Partially Signed MaryJane Transaction from clipboard</source>
+        <translation type="unfinished">Muatkan Transaksi MaryJane yang Ditandatangani Separa dari papan keratan</translation>
     </message>
     <message>
-        <source>Open a reddcoin: URI</source>
-        <translation type="unfinished">Buka reddcoin: URI</translation>
+        <source>Open a maryjane: URI</source>
+        <translation type="unfinished">Buka maryjane: URI</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Reddcoin command-line options</source>
-        <translation type="unfinished">Tunjukkan mesej bantuan %1 untuk mendapatkan senarai dengan kemungkinan pilihan baris arahan Reddcoin</translation>
+        <source>Show the %1 help message to get a list with possible MaryJane command-line options</source>
+        <translation type="unfinished">Tunjukkan mesej bantuan %1 untuk mendapatkan senarai dengan kemungkinan pilihan baris arahan MaryJane</translation>
     </message>
     <message>
         <source>Wallet:</source>
         <translation type="unfinished">Dompet:</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -1109,8 +1109,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Tidak dapat membuka kunci dompet.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Alamat yang dimasukkan "%1" bukan alamat Reddcoin yang sah.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Alamat yang dimasukkan "%1" bukan alamat MaryJane yang sah.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -1170,8 +1170,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Reddcoin block chain.</source>
-        <translation type="unfinished">%1 akan memuat turun dan menyimpan salinan rantaian blok Reddcoin.</translation>
+        <source>%1 will download and store a copy of the MaryJane block chain.</source>
+        <translation type="unfinished">%1 akan memuat turun dan menyimpan salinan rantaian blok MaryJane.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1182,7 +1182,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ralat: Direktori data yang ditentukan "%1" tidak boleh dibuat.</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
+        <source>MaryJane</source>
         <translation type="unfinished">Reedcoin</translation>
     </message>
     <message>
@@ -1425,12 +1425,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Waktu block terakhir</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the reddcoin network, as detailed below.</source>
-        <translation type="unfinished">Urus niaga baru-baru ini mungkin belum kelihatan, dan oleh itu baki dompet anda mungkin tidak betul. Maklumat ini akan betul setelah dompet anda selesai disegerakkan dengan rangkaian reddcoin, seperti yang diperincikan di bawah.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the maryjane network, as detailed below.</source>
+        <translation type="unfinished">Urus niaga baru-baru ini mungkin belum kelihatan, dan oleh itu baki dompet anda mungkin tidak betul. Maklumat ini akan betul setelah dompet anda selesai disegerakkan dengan rangkaian maryjane, seperti yang diperincikan di bawah.</translation>
     </message>
     <message>
-        <source>Attempting to spend reddcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Percubaan untuk membelanjakan reddcoin yang terjejas oleh transaksi yang belum dipaparkan tidak akan diterima oleh rangkaian.</translation>
+        <source>Attempting to spend maryjanes that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation type="unfinished">Percubaan untuk membelanjakan maryjane yang terjejas oleh transaksi yang belum dipaparkan tidak akan diterima oleh rangkaian.</translation>
     </message>
     <message>
         <source>Progress</source>
@@ -1460,8 +1460,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open reddcoin URI</source>
-        <translation type="unfinished">Buka URL reddcoin</translation>
+        <source>Open maryjane URI</source>
+        <translation type="unfinished">Buka URL maryjane</translation>
     </message>
     </context>
 <context>
@@ -1495,8 +1495,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Bilangan skrip &amp;benang pengesahan</translation>
     </message>
     <message>
-        <source>Full path to a Reddcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Laluan penuh ke skrip yang serasi Reddcoin Core (cth. C:\Downloads\hwi.exe atau /Users/you/Downloads/hwi.py). Berhati-hati: perisian hasad boleh mencuri syiling anda!</translation>
+        <source>Full path to a MaryJane Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Laluan penuh ke skrip yang serasi MaryJane Core (cth. C:\Downloads\hwi.exe atau /Users/you/Downloads/hwi.py). Berhati-hati: perisian hasad boleh mencuri syiling anda!</translation>
     </message>
     <message>
         <source>&amp;Window</source>

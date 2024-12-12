@@ -1,10 +1,10 @@
 ReddCoin Core integration/staging tree
 =====================================
 
-https://github.com/reddcoin-project/reddcoin
+https://github.com/Crestington/MaryJane
 
 For an immediately usable, binary version of the ReddCoin Core software, see
-https://download.reddcoin.com or https://github.com/reddcoin-project/reddcoin
+https://download.maryjane.com or https://github.com/Crestington/MaryJane
 
 Further information about ReddCoin Core is available in the [doc folder](/doc).
 
@@ -29,7 +29,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built (see `doc/build-*.md` for instructions) and tested, but it is not guaranteed to be
-completely stable. [Tags](https://github.com/reddcoin/tags) are created
+completely stable. [Tags](https://github.com/maryjane/tags) are created
 regularly from release branches to indicate new official, stable release versions of Bitcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
@@ -68,7 +68,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[ReddCoin Core's Transifex page](https://www.transifex.com/reddcoin/reddcoin/).
+[ReddCoin Core's Transifex page](https://www.transifex.com/maryjane/maryjane/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

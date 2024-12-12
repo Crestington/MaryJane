@@ -1,4 +1,4 @@
-package org.reddcoincore.qt;
+package org.maryjanecore.qt;
 
 import android.os.Bundle;
 import android.system.ErrnoException;
@@ -8,12 +8,12 @@ import org.qtproject.qt5.android.bindings.QtActivity;
 
 import java.io.File;
 
-public class ReddcoinQtActivity extends QtActivity
+public class MaryJaneQtActivity extends QtActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
-        final File bitcoinDir = new File(getFilesDir().getAbsolutePath() + "/.reddcoin");
+        final File bitcoinDir = new File(getFilesDir().getAbsolutePath() + "/.maryjane");
         if (!bitcoinDir.exists()) {
             bitcoinDir.mkdir();
         }

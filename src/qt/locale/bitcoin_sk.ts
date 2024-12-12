@@ -111,8 +111,8 @@
         <translation>Zobraziť celkový prehľad o peňaženke</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Poslať reddcoins na adresu</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Poslať maryjanes na adresu</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -139,15 +139,15 @@
         <translation>Zobrazit informácie o Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Podpísať správu s vašou Reddcoin adresou, aby ste preukázali, že ju vlastníte</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Podpísať správu s vašou MaryJane adresou, aby ste preukázali, že ju vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Overiť, či boli správy podpísané uvedenou Reddcoin adresou</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Overiť, či boli správy podpísané uvedenou MaryJane adresou</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -363,8 +363,8 @@
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Automaticky otvorit port pre Reddcoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Automaticky otvorit port pre MaryJane na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -416,7 +416,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť reddcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation>Zvoľte ako deliť maryjane pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -462,8 +462,8 @@
         <translation>Vytvorený zostatok ktorý ešte nedosiahol zrelosť</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Reddcoin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou MaryJane po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -657,12 +657,12 @@
         <translation>Kopírovať tento podpis do systémovej schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Overím správy sa uistiť že bola podpísaná označenou Reddcoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Overím správy sa uistiť že bola podpísaná označenou MaryJane adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

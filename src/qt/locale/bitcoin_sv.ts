@@ -62,8 +62,8 @@
         <translation type="unfinished">Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Detta är dina Reddcoin-adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Reddcoins.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Detta är dina MaryJane-adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar MaryJanes.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -140,7 +140,7 @@
         <translation type="unfinished">Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
         <translation type="unfinished">VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TILLGÅNGAR&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -256,12 +256,12 @@
         <translation>Visa allmän översikt av plånboken</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Skicka reddcoin till en Reddcoin-adress</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Skicka maryjane till en MaryJane-adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Begär betalning (genererar QR-koder och reddcoin-URI)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Begär betalning (genererar QR-koder och maryjane-URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -288,15 +288,15 @@
         <translation>Visa information om Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Signera meddelanden med dina Reddcoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Signera meddelanden med dina MaryJane-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Verifiera meddelanden för att vara säker på att de signerades med angivna Reddcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Verifiera meddelanden för att vara säker på att de signerades med angivna MaryJane-adresser</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -579,8 +579,8 @@
         <translation type="unfinished">Plånboken kunde inte låsas upp.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Den angivna adressen "%1" är inte en giltig Reddcoin-adress.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Den angivna adressen "%1" är inte en giltig MaryJane-adress.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -710,8 +710,8 @@
         <translation type="unfinished">Antalet skript&amp;verifikationstrådar</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Öppna automatiskt Reddcoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Öppna automatiskt MaryJane-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -865,8 +865,8 @@
         <translation>Grävt saldo som ännu inte har mognat</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Reddcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med MaryJane-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -891,8 +891,8 @@
         <translation type="unfinished">Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Kan inte starta reddcoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Kan inte starta maryjane: klicka-och-betala handhavare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1069,8 +1069,8 @@
         <translation type="unfinished">En valfri summa att begära. Lämna denna tom eller noll för att inte begära en specifik summa.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Reddcoinnätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över MaryJanenätverket.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1163,7 +1163,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Skicka Reddcoins</translation>
+        <translation>Skicka MaryJanes</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1266,8 +1266,8 @@
         <translation type="unfinished">Är du säker på att du vill skicka?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Varning: Felaktig Reddcoinadress</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Varning: Felaktig MaryJaneadress</translation>
     </message>
     <message>
         <source>or</source>
@@ -1344,8 +1344,8 @@
         <translation type="unfinished">Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Ett meddelande som bifogades bitcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Reddcoinnätverket.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Ett meddelande som bifogades bitcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över MaryJanenätverket.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1387,12 +1387,12 @@
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Signera meddelandet för att bevisa att du äger denna Reddcoin-adress</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Signera meddelandet för att bevisa att du äger denna MaryJane-adress</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Verifiera meddelandet för att vara säker på att det signerades med angiven Reddcoin-adress</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Verifiera meddelandet för att vara säker på att det signerades med angiven MaryJane-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1776,7 +1776,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Skicka Reddcoins</translation>
+        <translation type="unfinished">Skicka MaryJanes</translation>
     </message>
     </context>
 <context>

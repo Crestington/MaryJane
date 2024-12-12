@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished">Scegli l'indirizzo a cui inviare reddcoin</translation>
+        <translation type="unfinished">Scegli l'indirizzo a cui inviare maryjane</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished">Scegli l'indirizzo con cui ricevere reddcoin</translation>
+        <translation type="unfinished">Scegli l'indirizzo con cui ricevere maryjane</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,8 +62,8 @@
         <translation type="unfinished">Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Questo è un elenco di indirizzi Reddcoin a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare reddcoin.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Questo è un elenco di indirizzi MaryJane a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare maryjane.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -148,8 +148,8 @@
         <translation type="unfinished">Si è sicuri di voler cifrare il portamonete?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Attenzione: se si cifra il portamonete e si perde la passphrase &lt;b&gt;TUTTI I PROPRI REDDCOIN ANDRANNO PERSI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Attenzione: se si cifra il portamonete e si perde la passphrase &lt;b&gt;TUTTI I PROPRI MARYJANE ANDRANNO PERSI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -264,12 +264,12 @@
         <translation>Mostra lo stato generale del portamonete</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Invia fondi ad un indirizzo Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Invia fondi ad un indirizzo MaryJane</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Richiedi pagamenti (genera codici QR e reddcoin: URI)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Richiedi pagamenti (genera codici QR e maryjane: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -296,15 +296,15 @@
         <translation>Mostra le informazioni su Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Firma messaggi con i tuoi indirizzi Reddcoin per dimostrarne il possesso</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Firma messaggi con i tuoi indirizzi MaryJane per dimostrarne il possesso</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Verifica che i messaggi siano stati firmati con gli indirizzi Reddcoin specificati</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Verifica che i messaggi siano stati firmati con gli indirizzi MaryJane specificati</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -575,8 +575,8 @@
         <translation type="unfinished">Impossibile sbloccare il portamonete.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">L'indirizzo inserito "%1" non è un indirizzo Reddcoin valido.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">L'indirizzo inserito "%1" non è un indirizzo MaryJane valido.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -721,8 +721,8 @@
         <translation type="unfinished">Numero di thread di &amp;verifica degli script</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Apri automaticamente la porta del client Reddcoin sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Apri automaticamente la porta del client MaryJane sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -814,7 +814,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di reddcoin.</translation>
+        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di maryjane.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -884,8 +884,8 @@
         <translation>Importo generato dal mining e non ancora maturato</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Le informazioni visualizzate potrebbero non essere aggiornate. Il portafoglio si sincronizza automaticamente con la rete Reddcoin una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Le informazioni visualizzate potrebbero non essere aggiornate. Il portafoglio si sincronizza automaticamente con la rete MaryJane una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -910,8 +910,8 @@
         <translation type="unfinished">Errore di richiesta di pagamento</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Impossibile avviare reddcoin: gestore click-to-pay</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Impossibile avviare maryjane: gestore click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1093,8 +1093,8 @@
         <translation type="unfinished">Un importo opzionale da associare alla richiesta. Lasciare vuoto o a zero per non richiedere un importo specifico.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Un messaggio opzionale da allegare alla richiesta di pagamento, il quale sarà mostrato all'apertura della richiesta. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Reddcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Un messaggio opzionale da allegare alla richiesta di pagamento, il quale sarà mostrato all'apertura della richiesta. Nota: Il messaggio non sarà inviato con il pagamento sulla rete MaryJane.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1187,7 +1187,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Reddcoin</translation>
+        <translation>Invia MaryJane</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1294,8 +1294,8 @@
         <translation type="unfinished">Sei sicuro di voler inviare?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Attenzione: Indirizzo Reddcoin non valido</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Attenzione: Indirizzo MaryJane non valido</translation>
     </message>
     <message>
         <source>or</source>
@@ -1307,7 +1307,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation type="unfinished">Conferma l'invio di Reddcoin</translation>
+        <translation type="unfinished">Conferma l'invio di MaryJane</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1372,8 +1372,8 @@
         <translation type="unfinished">Messaggio:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Messaggio incluso nel reddcoin URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Reddcoin.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Messaggio incluso nel maryjane URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete MaryJane.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1415,11 +1415,11 @@
         <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Firma un messaggio per dimostrare di possedere questo indirizzo Reddcoin</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Firma un messaggio per dimostrare di possedere questo indirizzo MaryJane</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished">Verifica il messaggio per accertare che sia stato firmato con l'indirizzo specificato</translation>
     </message>
     <message>
@@ -1601,7 +1601,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished">È necessario attendere %1 blocchi prima che i reddcoin generati possano essere spesi. Quando è stato generato questo blocco, è stato trasmesso alla rete in modo da poter essere aggiunto alla block chain. Se l'inserimento avrà esito negativo il suo stato sarà modificato in "non accettato" e risulterà non spendibile. Questo può occasionalmente accadere se un altro nodo genera un blocco entro pochi secondi dal tuo.</translation>
+        <translation type="unfinished">È necessario attendere %1 blocchi prima che i maryjane generati possano essere spesi. Quando è stato generato questo blocco, è stato trasmesso alla rete in modo da poter essere aggiunto alla block chain. Se l'inserimento avrà esito negativo il suo stato sarà modificato in "non accettato" e risulterà non spendibile. Questo può occasionalmente accadere se un altro nodo genera un blocco entro pochi secondi dal tuo.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -1824,7 +1824,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Invia Reddcoin</translation>
+        <translation type="unfinished">Invia MaryJane</translation>
     </message>
     </context>
 <context>

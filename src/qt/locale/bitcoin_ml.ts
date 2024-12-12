@@ -101,7 +101,7 @@
         <translation>വാലറ്റിന്റെ പൊതുവായ അവലോകനം കാണിക്കുക</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">ഒരു ബിറ്റ്കോയിൻ വിലാസത്തിലേക്ക് നാണയങ്ങൾ അയയ്ക്കുക</translation>
     </message>
     <message>
@@ -129,15 +129,15 @@
         <translation>Qt സംബന്ധിച്ച വിവരങ്ങൾ കാണിക്കുക</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">നിങ്ങളുടെ ബിറ്റ്കോയിൻ വിലാസങ്ങൾ സ്വന്തമാണെന്ന് തെളിയിക്കാൻ സന്ദേശങ്ങൾ ഒപ്പിടുക</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <translation type="unfinished">നിർദ്ദിഷ്ട ബിറ്റ്കോയിൻ വിലാസങ്ങളിൽ സന്ദേശങ്ങൾ ഒപ്പിട്ടിട്ടുണ്ടെന്ന് ഉറപ്പാക്കാൻ സ്ഥിരീകരിക്കുക</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

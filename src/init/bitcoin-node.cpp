@@ -1,5 +1,5 @@
 // Copyright (c) 2021 The Bitcoin Core developers
-// Copyright (c) 2021-2023 The Reddcoin Core developers
+// Copyright (c) 2021-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@
 
 namespace init {
 namespace {
-const char* EXE_NAME = "reddcoin-node";
+const char* EXE_NAME = "maryjane-node";
 
 class BitcoinNodeInit : public interfaces::Init
 {

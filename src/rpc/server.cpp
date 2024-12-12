@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -43,8 +43,8 @@ static Mutex g_deadline_timers_mutex;
 static std::map<std::string, std::unique_ptr<RPCTimerBase> > deadlineTimers GUARDED_BY(g_deadline_timers_mutex);
 static bool ExecuteCommand(const CRPCCommand& command, const JSONRPCRequest& request, UniValue& result, bool last_handler);
 
-static std::string strDownloadLink = "https://download.reddcoin.com/bin/reddcoin-core-";
-static std::string strGithubLink = "/repos/reddcoin-project/reddcoin/releases/latest";
+static std::string strDownloadLink = "https://download.maryjane.com/bin/maryjane-core-";
+static std::string strGithubLink = "/repos/Crestington/MaryJane/releases/latest";
 
 struct RPCCommandExecutionInfo
 {
@@ -430,7 +430,7 @@ void checkforupdatesinfo(UniValue& result)
                     updateAvailable = true;
                     message = "Please download the latest version (" + remoteV.str() + ") from our official website";
                 } else if (remoteV == localV) {
-                    message = "You're running the most recent version of Reddcoin Core (" + localV.str() + ")";
+                    message = "You're running the most recent version of MaryJane Core (" + localV.str() + ")";
                 }
 
                 // Build direct download link

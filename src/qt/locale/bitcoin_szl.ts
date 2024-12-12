@@ -95,8 +95,8 @@
         <translation>Pokazuje ôgōlny widok portmanyja</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Poślij mōnety na adresã Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Poślij mōnety na adresã MaryJane</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -123,15 +123,15 @@
         <translation>Pokŏż informacyje ô Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">Podpisz wiadōmości swojōm adresōm coby dowiyść jejich posiadanie</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Zweryfikuj wiadōmość, coby wejzdrzeć sie, iże ôstała podpisanŏ podanōm adresōm Reddcoin.</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Zweryfikuj wiadōmość, coby wejzdrzeć sie, iże ôstała podpisanŏ podanōm adresōm MaryJane.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -333,8 +333,8 @@
         <translation>&amp;Bazowe</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Autōmatycznie ôdewrzij port klijynta Reddcoin na routerze. Ta ôpcyjŏ funguje ino jeźli twōj router podpiyrŏ UPnP i je ôno zapuszczone.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Autōmatycznie ôdewrzij port klijynta MaryJane na routerze. Ta ôpcyjŏ funguje ino jeźli twōj router podpiyrŏ UPnP i je ôno zapuszczone.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -384,8 +384,8 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Wyświytlanŏ informacyjŏ może być niyterŏźnŏ. Twōj portmanyj synchrōnizuje sie autōmatycznie z necym reddcoin zarŏz po tym, jak zrychtowane je skuplowanie, ale proces tyn niy ôstoł jeszcze skōńczōny.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Wyświytlanŏ informacyjŏ może być niyterŏźnŏ. Twōj portmanyj synchrōnizuje sie autōmatycznie z necym maryjane zarŏz po tym, jak zrychtowane je skuplowanie, ale proces tyn niy ôstoł jeszcze skōńczōny.</translation>
     </message>
     <message>
         <source>Total:</source>

@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -79,7 +79,7 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "reddcoin.conf";
+const char * const BITCOIN_CONF_FILENAME = "maryjane.conf";
 const char * const BITCOIN_SETTINGS_FILENAME = "settings.json";
 
 ArgsManager gArgs;
@@ -767,7 +767,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "reddcoin";
+    const char* pszModule = "maryjane";
 #endif
     if (pex)
         return strprintf(
@@ -786,12 +786,12 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
-    // Windows: C:\Users\Username\AppData\Roaming\Reddcoin
-    // macOS: ~/Library/Application Support/Reddcoin
-    // Unix-like: ~/.reddcoin
+    // Windows: C:\Users\Username\AppData\Roaming\MaryJane
+    // macOS: ~/Library/Application Support/MaryJane
+    // Unix-like: ~/.maryjane
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Reddcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "MaryJane";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -801,10 +801,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // macOS
-    return pathRet / "Library/Application Support/Reddcoin";
+    return pathRet / "Library/Application Support/MaryJane";
 #else
     // Unix-like
-    return pathRet / ".reddcoin";
+    return pathRet / ".maryjane";
 #endif
 #endif
 }

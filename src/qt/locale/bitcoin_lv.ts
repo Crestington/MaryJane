@@ -107,8 +107,8 @@
         <translation>Rādīt vispārēju maciņa pārskatu</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Nosūtīt bitkoinus uz Reddcoin adresi</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Nosūtīt bitkoinus uz MaryJane adresi</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -135,15 +135,15 @@
         <translation>Parādīt informāciju par Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Parakstīt ziņojumus ar savām Reddcoin adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Parakstīt ziņojumus ar savām MaryJane adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Reddcoin adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām MaryJane adresēm</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -351,8 +351,8 @@
         <translation>&amp;Galvenais</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Uz rūtera automātiski atvērt Reddcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Uz rūtera automātiski atvērt MaryJane klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -458,8 +458,8 @@
         <translation>Nenobriedušu:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Reddcoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar MaryJane tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -649,8 +649,8 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Parakstīt ziņojumu lai pierādītu, ka esi šīs Reddcoin adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Parakstīt ziņojumu lai pierādītu, ka esi šīs MaryJane adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

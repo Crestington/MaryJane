@@ -101,8 +101,8 @@
         <translation>បង្ហាញទិដ្ឋភាពទូទៅនៃកាបូបចល័ត</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Reddcoin មួយ</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន MaryJane មួយ</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -129,15 +129,15 @@
         <translation>បង្ហាញព័ត៍មានអំពី Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">ចុះហត្ថលេខាលើសារ អាសយដ្ឋានប៊ីតខញរបស់អ្នក ដើម្បីបញ្ចាក់ថាអ្នកជាម្ចាស់</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <translation type="unfinished">ធ្វើការបញ្ចាក់សារ ដើម្បីធានាថាសារទាំំងនោះបានចុះហត្ថលេខា ជាមួយអាសយដ្ខានប៊ីតខញ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -383,7 +383,7 @@
         <translation>សមតុល្យរ៉ែដែលបានជីកមិនទាន់មានលក្ខណៈគ្រប់គ្រាន់</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">ព័ត៏មានបានបង្ហាញអាចហួសសពុលភាព។ កាបូបអេឡិចត្រូនិចរបស់អ្នកធ្វើសមកាលកម្មជាមួយនឹងបណ្តាញប៊ីតខញដោយស្វ័យប្រវត្ត បន្ទាប់ពីមានការតភ្ជាប់ ប៉ុន្តែដំណើរការនេះមិនទាន់បានបញ្ចប់នៅឡើយ។</translation>
     </message>
     <message>
@@ -545,11 +545,11 @@
         <translation>ចម្លងហត្ថលេខដែលមានបច្ចុប្បន្នទៅកាន់ប្រព័ន្ធក្តារតមៀប</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">ចុះហត្ថលេខាលើសារនេះដើម្បីបង្ហាញថាលោកអ្នកជាម្ចាស់អាសយដ្ឋានប៊ីតខញ</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished">ផ្ទៀងផ្ទាត់សារដើម្បីធានាថាវាត្រូវបានចុះហត្ថលេខាជាមួយនឹងអាសយដ្ឋានប៊ីតខញជាក់លាក់។</translation>
     </message>
     <message>

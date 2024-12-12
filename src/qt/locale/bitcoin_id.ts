@@ -62,8 +62,8 @@
         <translation type="unfinished">Alamat-alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Reddcoin.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim MaryJane.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -140,8 +140,8 @@
         <translation type="unfinished">Apakah kamu yakin ingin mengenkripsi dompet anda?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH REDDCOIN ANDA&lt;/B&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH MARYJANE ANDA&lt;/B&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -258,12 +258,12 @@
         <translation>Tampilkan gambaran umum dompet Anda</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Kirim koin ke alamat Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Kirim koin ke alamat MaryJane</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Permintaan pembayaran (membuat kode QR dan reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Permintaan pembayaran (membuat kode QR dan maryjane: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -290,15 +290,15 @@
         <translation>Tampilkan informasi mengenai Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Tanda tangani sebuah pesan menggunakan alamat Reddcoin Anda untuk membuktikan bahwa Anda adalah pemiliknya</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Tanda tangani sebuah pesan menggunakan alamat MaryJane Anda untuk membuktikan bahwa Anda adalah pemiliknya</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Reddcoin tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat MaryJane tertentu</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -579,8 +579,8 @@
         <translation type="unfinished">Tidak dapat membuka dompet.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Alamat yang dimasukkan "%1" bukan alamat Reddcoin yang benar.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Alamat yang dimasukkan "%1" bukan alamat MaryJane yang benar.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -722,8 +722,8 @@
         <translation type="unfinished">Jumlah script &amp;verification threads</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Otomatis membuka port client Reddcoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Otomatis membuka port client MaryJane di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -881,8 +881,8 @@
         <translation>Saldo ditambang yang masih terlalu muda</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Reddcoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan MaryJane ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1271,8 +1271,8 @@
         <translation type="unfinished">Apakah Anda yakin ingin kirim?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Awas: Alamat Reddcoin tidak sah</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Awas: Alamat MaryJane tidak sah</translation>
     </message>
     <message>
         <source>or</source>
@@ -1391,12 +1391,12 @@
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Tandai pesan untuk menyetujui kamu pemiliki alamat Reddcoin ini</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Tandai pesan untuk menyetujui kamu pemiliki alamat MaryJane ini</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Verifikasi pesan untuk memastikannya ditandatangani dengan alamat Reddcoin tersebut</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Verifikasi pesan untuk memastikannya ditandatangani dengan alamat MaryJane tersebut</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

@@ -101,8 +101,8 @@
         <translation>Amosar vista xeral do moedeiro</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Enviar moedas a unha dirección Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Enviar moedas a unha dirección MaryJane</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -129,15 +129,15 @@
         <translation>Amosar información acerca de Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Asina mensaxes cos teus enderezos Reddcoin para probar que che pertencen</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Asina mensaxes cos teus enderezos MaryJane para probar que che pertencen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Verifica mensaxes para asegurar que foron asinados con enderezos Reddcoin específicos.</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Verifica mensaxes para asegurar que foron asinados con enderezos MaryJane específicos.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -348,8 +348,8 @@
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Abrir automáticamente o porto do cliente Reddcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Abrir automáticamente o porto do cliente MaryJane no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -455,8 +455,8 @@
         <translation>O balance minado todavía non madurou</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Reddcoin despois de que se estableza unha conexión, mais este proceso non está todavía rematado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede MaryJane despois de que se estableza unha conexión, mais este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <source>Your current total balance</source>
@@ -633,12 +633,12 @@
         <translation>Copiar a sinatura actual ao portapapeis do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Asina a mensaxe para probar que posúes este enderezo Reddcoin</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Asina a mensaxe para probar que posúes este enderezo MaryJane</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Verificar a mensaxe para asegurar que foi asinada coa dirección Reddcoin especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Verificar a mensaxe para asegurar que foi asinada coa dirección MaryJane especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

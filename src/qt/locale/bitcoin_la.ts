@@ -101,8 +101,8 @@
         <translation>Monstra generale summarium cassidilis</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Mitte nummos ad inscriptionem Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Mitte nummos ad inscriptionem MaryJane</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -129,15 +129,15 @@
         <translation>Monstra informationem de Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Signa nuntios cum tuis inscriptionibus Reddcoin ut demonstres te eas possidere</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Signa nuntios cum tuis inscriptionibus MaryJane ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Reddcoin</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus MaryJane</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -305,8 +305,8 @@
         <translation>&amp;Princeps</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Aperi per se portam clientis Reddcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Aperi per se portam clientis MaryJane in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -400,8 +400,8 @@
         <translation>Fossum pendendum quod nondum maturum est</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Reddcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete MaryJane postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     </context>
 <context>
@@ -578,12 +578,12 @@
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Signa nuntium ut demonstres hanc inscriptionem Reddcoin a te possessa esse</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Signa nuntium ut demonstres hanc inscriptionem MaryJane a te possessa esse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Verifica nuntium ut cures signatum esse cum specifica inscriptione Reddcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Verifica nuntium ut cures signatum esse cum specifica inscriptione MaryJane</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

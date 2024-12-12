@@ -62,8 +62,8 @@
         <translation type="unfinished">Adresa de primire</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Acestea sunt adresele dumneavoastra Reddcoin pentru a trimite platile. Întotdeauna verificaţi suma şi adresa destinatarului înainte de a trimite monede.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Acestea sunt adresele dumneavoastra MaryJane pentru a trimite platile. Întotdeauna verificaţi suma şi adresa destinatarului înainte de a trimite monede.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -152,8 +152,8 @@
         <translation type="unfinished">Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE REDDCOIN ACUMULATĂ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE MARYJANE ACUMULATĂ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -274,12 +274,12 @@
         <translation>Afişează detalii despre portofelul electronic</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Trimiteţi Reddcoin către o anumită adresă</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Trimiteţi MaryJane către o anumită adresă</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Solicitare plăţi (genereaza coduri QR şi reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Solicitare plăţi (genereaza coduri QR şi maryjane: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -306,15 +306,15 @@
         <translation>Arata Informaţii despre Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Conectati mesajele cu adresa dumneavoastra de Reddcoin pentru a dovedi ca le detineti</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Conectati mesajele cu adresa dumneavoastra de MaryJane pentru a dovedi ca le detineti</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Verificati mesajele pentru a va asigura că erau conectate la adresele Reddcoin specificate</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Verificati mesajele pentru a va asigura că erau conectate la adresele MaryJane specificate</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -619,8 +619,8 @@
         <translation type="unfinished">Portofelul electronic nu a putut fi deblocat .</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Adresa introdusă "%1" nu este o adresă valida Reddcoin.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Adresa introdusă "%1" nu este o adresă valida MaryJane.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -768,8 +768,8 @@
         <translation type="unfinished">Numărul de fire de script si de verificare</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Deschide automat în router portul aferent clientului Reddcoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Deschide automat în router portul aferent clientului MaryJane. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -849,7 +849,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de reddcoin.</translation>
+        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de maryjane.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -885,7 +885,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa reddcoin pe care a-ti specificat-o este invalida.</translation>
+        <translation>Adresa maryjane pe care a-ti specificat-o este invalida.</translation>
     </message>
 </context>
 <context>
@@ -919,8 +919,8 @@
         <translation>Balanta minata care nu s-a maturizat inca</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua Reddcoin după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua MaryJane după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Your current total balance</source>
@@ -941,8 +941,8 @@
         <translation type="unfinished">Eroare cerere de plată</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Nu se poate porni reddcoin: apasă click penrtu a plăti manipularea</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Nu se poate porni maryjane: apasă click penrtu a plăti manipularea</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1128,8 +1128,8 @@
         <translation type="unfinished">O cantitate opțională pentru a fi solicitată. Lasă acesta gol sau zero, nu pentru a solicita o anumită sumă.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Un mesaj opțional să se atașeze la cererea de plată, care va fi afișat atunci când cererea este deschisă. Notă: Mesajul nu va fi trimis cu plata prin rețea Reddcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Un mesaj opțional să se atașeze la cererea de plată, care va fi afișat atunci când cererea este deschisă. Notă: Mesajul nu va fi trimis cu plata prin rețea MaryJane.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1222,7 +1222,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Trimite Reddcoin</translation>
+        <translation>Trimite MaryJane</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1321,8 +1321,8 @@
         <translation type="unfinished">Sunteti sigur ca vreti sa trimiteti?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Avertizare: Adresa Reddcoin invalida</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Avertizare: Adresa MaryJane invalida</translation>
     </message>
     <message>
         <source>or</source>
@@ -1334,7 +1334,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation type="unfinished">Confirmaţi trimiterea de reddcoin</translation>
+        <translation type="unfinished">Confirmaţi trimiterea de maryjane</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1400,8 +1400,8 @@
         <translation type="unfinished">Mesaj:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Un mesaj care a fost anexat la reddcoin: URI care vor fi stocate cu tranzacția de referință. Notă: Acest mesaj nu va fi trimis prin rețea Reddcoin.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Un mesaj care a fost anexat la maryjane: URI care vor fi stocate cu tranzacția de referință. Notă: Acest mesaj nu va fi trimis prin rețea MaryJane.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1443,12 +1443,12 @@
         <translation>Copiaza semnatura curenta in clipboard-ul sistemului</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Semneaza mesajul pentru a dovedi ca detii acesta adresa Reddcoin</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Semneaza mesajul pentru a dovedi ca detii acesta adresa MaryJane</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa Reddcoin specifica</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa MaryJane specifica</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1843,7 +1843,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Trimite Reddcoin</translation>
+        <translation type="unfinished">Trimite MaryJane</translation>
     </message>
     </context>
 <context>

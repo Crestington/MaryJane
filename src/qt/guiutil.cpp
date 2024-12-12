@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -127,7 +127,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
     widget->setFont(fixedPitchFont());
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Reddcoin address (e.g. %1)").arg(
+    widget->setPlaceholderText(QObject::tr("Enter a MaryJane address (e.g. %1)").arg(
         QString::fromStdString(DummyAddress(Params()))));
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -141,7 +141,7 @@ void AddButtonShortcut(QAbstractButton* button, const QKeySequence& shortcut)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no bitcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("reddcoin"))
+    if(!uri.isValid() || uri.scheme() != QString("maryjane"))
         return false;
 
     SendCoinsRecipient rv;
@@ -205,7 +205,7 @@ QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
     bool bech_32 = info.address.startsWith(QString::fromStdString(Params().Bech32HRP() + "1"));
 
-    QString ret = QString("reddcoin:%1").arg(bech_32 ? info.address.toUpper() : info.address);
+    QString ret = QString("maryjane:%1").arg(bech_32 ? info.address.toUpper() : info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -499,10 +499,10 @@ fs::path static StartupShortcutPath()
 {
     std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::MAIN)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Reddcoin.lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "MaryJane.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Reddcoin (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Reddcoin (%s).lnk", chain);
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "MaryJane (testnet).lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("MaryJane (%s).lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -582,8 +582,8 @@ fs::path static GetAutostartFilePath()
 {
     std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "reddcoin.desktop";
-    return GetAutostartDir() / strprintf("reddcoin-%s.desktop", chain);
+        return GetAutostartDir() / "maryjane.desktop";
+    return GetAutostartDir() / strprintf("maryjane-%s.desktop", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -627,9 +627,9 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Reddcoin\n";
+            optionFile << "Name=MaryJane\n";
         else
-            optionFile << strprintf("Name=Reddcoin (%s)\n", chain);
+            optionFile << strprintf("Name=MaryJane (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -chain=%s\n", chain);
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

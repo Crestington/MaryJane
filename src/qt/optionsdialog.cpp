@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,7 +49,7 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     if (gArgs.GetBoolArg("-txindex", DEFAULT_TXINDEX) || gArgs.GetBoolArg("-coinstatsindex", DEFAULT_COINSTATSINDEX)) {
         ui->prune->setChecked(false);
         ui->prune->setEnabled(false);
-        ui->prune->setToolTip(tr("Blockchain pruning is not compatible with Reddcoin"));
+        ui->prune->setToolTip(tr("Blockchain pruning is not compatible with MaryJane"));
     }
 
     ui->pruneSize->setEnabled(false);

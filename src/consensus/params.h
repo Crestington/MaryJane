@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -114,11 +114,11 @@ struct Params {
     /** By default assume that the signatures in ancestors of this block are valid */
     uint256 defaultAssumeValid;
 
-    /** reddcoin-specific (oddities) */
+    /** maryjane-specific (oddities) */
     int nRevertCoinbase;
     std::vector<CScript> devScript;
 
-    /** reddcoin-specific (posv) */
+    /** maryjane-specific (posv) */
     uint256 posLimit;
     uint256 posReset;
     int64_t nStakeTargetSpacing;

@@ -83,8 +83,8 @@
         <translation>Ipakit ing kabuuang lawe ning wallet</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Magpadalang barya king Reddcoin address</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Magpadalang barya king MaryJane address</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -111,7 +111,7 @@
         <translation>Magpakit impormasion tungkul king Qt</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -254,8 +254,8 @@
         <translation>&amp;Pun</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Ibuklat yang antimanu ing Reddcoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Ibuklat yang antimanu ing MaryJane client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -325,8 +325,8 @@
         <translation>Reng me-minang balanse a epa meg-matured</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Reddcoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng MaryJane network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -471,12 +471,12 @@
         <translation>Kopyan ing kasalungsungan pirma king system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Pirman ing mensayi ban patune na keka ya ining Reddcoin address</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Pirman ing mensayi ban patune na keka ya ining MaryJane address</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Reddcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling MaryJane address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

@@ -95,8 +95,8 @@
         <translation>Hiển thị tổng quan ví</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Gửi coin đến một địa chỉ Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Gửi coin đến một địa chỉ MaryJane</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -123,15 +123,15 @@
         <translation>Hiện thông tin về Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Đăng ký lời nhắn với địa chỉ Reddcoin của bạn để chứng minh quyền sở hữu chúng</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Đăng ký lời nhắn với địa chỉ MaryJane của bạn để chứng minh quyền sở hữu chúng</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Xác minh lời nhắn để chắc chắn đã được đăng ký với địa chỉ Reddcoin xác định</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Xác minh lời nhắn để chắc chắn đã được đăng ký với địa chỉ MaryJane xác định</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -372,8 +372,8 @@
         <translation>Mined balance chưa matured hẳn</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Thông tin được hiển thị có thể đã lỗi thời. Cái wallet tự động đồng bộ với Reddcoin network sau một connection được thiết lập, nhưng quá trình này vẫn chưa completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Thông tin được hiển thị có thể đã lỗi thời. Cái wallet tự động đồng bộ với MaryJane network sau một connection được thiết lập, nhưng quá trình này vẫn chưa completed yet.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -506,12 +506,12 @@
         <translation>Copy hiện tại signature tới system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Ký tin nhắn để chứng minh bạn sở hữu Reddcoin address này</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Ký tin nhắn để chứng minh bạn sở hữu MaryJane address này</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Verify tin nhắn để chắc rằng nó đã được ký với xác định Reddcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Verify tin nhắn để chắc rằng nó đã được ký với xác định MaryJane address</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>

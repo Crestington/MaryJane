@@ -101,7 +101,7 @@
         <translation>پرس کا عمومی جائزہ دکھائیں</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">بٹ کوائن ایڈریس پر سکے بھیجیں</translation>
     </message>
     <message>
@@ -129,15 +129,15 @@
         <translation>Qt کے بارے میں معلومات دکھائیں</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">اپنے ویکیپیڈیا پتوں کے ساتھ پیغامات پر دستخط کریں تاکہ آپ ان کے مالک ہوں</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <translation type="unfinished">پیغامات کی توثیق کریں تاکہ یہ یقینی بن سکے کہ ان پر بٹ کوائن کے مخصوص پتوں پر دستخط ہوئے ہیں</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

@@ -66,8 +66,8 @@
         <translation type="unfinished">Адреси для отримання</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Це ваші Reddcoin-адреси для надсилання платежів. Завжди перевіряйте суму та адресу перед тим, як відправляти монети.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Це ваші MaryJane-адреси для надсилання платежів. Завжди перевіряйте суму та адресу перед тим, як відправляти монети.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -161,7 +161,7 @@
         <translation type="unfinished">Ви дійсно хочете зашифрувати свій гаманець?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
         <translation type="unfinished">УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ МОНЕТИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -216,8 +216,8 @@
         <translation type="unfinished">Кількість</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. %1)</source>
-        <translation type="unfinished">Введіть Reddcoin-адресу (напр. %1)</translation>
+        <source>Enter a MaryJane address (e.g. %1)</source>
+        <translation type="unfinished">Введіть MaryJane-адресу (напр. %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -331,12 +331,12 @@
         <translation>Показати стан гаманця</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">Відправити монети на вказану адресу</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Створити платіжний запит (генерує QR-код та reddcoin: URI)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Створити платіжний запит (генерує QR-код та maryjane: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -363,15 +363,15 @@
         <translation>Показати інформацію про Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Підтвердіть, що ви є власником повідомлення підписавши його вашою Reddcoin-адресою</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Підтвердіть, що ви є власником повідомлення підписавши його вашою MaryJane-адресою</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Перевірте повідомлення для впевненості, що воно підписано вказаною Reddcoin-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Перевірте повідомлення для впевненості, що воно підписано вказаною MaryJane-адресою</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -715,8 +715,8 @@
         <translation type="unfinished">Неможливо розблокувати гаманець.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Введена адреса «%1» не є коректною адресою в мережі Reddcoin.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Введена адреса «%1» не є коректною адресою в мережі MaryJane.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -872,12 +872,12 @@
         <translation type="unfinished">Кількість потоків &amp;веріфікації скрипту</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Автоматично відкривати порт для клієнту Біткоїн на роутері. Працює лише, якщо ваш роутер підтримує UPnP, і ця функція увімкнена.</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Підключення до мережі Reddcoin через SOCKS5 проксі.</translation>
+        <source>Connect to the MaryJane network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Підключення до мережі MaryJane через SOCKS5 проксі.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1055,7 +1055,7 @@
         <translation type="unfinished">Баланс:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Біткоїн після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
@@ -1105,12 +1105,12 @@
         <translation type="unfinished">Помилка платіжного запиту</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Неможливо запустити reddcoin: обробник click-to-pay</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Неможливо запустити maryjane: обробник click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Неможливо розібрати URI! Причиною цього може бути некоректна Reddcoin-адреса або неправильні параметри URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid MaryJane address or malformed URI parameters.</source>
+        <translation type="unfinished">Неможливо розібрати URI! Причиною цього може бути некоректна MaryJane-адреса або неправильні параметри URI.</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1375,8 +1375,8 @@
         <translation type="unfinished">Необов'язкове поле для суми запиту. Залиште це поле пустим або впишіть нуль, щоб не надсилати у запиті конкретної суми.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу Reddcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу MaryJane.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1600,8 +1600,8 @@
         <translation type="unfinished">Ви впевнені, що хочете надіслати?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Увага: Неправильна Reddcoin-адреса</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Увага: Неправильна MaryJane-адреса</translation>
     </message>
     <message>
         <source>or</source>
@@ -1659,8 +1659,8 @@
         <translation>&amp;Отримувач:</translation>
     </message>
     <message>
-        <source>The Reddcoin address to send the payment to</source>
-        <translation type="unfinished">Reddcoin-адреса, на яку надсилається платіж</translation>
+        <source>The MaryJane address to send the payment to</source>
+        <translation type="unfinished">MaryJane-адреса, на яку надсилається платіж</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1683,8 +1683,8 @@
         <translation type="unfinished">Повідомлення:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Повідомлення, що було додане до reddcoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Reddcoin.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Повідомлення, що було додане до maryjane:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу MaryJane.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1710,8 +1710,8 @@
         <translation>&amp;Підписати повідомлення</translation>
     </message>
     <message>
-        <source>The Reddcoin address to sign the message with</source>
-        <translation type="unfinished">Reddcoin-адреса для підпису цього повідомлення</translation>
+        <source>The MaryJane address to sign the message with</source>
+        <translation type="unfinished">MaryJane-адреса для підпису цього повідомлення</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1734,16 +1734,16 @@
         <translation>Копіювати поточну сигнатуру до системного буферу обміну</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
-        <source>The Reddcoin address the message was signed with</source>
-        <translation type="unfinished">Reddcoin-адреса, якою було підписано повідомлення</translation>
+        <source>The MaryJane address the message was signed with</source>
+        <translation type="unfinished">MaryJane-адреса, якою було підписано повідомлення</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Перевірте повідомлення для впевненості, що воно підписано вказаною Reddcoin-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Перевірте повідомлення для впевненості, що воно підписано вказаною MaryJane-адресою</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

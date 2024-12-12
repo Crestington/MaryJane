@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -164,7 +164,7 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
     pblocktemplate->vTxFees.push_back(-1); // updated at end
     pblocktemplate->vTxSigOpsCost.push_back(-1); // updated at end
 
-    // reddcoin: if coinstake available add coinstake tx
+    // maryjane: if coinstake available add coinstake tx
     static int64_t nLastCoinStakeSearchTime = GetAdjustedTime();  // only initialized at startup
 
     // Create coinbase transaction.
@@ -202,7 +202,7 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
             nLastCoinStakeSearchTime = nSearchTime;
         }
         if (*pfPoSCancel)
-            return nullptr; // reddcoin: there is no point to continue if we failed to create coinstake
+            return nullptr; // maryjane: there is no point to continue if we failed to create coinstake
     }
 
     const int64_t nMedianTimePast = pindexPrev->GetMedianTimePast();
@@ -536,7 +536,7 @@ static bool ProcessBlockFound(const CBlock* pblock, ChainstateManager* chainman,
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainstate->m_chain.Tip()->GetBlockHash())
-            return error("ReddcoinMiner: generated block is stale");
+            return error("MaryJaneMiner: generated block is stale");
     }
 
     // Process this block the same as if we had received it from another node
@@ -668,7 +668,7 @@ void PoSMiner(CWallet* pwallet, ChainstateManager* chainman, CConnman* connman, 
                 strMintWarning = strMintBlockMessage;
                 uiInterface.NotifyAlertChanged();
                 pwallet->NotifyWalletStakingStatusChanged();
-                LogPrintf("Staker thread [%d]: Error in ReddcoinMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n", thread_id);
+                LogPrintf("Staker thread [%d]: Error in MaryJaneMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n", thread_id);
                 if (!connman->interruptNet.sleep_for(std::chrono::seconds(10)))
                    return;
 
@@ -679,7 +679,7 @@ void PoSMiner(CWallet* pwallet, ChainstateManager* chainman, CConnman* connman, 
 
             pwallet->NotifyWalletStakingStatusChanged();
 
-            // reddcoin: if proof-of-stake block found then process block
+            // maryjane: if proof-of-stake block found then process block
             if (pblock->IsProofOfStake())
             {
                 {
@@ -706,7 +706,7 @@ void PoSMiner(CWallet* pwallet, ChainstateManager* chainman, CConnman* connman, 
     }
     catch (const std::runtime_error &e)
     {
-        LogPrintf("Staker thread [%d]: ReddcoinMiner runtime error: %s\n", thread_id, e.what());
+        LogPrintf("Staker thread [%d]: MaryJaneMiner runtime error: %s\n", thread_id, e.what());
         return;
     }
 }

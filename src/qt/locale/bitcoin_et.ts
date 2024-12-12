@@ -101,8 +101,8 @@
         <translation>Kuva rahakoti üld-ülevaade</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Saada münte Reddcoini aadressile</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Saada münte MaryJanei aadressile</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -129,15 +129,15 @@
         <translation>Kuva Qt kohta käiv info</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Omandi tõestamiseks allkirjasta sõnumid oma Reddcoini aadressiga</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Omandi tõestamiseks allkirjasta sõnumid oma MaryJanei aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Kinnita sõnumid kindlustamaks et need allkirjastati määratud Reddcoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Kinnita sõnumid kindlustamaks et need allkirjastati määratud MaryJanei aadressiga</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -324,8 +324,8 @@
         <translation>&amp;Peamine</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Reddcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">MaryJanei kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -419,8 +419,8 @@
         <translation>Mitte aegunud mine'itud jääk</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Reddcoin võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt MaryJane võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -601,12 +601,12 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Allkirjasta sõnum Reddcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Allkirjasta sõnum MaryJanei aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Kinnita sõnum tõestamaks selle allkirjastatust määratud Reddcoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Kinnita sõnum tõestamaks selle allkirjastatust määratud MaryJanei aadressiga.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

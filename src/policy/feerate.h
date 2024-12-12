@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +12,7 @@
 
 #include <string>
 
-const std::string CURRENCY_UNIT = "RDD"; // One formatted unit
+const std::string CURRENCY_UNIT = "MARYJ"; // One formatted unit
 const std::string CURRENCY_ATOM = "sat"; // One indivisible minimum value unit
 
 /* Used to determine type of fee estimation requested */

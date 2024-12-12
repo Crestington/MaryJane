@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2024 The Reddcoin Core developers
+// Copyright (c) 2014-2024 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -320,7 +320,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(platformStyle->SingleColorIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setStatusTip(tr("Send coins to a Reddcoin address"));
+    sendCoinsAction->setStatusTip(tr("Send coins to a MaryJane address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
@@ -331,7 +331,7 @@ void BitcoinGUI::createActions()
     sendCoinsMenuAction->setToolTip(sendCoinsMenuAction->statusTip());
 
     receiveCoinsAction = new QAction(platformStyle->SingleColorIcon(":/icons/receiving_addresses"), tr("&Receive"), this);
-    receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and reddcoin: URIs)"));
+    receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and maryjane: URIs)"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
     receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
@@ -408,13 +408,13 @@ void BitcoinGUI::createActions()
     disableStakingAction = new QAction(tr("&Disable Staking"), this);
     disableStakingAction->setStatusTip(tr("Disable wallet staking"));
     signMessageAction = new QAction(tr("Sign &message…"), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your Reddcoin addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your MaryJane addresses to prove you own them"));
     verifyMessageAction = new QAction(tr("&Verify message…"), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Reddcoin addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified MaryJane addresses"));
     m_load_psbt_action = new QAction(tr("&Load PSBT from file…"), this);
-    m_load_psbt_action->setStatusTip(tr("Load Partially Signed Reddcoin Transaction"));
+    m_load_psbt_action->setStatusTip(tr("Load Partially Signed MaryJane Transaction"));
     m_load_psbt_clipboard_action = new QAction(tr("Load PSBT from clipboard…"), this);
-    m_load_psbt_clipboard_action->setStatusTip(tr("Load Partially Signed Reddcoin Transaction from clipboard"));
+    m_load_psbt_clipboard_action->setStatusTip(tr("Load Partially Signed MaryJane Transaction from clipboard"));
 
     openRPCConsoleAction = new QAction(tr("Node window"), this);
     openRPCConsoleAction->setStatusTip(tr("Open node debugging and diagnostic console"));
@@ -428,7 +428,7 @@ void BitcoinGUI::createActions()
     usedReceivingAddressesAction->setStatusTip(tr("Show the list of used receiving addresses and labels"));
 
     openAction = new QAction(tr("Open &URI…"), this);
-    openAction->setStatusTip(tr("Open a reddcoin: URI"));
+    openAction->setStatusTip(tr("Open a maryjane: URI"));
 
     m_open_wallet_action = new QAction(tr("Open Wallet"), this);
     m_open_wallet_action->setEnabled(false);
@@ -447,7 +447,7 @@ void BitcoinGUI::createActions()
 
     showHelpMessageAction = new QAction(tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
-    showHelpMessageAction->setStatusTip(tr("Show the %1 help message to get a list with possible Reddcoin command-line options").arg(PACKAGE_NAME));
+    showHelpMessageAction->setStatusTip(tr("Show the %1 help message to get a list with possible MaryJane command-line options").arg(PACKAGE_NAME));
 
     checkUpdatesAction = new QAction(tr("&Check for software updates"), this);
     checkUpdatesAction->setStatusTip(tr("Check for available %1 software updates").arg(PACKAGE_NAME));
@@ -456,20 +456,20 @@ void BitcoinGUI::createActions()
     openWebSocialAction->setStatusTip(tr("Open Social Websites"));
     openWebSocialMenu = new QMenu(this);
 
-    openWebReddcoinAction = new QAction(tr("&Website - reddcoin.com"), this);
-    openWebReddcoinAction->setStatusTip(tr("Open the Reddcoin website in a web browser."));
+    openWebMaryJaneAction = new QAction(tr("&Website - maryjane.com"), this);
+    openWebMaryJaneAction->setStatusTip(tr("Open the MaryJane website in a web browser."));
 
     openWebReddloveAction = new QAction(tr("&Website - redd.love"), this);
     openWebReddloveAction->setStatusTip(tr("Open the Redd Love website in a web browser."));
 
-    openWebWikiAction = new QAction(tr("&Website - Reddcoin Wiki"), this);
-    openWebWikiAction->setStatusTip(tr("Open the Reddcoin Wiki website in a web browser."));
+    openWebWikiAction = new QAction(tr("&Website - MaryJane Wiki"), this);
+    openWebWikiAction->setStatusTip(tr("Open the MaryJane Wiki website in a web browser."));
 
     openChatroomAction = new QAction(tr("&Chatroom - Discord"), this);
-    openChatroomAction->setStatusTip(tr("Open the Reddcoin Discord chat in a web browser."));
+    openChatroomAction->setStatusTip(tr("Open the MaryJane Discord chat in a web browser."));
 
     openForumAction = new QAction(tr("&Forum"), this);
-    openForumAction->setStatusTip(tr("Open reddcointalk.org in a web browser."));
+    openForumAction->setStatusTip(tr("Open maryjanetalk.org in a web browser."));
 
     m_mask_values_action = new QAction(tr("&Mask values"), this);
     m_mask_values_action->setShortcut(QKeySequence(Qt::CTRL + Qt::SHIFT + Qt::Key_M));
@@ -487,7 +487,7 @@ void BitcoinGUI::createActions()
     // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, &QAction::triggered, rpcConsole, &QWidget::hide);
 
-    connect(openWebReddcoinAction, &QAction::triggered, this, &BitcoinGUI::openWebReddcoin);
+    connect(openWebMaryJaneAction, &QAction::triggered, this, &BitcoinGUI::openWebMaryJane);
     connect(openWebReddloveAction, &QAction::triggered, this, &BitcoinGUI::openWebReddlove);
     connect(openWebWikiAction, &QAction::triggered, this, &BitcoinGUI::openWebWiki);
     connect(openChatroomAction, &QAction::triggered, this, &BitcoinGUI::openChatroom);
@@ -660,7 +660,7 @@ void BitcoinGUI::createMenuBar()
 
     QMenu *help = appMenuBar->addMenu(tr("&Help"));
 
-    openWebSocialMenu->addAction(openWebReddcoinAction);
+    openWebSocialMenu->addAction(openWebMaryJaneAction);
     openWebSocialMenu->addAction(openWebReddloveAction);
     openWebSocialMenu->addAction(openWebWikiAction);
     openWebSocialMenu->addAction(openChatroomAction);
@@ -1120,8 +1120,8 @@ void BitcoinGUI::gotoLoadPSBT(bool from_clipboard)
     if (walletFrame) walletFrame->gotoLoadPSBT(from_clipboard);
 }
 
-void BitcoinGUI::openWebReddcoin() {
-    QDesktopServices::openUrl(QUrl("https://reddcoin.com"));
+void BitcoinGUI::openWebMaryJane() {
+    QDesktopServices::openUrl(QUrl("https://maryjane.com"));
 }
 
 void BitcoinGUI::openWebReddlove() {
@@ -1129,7 +1129,7 @@ void BitcoinGUI::openWebReddlove() {
 }
 
 void BitcoinGUI::openWebWiki() {
-    QDesktopServices::openUrl(QUrl("https://wiki.reddcoin.com"));
+    QDesktopServices::openUrl(QUrl("https://wiki.maryjane.com"));
 }
 
 void BitcoinGUI::openChatroom() {
@@ -1137,7 +1137,7 @@ void BitcoinGUI::openChatroom() {
 }
 
 void BitcoinGUI::openForum() {
-    QDesktopServices::openUrl(QUrl("https://reddcointalk.org/"));
+    QDesktopServices::openUrl(QUrl("https://maryjanetalk.org/"));
 }
 #endif // ENABLE_WALLET
 
@@ -1158,7 +1158,7 @@ void BitcoinGUI::updateNetworkState()
 
     if (m_node.getNetworkActive()) {
         //: A substring of the tooltip.
-        tooltip = tr("%n active connection(s) to Reddcoin network.", "", count);
+        tooltip = tr("%n active connection(s) to MaryJane network.", "", count);
     } else {
         //: A substring of the tooltip.
         tooltip = tr("Network activity disabled.");

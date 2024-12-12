@@ -62,8 +62,8 @@
         <translation type="unfinished">Διευθύνσεις λήψης</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Αυτές είναι οι Reddcoin διευθύνσεις σας για να στείλετε πληρωμές. Να ελέγχετε πάντα το ποσό και την διεύθυνση αποστολής πρίν στείλετε νομίσματα.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Αυτές είναι οι MaryJane διευθύνσεις σας για να στείλετε πληρωμές. Να ελέγχετε πάντα το ποσό και την διεύθυνση αποστολής πρίν στείλετε νομίσματα.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -153,8 +153,8 @@
         <translation type="unfinished">Είστε σίγουροι ότι θέλετε να κρυπτογραφήσετε το πορτοφόλι σας;</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ REDDCOINS&lt;/b&gt;! Είσαι σίγουρος ότι θέλεις να κρυπτογραφησεις το πορτοφολι;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ MARYJANE&lt;/b&gt;! Είσαι σίγουρος ότι θέλεις να κρυπτογραφησεις το πορτοφολι;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -273,12 +273,12 @@
         <translation>Εμφάνιση της γενικής εικόνας του πορτοφολιού</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Στείλε νομίσματα σε μια διεύθυνση reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Στείλε νομίσματα σε μια διεύθυνση maryjane</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις reddcoin: )</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις maryjane: )</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -305,15 +305,15 @@
         <translation>Εμφάνισε πληροφορίες σχετικά με Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Reddcoin</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση MaryJane</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -608,8 +608,8 @@
         <translation type="unfinished">Δεν είναι δυνατό το ξεκλείδωμα του πορτοφολιού.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Η διεύθυνση "%1" δεν είναι έγκυρη Reddcoin διεύθυνση.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Η διεύθυνση "%1" δεν είναι έγκυρη MaryJane διεύθυνση.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -754,8 +754,8 @@
         <translation type="unfinished">Αριθμός script και γραμμές επαλήθευσης</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Αυτόματο άνοιγμα των θυρών Reddcoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Αυτόματο άνοιγμα των θυρών MaryJane στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -921,8 +921,8 @@
         <translation>Εξορυγμενο υπόλοιπο που δεν έχει ακόμα ωριμάσει</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Reddcoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο MaryJane μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -947,8 +947,8 @@
         <translation type="unfinished">Σφάλμα αιτήματος πληρωμής</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Δεν είναι δυνατή η εκκίνηση του reddcoin: click-to-pay handler</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Δεν είναι δυνατή η εκκίνηση του maryjane: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1323,8 +1323,8 @@
         <translation type="unfinished">Είστε βέβαιοι για την αποστολή;</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Προειδοποίηση: Μη έγκυρη διεύθυνση Reddcoin</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Προειδοποίηση: Μη έγκυρη διεύθυνση MaryJane</translation>
     </message>
     <message>
         <source>or</source>
@@ -1440,12 +1440,12 @@
         <translation>Αντέγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Reddcoin</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση MaryJane</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Reddcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση MaryJane</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

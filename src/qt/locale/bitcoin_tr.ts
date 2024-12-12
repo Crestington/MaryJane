@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished">Reddcoin yollanacak adresi seçiniz</translation>
+        <translation type="unfinished">MaryJane yollanacak adresi seçiniz</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished">Reddcoin alınacak adresi seçiniz</translation>
+        <translation type="unfinished">MaryJane alınacak adresi seçiniz</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,8 +62,8 @@
         <translation type="unfinished">Alım adresleri</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Bunlar ödeme göndermek için kullanacağınız Reddcoin adreslerinizdir. Reddcoin yollamadan önce miktarı ve alıcı adresini daima kontrol ediniz.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Bunlar ödeme göndermek için kullanacağınız MaryJane adreslerinizdir. MaryJane yollamadan önce miktarı ve alıcı adresini daima kontrol ediniz.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -148,8 +148,8 @@
         <translation type="unfinished">Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Uyarı: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM REDDCOINLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Uyarı: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM MARYJANELERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -266,11 +266,11 @@
         <translation>Cüzdan genel durumunu göster</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Bir Reddcoin adresine Reddcoin yolla</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Bir MaryJane adresine MaryJane yolla</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
         <translation type="unfinished">Ödeme talep et (QR kodu ve bitcoin URI'si oluşturur)</translation>
     </message>
     <message>
@@ -298,15 +298,15 @@
         <translation>Qt hakkındaki bilgileri göster</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Reddcoin adreslerine sahip olduğunuzu kanıtlamak için mesajlarınızı imzalayın</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">MaryJane adreslerine sahip olduğunuzu kanıtlamak için mesajlarınızı imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Belirtilen Reddcoin adresleriyle imzalandıklarından emin olmak için mesajları doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Belirtilen MaryJane adresleriyle imzalandıklarından emin olmak için mesajları doğrulayın</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -607,8 +607,8 @@
         <translation type="unfinished">Cüzdan kilidi açılamadı.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Girilen "%1" adresi geçerli bir Reddcoin adresi değildir.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Girilen "%1" adresi geçerli bir MaryJane adresi değildir.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -746,8 +746,8 @@
         <translation type="unfinished">İş parçacıklarını &amp;denetleme betiği sayısı</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Yönlendiricide Reddcoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Yönlendiricide MaryJane istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -835,7 +835,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Reddcoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
+        <translation>MaryJane gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -905,8 +905,8 @@
         <translation>ödenilmemiş miktar</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak Reddcoin ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak MaryJane ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -931,8 +931,8 @@
         <translation type="unfinished">Ödeme talebi hatası</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Reddcoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">MaryJane başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1118,8 +1118,8 @@
         <translation type="unfinished">Seçiminize dayalı talep edilecek meblağ. Belli bir meblağ talep etmemek için bunu boş bırakın veya sıfır değerini kullanın.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte Reddcoin şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte MaryJane şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1212,7 +1212,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Reddcoini Gönder</translation>
+        <translation>MaryJanei Gönder</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1319,8 +1319,8 @@
         <translation type="unfinished">Göndermek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Uyarı: Geçersiz Reddcoin adresi</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Uyarı: Geçersiz MaryJane adresi</translation>
     </message>
     <message>
         <source>or</source>
@@ -1396,8 +1396,8 @@
         <translation type="unfinished">Mesaj:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Reddcoin: URI'siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj Reddcoin şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">MaryJane: URI'siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj MaryJane şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1443,12 +1443,12 @@
         <translation>Güncel imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Bu Reddcoin adresinin sizin olduğunu ispatlamak için iletiyi imzalayın</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Bu MaryJane adresinin sizin olduğunu ispatlamak için iletiyi imzalayın</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Belirtilen Reddcoin adresi ile imzalandığını doğrulamak için iletiyi kontrol et</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Belirtilen MaryJane adresi ile imzalandığını doğrulamak için iletiyi kontrol et</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1627,7 +1627,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished">Oluşturulan Reddcoinlerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
+        <translation type="unfinished">Oluşturulan MaryJanelerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -1853,7 +1853,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Reddcoini Gönder</translation>
+        <translation type="unfinished">MaryJanei Gönder</translation>
     </message>
     </context>
 <context>

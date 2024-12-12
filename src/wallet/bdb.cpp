@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -275,7 +275,7 @@ bool BerkeleyDatabase::Verify(bilingual_str& errorStr)
         Db db(env->dbenv.get(), 0);
         int result = db.verify(strFile.c_str(), nullptr, nullptr, 0);
         if (result != 0) {
-            errorStr = strprintf(_("%s corrupt. Try using the wallet tool reddcoin-wallet to salvage or restoring a backup."), file_path);
+            errorStr = strprintf(_("%s corrupt. Try using the wallet tool maryjane-wallet to salvage or restoring a backup."), file_path);
             return false;
         }
     }

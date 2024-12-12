@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2024 The Reddcoin Core developers
+// Copyright (c) 2014-2024 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -185,7 +185,7 @@ private:
     QAction* m_wallet_selector_label_action = nullptr;
     QAction* openWebSocialAction = nullptr;
     QMenu* openWebSocialMenu{nullptr};
-    QAction* openWebReddcoinAction = nullptr;
+    QAction* openWebMaryJaneAction = nullptr;
     QAction* openWebReddloveAction = nullptr;
     QAction* openWebWikiAction = nullptr;
     QAction* openChatroomAction = nullptr;
@@ -347,15 +347,15 @@ public Q_SLOTS:
     void showDebugWindowActivateConsole();
     /** Show help message dialog */
     void showHelpMessageClicked();
-    /** Open reddcoin.com URL in the system's browser */
-    void openWebReddcoin();
+    /** Open maryjane.com URL in the system's browser */
+    void openWebMaryJane();
     /** Open redd.love URL in the system's browser */
     void openWebReddlove();
-    /** Open reddcoin wiki URL in the system's browser */
+    /** Open maryjane wiki URL in the system's browser */
     void openWebWiki();
     /** Open Discord invite in the system's browser */
     void openChatroom();
-    /** Open reddcointalk.org URL in the system's browser */
+    /** Open maryjanetalk.org URL in the system's browser */
     void openForum();
 #ifndef Q_OS_MAC
     /** Handle tray icon clicked */

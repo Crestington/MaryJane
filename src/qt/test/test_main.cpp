@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -77,7 +77,7 @@ int main(int argc, char* argv[])
     // QApplication:: and QCoreApplication:: in the tests
     BitcoinApplication app;
     app.setNode(*node);
-    app.setApplicationName("Reddcoin-Qt-test");
+    app.setApplicationName("MaryJane-Qt-test");
 
     app.node().context()->args = &gArgs;     // Make gArgs available in the NodeContext
     AppTests app_tests(app);

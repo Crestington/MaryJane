@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -137,7 +137,7 @@ Intro::Intro(QWidget *parent, int64_t blockchain_size_gb, int64_t chain_state_si
         .arg(PACKAGE_NAME)
         .arg(m_blockchain_size_gb)
         .arg(2014)
-        .arg(tr("Reddcoin"))
+        .arg(tr("MaryJane"))
     );
     ui->lblExplanation2->setText(ui->lblExplanation2->text().arg(PACKAGE_NAME));
 
@@ -146,7 +146,7 @@ Intro::Intro(QWidget *parent, int64_t blockchain_size_gb, int64_t chain_state_si
     if (gArgs.GetBoolArg("-txindex", DEFAULT_TXINDEX) || gArgs.GetBoolArg("-coinstatsindex", DEFAULT_COINSTATSINDEX)) {
         ui->prune->setChecked(false);
         ui->prune->setEnabled(false);
-        ui->prune->setToolTip(tr("Blockchain pruning is not compatible with Reddcoin"));
+        ui->prune->setToolTip(tr("Blockchain pruning is not compatible with MaryJane"));
     } else {
         if (gArgs.GetArg("-prune", 0) > 1) { // -prune=1 means enabled, above that it's a size in MiB
             ui->prune->setChecked(true);
@@ -396,7 +396,7 @@ void Intro::UpdatePruneLabels(bool prune_checked)
         //: Explanatory text on the capability of the current prune target.
         tr("(sufficient to restore backups %n day(s) old)", "", expected_backup_days));
     ui->sizeWarningLabel->setText(
-        tr("%1 will download and store a copy of the Reddcoin block chain.").arg(PACKAGE_NAME) + " " +
+        tr("%1 will download and store a copy of the MaryJane block chain.").arg(PACKAGE_NAME) + " " +
         storageRequiresMsg.arg(m_required_space_gb) + " " +
         tr("The wallet will also be stored in this directory.")
     );

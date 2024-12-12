@@ -58,8 +58,8 @@
         <translation type="unfinished">受け取り用アドレス一覧</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">これらが、支払いを送金するためのReddcoinアドレスです。コインを送金する前に、支払うコインの数とコインを受け取るアドレスが正しいことを確認してください。</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">これらが、支払いを送金するためのMaryJaneアドレスです。コインを送金する前に、支払うコインの数とコインを受け取るアドレスが正しいことを確認してください。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -148,8 +148,8 @@
         <translation type="unfinished">本当にウォレットを暗号化しますか？</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">注意: もし暗号化したウォレットのパスフレーズを忘れた場合には &lt;b&gt;全てのReddcoinを失います&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">注意: もし暗号化したウォレットのパスフレーズを忘れた場合には &lt;b&gt;全てのMaryJaneを失います&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -246,12 +246,12 @@
         <translation>ウォレットの概要を見る</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Reddcoin アドレスにコインを送る</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">MaryJane アドレスにコインを送る</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">支払いの要求 (ReddcoinのQRコードを生成する: URIs)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">支払いの要求 (MaryJaneのQRコードを生成する: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -278,15 +278,15 @@
         <translation>Qt の情報を表示する</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Reddcoin アドレスでメッセージに署名することで、そのアドレスの所有権を証明する</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">MaryJane アドレスでメッセージに署名することで、そのアドレスの所有権を証明する</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">メッセージを検証して、指定された Reddcoin アドレスで署名されたことを確認する</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">メッセージを検証して、指定された MaryJane アドレスで署名されたことを確認する</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -624,7 +624,7 @@
         </translation>
     </message>
     <message>
-        <source>Reddcoin</source>
+        <source>MaryJane</source>
         <translation type="unfinished">レッドコイン</translation>
     </message>
     <message>
@@ -707,8 +707,8 @@
         <translation>メイン(&amp;M)</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">自動的にルーター上の Reddcoin クライアントのポートを開放します。あなたのルーターが UPnP に対応していて、それが有効になっている場合のみ動作します。</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">自動的にルーター上の MaryJane クライアントのポートを開放します。あなたのルーターが UPnP に対応していて、それが有効になっている場合のみ動作します。</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -818,8 +818,8 @@
         <translation>採掘された未成熟な残高</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">表示されている情報は古い可能性があります。ウォレットは接続確立後に Reddcoin ネットワークと自動的に同期しますが、同期処理はまだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">表示されている情報は古い可能性があります。ウォレットは接続確立後に MaryJane ネットワークと自動的に同期しますが、同期処理はまだ完了していません。</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1098,12 +1098,12 @@
         <translation>この署名をシステムのクリップボードにコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">メッセージに署名してこの Reddcoin アドレスを所有していることを証明</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">メッセージに署名してこの MaryJane アドレスを所有していることを証明</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">メッセージを検証して指定された Reddcoin アドレスで署名されたことを確認</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">メッセージを検証して指定された MaryJane アドレスで署名されたことを確認</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

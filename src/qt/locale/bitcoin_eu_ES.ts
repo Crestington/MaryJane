@@ -101,8 +101,8 @@
         <translation>Diruzorroaren begirada orokorra ikusi</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Bidali txanponak Reddcoin helbide batera</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Bidali txanponak MaryJane helbide batera</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -129,15 +129,15 @@
         <translation>Erakutsi Qt-ren buruzko informazioa</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Sinatu mezuak Reddcoinen helbideekin, jabetza frogatzeko.</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Sinatu mezuak MaryJaneen helbideekin, jabetza frogatzeko.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Egiaztatu mesua Reddcoin helbide espezifikoarekin erregistratu direla ziurtatzeko</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Egiaztatu mesua MaryJane helbide espezifikoarekin erregistratu direla ziurtatzeko</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

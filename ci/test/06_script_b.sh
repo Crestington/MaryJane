@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Copyright (c) 2018-2020 The Bitcoin Core developers
-# Copyright (c) 2018-2023 The Reddcoin Core developers
+# Copyright (c) 2018-2023 The MaryJane Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -30,7 +30,7 @@ if [ "$RUN_UNIT_TESTS" = "true" ]; then
 fi
 
 if [ "$RUN_UNIT_TESTS_SEQUENTIAL" = "true" ]; then
-  DOCKER_EXEC ${TEST_RUNNER_ENV} DIR_UNIT_TEST_DATA=${DIR_UNIT_TEST_DATA} LD_LIBRARY_PATH=$DEPENDS_DIR/$HOST/lib "${BASE_BUILD_DIR}/reddcoin-*/src/test/test_reddcoin*" --catch_system_errors=no -l test_suite
+  DOCKER_EXEC ${TEST_RUNNER_ENV} DIR_UNIT_TEST_DATA=${DIR_UNIT_TEST_DATA} LD_LIBRARY_PATH=$DEPENDS_DIR/$HOST/lib "${BASE_BUILD_DIR}/maryjane-*/src/test/test_maryjane*" --catch_system_errors=no -l test_suite
 fi
 
 if [ "$RUN_FUNCTIONAL_TESTS" = "true" ]; then

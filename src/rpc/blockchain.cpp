@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1000,7 +1000,7 @@ static RPCHelpMan getblock()
                     {RPCResult::Type::NUM, "size", "The block size"},
                     {RPCResult::Type::NUM, "strippedsize", "The block size excluding witness data"},
                     {RPCResult::Type::NUM, "weight", "The block weight as defined in BIP 141"},
-                    {RPCResult::Type::NUM, "moneysupply", "the current supply of Reddcoin"},
+                    {RPCResult::Type::NUM, "moneysupply", "the current supply of MaryJane"},
                     {RPCResult::Type::NUM, "height", "The block height or index"},
                     {RPCResult::Type::NUM, "version", "The block version"},
                     {RPCResult::Type::STR_HEX, "versionHex", "The block version formatted in hexadecimal"},
@@ -1307,9 +1307,9 @@ static RPCHelpMan gettxout()
                     {RPCResult::Type::STR_HEX, "hex", ""},
                     {RPCResult::Type::NUM, "reqSigs", /* optional */ true, "(DEPRECATED, returned only if config option -deprecatedrpc=addresses is passed) Number of required signatures"},
                     {RPCResult::Type::STR, "type", "The type, eg pubkeyhash"},
-                    {RPCResult::Type::STR, "address", /* optional */ true, "reddcoin address (only if a well-defined address exists)"},
-                    {RPCResult::Type::ARR, "addresses", /* optional */ true, "(DEPRECATED, returned only if config option -deprecatedrpc=addresses is passed) Array of reddcoin addresses",
-                        {{RPCResult::Type::STR, "address", "reddcoin address"}}},
+                    {RPCResult::Type::STR, "address", /* optional */ true, "maryjane address (only if a well-defined address exists)"},
+                    {RPCResult::Type::ARR, "addresses", /* optional */ true, "(DEPRECATED, returned only if config option -deprecatedrpc=addresses is passed) Array of maryjane addresses",
+                        {{RPCResult::Type::STR, "address", "maryjane address"}}},
                 }},
                 {RPCResult::Type::BOOL, "coinbase", "Coinbase or not"},
             }},
@@ -1477,7 +1477,7 @@ RPCHelpMan getblockchaininfo()
                         {RPCResult::Type::NUM, "headers", "the current number of headers we have validated"},
                         {RPCResult::Type::STR, "bestblockhash", "the hash of the currently best block"},
                         {RPCResult::Type::NUM, "difficulty", "the current difficulty"},
-                        {RPCResult::Type::NUM, "moneysupply", "the current supply of Reddcoin"},
+                        {RPCResult::Type::NUM, "moneysupply", "the current supply of MaryJane"},
                         {RPCResult::Type::NUM, "mediantime", "median time for the current best block"},
                         {RPCResult::Type::NUM, "verificationprogress", "estimate of verification progress [0..1]"},
                         {RPCResult::Type::BOOL, "initialblockdownload", "(debug information) estimate of whether this node is in Initial Block Download mode"},

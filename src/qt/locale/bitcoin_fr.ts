@@ -66,13 +66,13 @@
         <translation type="unfinished">Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Voici vos adresses Reddcoin pour envoyer des paiements. Vérifiez toujours le montant et l'adresse du destinataire avant d'envoyer des pièces.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Voici vos adresses MaryJane pour envoyer des paiements. Vérifiez toujours le montant et l'adresse du destinataire avant d'envoyer des pièces.</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your MaryJane addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ce sont vos adresses Reddcoin pour recevoir des paiements. Utilisez le bouton 'Crée une nouvelle adresse de réception' dans l'onglet réception pour créer de nouvelles adresses.
+        <translation type="unfinished">Ce sont vos adresses MaryJane pour recevoir des paiements. Utilisez le bouton 'Crée une nouvelle adresse de réception' dans l'onglet réception pour créer de nouvelles adresses.
 La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
     </message>
     <message>
@@ -171,12 +171,12 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation type="unfinished">Êtes-vous sûr de vouloir chiffrer votre portefeuille ?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Attention : Si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS REDDCOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Attention : Si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS MARYJANE&lt;/b&gt; !</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">N'oubliez pas que le cryptage de votre portefeuille ne peut pas entièrement protéger vos reddcoins contre le vol par des logiciels malveillants infectant votre ordinateur.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your maryjanes from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">N'oubliez pas que le cryptage de votre portefeuille ne peut pas entièrement protéger vos maryjanes contre le vol par des logiciels malveillants infectant votre ordinateur.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -349,12 +349,12 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation>Afficher une vue d’ensemble du porte-monnaie</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Envoyer des pièces à une adresse Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Envoyer des pièces à une adresse MaryJane</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Demander des paiements (génère des codes QR et URIs reddcoin)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Demander des paiements (génère des codes QR et URIs maryjane)</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
@@ -385,19 +385,19 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation type="unfinished">Modifier les options de configuration pour %1</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Signer les messages avec vos adresses Reddcoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Signer les messages avec vos adresses MaryJane pour prouver que vous les détenez</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Vérifier les messages pour s’assurer qu’ils ont été signés avec les adresses Reddcoin indiquées</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Vérifier les messages pour s’assurer qu’ils ont été signés avec les adresses MaryJane indiquées</translation>
     </message>
     <message>
         <source>Wallet:</source>
         <translation type="unfinished">Portefeuille :</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -899,8 +899,8 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation type="unfinished">Impossible de déverrouiller le portefeuille.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">L'adresse entrée "%1" n'est pas une adresse Reddcoin valide.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">L'adresse entrée "%1" n'est pas une adresse MaryJane valide.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -1101,8 +1101,8 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation type="unfinished">Nombre d'exétrons de &amp;vérification de script</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Ouvrir automatiquement le port du client Reddcoin sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l’UPnP et si la fonction est activée.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Ouvrir automatiquement le port du client MaryJane sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l’UPnP et si la fonction est activée.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1264,8 +1264,8 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation>Le solde miné n’est pas encore mûr</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Les informations affichées peuvent être obsolètes. Votre porte-monnaie se synchronise automatiquement avec le réseau Reddcoin dès qu’une connexion est établie, mais ce processus n’est pas encore achevé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Les informations affichées peuvent être obsolètes. Votre porte-monnaie se synchronise automatiquement avec le réseau MaryJane dès qu’une connexion est établie, mais ce processus n’est pas encore achevé.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1290,8 +1290,8 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation type="unfinished">Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Impossible de démarrer reddcoin: gestionnaire de cliquer-pour-payer</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Impossible de démarrer maryjane: gestionnaire de cliquer-pour-payer</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1472,8 +1472,8 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation type="unfinished">Un montant optionnel à demander. Laisser ceci vide ou à zéro pour ne pas demander de montant spécifique.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Un message optionnel à joindre à la demande de paiement qui sera affiché à l'ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Reddcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Un message optionnel à joindre à la demande de paiement qui sera affiché à l'ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau MaryJane.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1673,8 +1673,8 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation type="unfinished">Êtes-vous sûr de vouloir envoyer ?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Attention : adresse Reddcoin invalide</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Attention : adresse MaryJane invalide</translation>
     </message>
     <message>
         <source>or</source>
@@ -1751,8 +1751,8 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation type="unfinished">Message :</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Un message qui était joint à l'URI Reddcoin et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Reddcoin.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Un message qui était joint à l'URI MaryJane et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau MaryJane.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1794,12 +1794,12 @@ La signature n'est possible qu'avec des adresses de type 'legacy'.</translation>
         <translation>Copier la signature actuelle dans le presse-papiers</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Signer le message afin de prouver que vous détenez cette adresse Reddcoin</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Signer le message afin de prouver que vous détenez cette adresse MaryJane</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Vérifier le message pour s’assurer qu’il a été signé avec l’adresse Reddcoin indiquée</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Vérifier le message pour s’assurer qu’il a été signé avec l’adresse MaryJane indiquée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

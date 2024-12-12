@@ -101,7 +101,7 @@
         <translation>జోలె యొక్క సాధారణ అవలోకనాన్ని చూపించు</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">బిట్‌కాయిన్ చిరునామాకు నాణేలను పంపండి</translation>
     </message>
     <message>
@@ -129,7 +129,7 @@
         <translation>Qt గురించి సమాచారాన్ని చూపించు</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

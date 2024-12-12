@@ -62,8 +62,8 @@
         <translation type="unfinished">接收地址</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">这是您用来付款的Reddcoin地址。在付款前，请总是核实付款金额和收款地址。</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">这是您用来付款的MaryJane地址。在付款前，请总是核实付款金额和收款地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -152,8 +152,8 @@
         <translation type="unfinished">您确定需要为钱包加密吗？</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的Reddcoin&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的MaryJane&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -274,12 +274,12 @@
         <translation>显示钱包概况</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">向一个比特币地址发币</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">请求支付（生成QR码和 reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">请求支付（生成QR码和 maryjane: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -306,15 +306,15 @@
         <translation>显示 Qt 相关信息</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">用比特币地址关联的私钥为消息签名，以证明您拥有这个比特币地址</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <translation type="unfinished">校验消息，确保该消息是由指定的比特币地址所有者签名的</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -619,8 +619,8 @@
         <translation type="unfinished">无法解锁钱包</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">您输入的 "%1" 不是合法的Reddcoin地址.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">您输入的 "%1" 不是合法的MaryJane地址.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -762,7 +762,7 @@
         <translation type="unfinished">脚本和验证进程数量</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">自动在路由器中为比特币客户端打开端口。只有当您的路由器开启了 UPnP 选项时此功能才会有用。</translation>
     </message>
     <message>
@@ -929,7 +929,7 @@
         <translation>尚未成熟的挖矿收入余额</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">现在显示的消息可能是过期的。在连接上比特币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
     </message>
     <message>
@@ -955,8 +955,8 @@
         <translation type="unfinished">支付请求出错</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">暂时无法启动 Reddcoin ：点击支付功能</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">暂时无法启动 MaryJane ：点击支付功能</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1142,8 +1142,8 @@
         <translation type="unfinished">可选的请求金额。如果不要求具体金额，不填或填为零。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">可在付款请求上附带一条信息，在打开付款请求时可以看到。注意：该消息不是通过Reddcoin网络传送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">可在付款请求上附带一条信息，在打开付款请求时可以看到。注意：该消息不是通过MaryJane网络传送。</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1343,8 +1343,8 @@
         <translation type="unfinished">您确定要发出吗？</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">警告：无效的Reddcoin地址</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">警告：无效的MaryJane地址</translation>
     </message>
     <message>
         <source>or</source>
@@ -1420,8 +1420,8 @@
         <translation type="unfinished">消息：</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Reddcoin:URI 附带的信息，将会和交易一起存储，备查。 注意：该消息不会通过Reddcoin网络传输。</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">MaryJane:URI 附带的信息，将会和交易一起存储，备查。 注意：该消息不会通过MaryJane网络传输。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1467,11 +1467,11 @@
         <translation>复制当前签名至剪贴板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">签名消息，以证明这个地址属于您</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished">验证消息，确保消息是由指定的比特币地址签名过的。</translation>
     </message>
     <message>
@@ -1763,7 +1763,7 @@
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation type="unfinished">接收 Reddcoin 的时间</translation>
+        <translation type="unfinished">接收 MaryJane 的时间</translation>
     </message>
     <message>
         <source>Type of transaction.</source>

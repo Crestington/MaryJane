@@ -58,8 +58,8 @@
         <translation type="unfinished">Přijímací adresy</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Tohle jsou tvé Reddcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Tohle jsou tvé MaryJaneové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -140,8 +140,8 @@
         <translation type="unfinished">Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY REDDCOINY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY MARYJANEY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -258,12 +258,12 @@
         <translation>Zobraz celkový přehled peněženky</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Pošli mince na reddcoinovou adresu</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Pošli mince na maryjaneovou adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Požaduj platby (generuje QR kódy a reddcoin: URI)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Požaduj platby (generuje QR kódy a maryjane: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -290,15 +290,15 @@
         <translation>Zobraz informace o Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Podepiš zprávy svými reddcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Podepiš zprávy svými maryjaneovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Ověř zprávy, aby ses ujistil, že byly podepsány danými reddcoinovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Ověř zprávy, aby ses ujistil, že byly podepsány danými maryjaneovými adresami</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -579,8 +579,8 @@
         <translation type="unfinished">Nemohu odemknout peněženku.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Zadaná adresa "%1" není platná Reddcoinová adresa.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Zadaná adresa "%1" není platná MaryJaneová adresa.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -728,7 +728,7 @@
         <translation type="unfinished">Počet vláken pro &amp;verifikaci skriptů</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -895,8 +895,8 @@
         <translation>Vytěžené mince, které ještě nejsou zralé</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s reddcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s maryjaneovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -921,8 +921,8 @@
         <translation type="unfinished">Chyba platebního požadavku</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Nemůžu spustit reddcoin: obsluha click-to-pay</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Nemůžu spustit maryjane: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1116,8 +1116,8 @@
         <translation type="unfinished">Volitelná částka, kterou požaduješ. Nech prázdné nebo nulové, pokud nepožaduješ konkrétní částku.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: Tahle zpráva se neposílá s platbou po Reddcoinové síti.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: Tahle zpráva se neposílá s platbou po MaryJaneové síti.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1317,8 +1317,8 @@
         <translation type="unfinished">Jsi si jistý, že to chceš poslat?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Upozornění: Neplatná Reddcoinová adresa</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Upozornění: Neplatná MaryJaneová adresa</translation>
     </message>
     <message>
         <source>or</source>
@@ -1396,8 +1396,8 @@
         <translation type="unfinished">Zpráva:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Zpráva, která byla připojena k reddcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po Reddcoinové síti.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Zpráva, která byla připojena k maryjane: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po MaryJaneové síti.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1443,12 +1443,12 @@
         <translation>Zkopíruj tento podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této reddcoinové adresy</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této maryjaneové adresy</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Ověř zprávu, aby ses ujistil, že byla podepsána danou reddcoinovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Ověř zprávu, aby ses ujistil, že byla podepsána danou maryjaneovou adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

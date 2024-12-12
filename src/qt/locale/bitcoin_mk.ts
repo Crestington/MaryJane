@@ -99,7 +99,7 @@
         <translation>&amp;Преглед</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">Испрати биткоини на Биткоин адреса</translation>
     </message>
     <message>
@@ -127,7 +127,7 @@
         <translation>Прикажи информации за Qt</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

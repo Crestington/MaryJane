@@ -62,8 +62,8 @@
         <translation type="unfinished">Adres odbioru</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Tutaj znajdują się Twoje adresy Reddcoin do wysyłania płatności. Zawsze sprawdzaj ilość i adres odbiorcy przed wysyłką monet.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Tutaj znajdują się Twoje adresy MaryJane do wysyłania płatności. Zawsze sprawdzaj ilość i adres odbiorcy przed wysyłką monet.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -144,8 +144,8 @@
         <translation type="unfinished">Jesteś pewien, że chcesz zaszyfrować swój portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE REDDCOIN'Y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE MARYJANE'Y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -270,12 +270,12 @@
         <translation>Pokazuje ogólny widok portfela</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Wyślij monety na adres reddcoinowy</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Wyślij monety na adres maryjaneowy</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Żądaj płatności (generuje kod QR oraz reddcoin URI)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Żądaj płatności (generuje kod QR oraz maryjane URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -302,15 +302,15 @@
         <translation>Pokazuje informacje o Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">Podpisz wiadomości swoim adresem aby udowodnić jego posiadanie</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Zweryfikuj wiadomość,  aby upewnić się, że została podpisana podanym adresem reddcoinowym.</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Zweryfikuj wiadomość,  aby upewnić się, że została podpisana podanym adresem maryjaneowym.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -603,8 +603,8 @@
         <translation type="unfinished">Nie można było odblokować portfela.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Wprowadzony adres "%1" nie jest poprawnym adresem Reddcoin.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Wprowadzony adres "%1" nie jest poprawnym adresem MaryJane.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -752,8 +752,8 @@
         <translation type="unfinished">Liczba wątków &amp;weryfikacji skryptu</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Automatycznie otwiera port klienta Reddcoin na routerze. Ta opcja dzieła tylko jeśli twój router wspiera UPnP i jest ono włączone.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Automatycznie otwiera port klienta MaryJane na routerze. Ta opcja dzieła tylko jeśli twój router wspiera UPnP i jest ono włączone.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -911,8 +911,8 @@
         <translation>Balans wydobytych monet, które jeszcze nie dojrzały</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Wyświetlana informacja może być nieaktualna. Twój portfel synchronizuje się automatycznie z siecią reddcoin, zaraz po tym jak uzyskano połączenie, ale proces ten nie został jeszcze ukończony.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Wyświetlana informacja może być nieaktualna. Twój portfel synchronizuje się automatycznie z siecią maryjane, zaraz po tym jak uzyskano połączenie, ale proces ten nie został jeszcze ukończony.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -937,8 +937,8 @@
         <translation type="unfinished">Błąd żądania płatności</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Nie można rozpocząć reddcoin: kliknij-by-zapłacić opiekunowi</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Nie można rozpocząć maryjane: kliknij-by-zapłacić opiekunowi</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1132,8 +1132,8 @@
         <translation type="unfinished">Opcjonalna kwota by zażądać. Zostaw puste lub zero by nie zażądać konkretnej kwoty.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Opcjonalna wiadomość do dołączenia do żądania płatności, która będzie wyświetlana, gdy żądanie zostanie otwarte. Uwaga: wiadomość ta nie zostanie wysłana wraz z płatnością w sieci Reddcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Opcjonalna wiadomość do dołączenia do żądania płatności, która będzie wyświetlana, gdy żądanie zostanie otwarte. Uwaga: wiadomość ta nie zostanie wysłana wraz z płatnością w sieci MaryJane.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1333,8 +1333,8 @@
         <translation type="unfinished">Jesteś pewien, że chcesz wysłać?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Ostrzeżenie: nieprawidłowy adres Reddcoin</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Ostrzeżenie: nieprawidłowy adres MaryJane</translation>
     </message>
     <message>
         <source>or</source>
@@ -1412,8 +1412,8 @@
         <translation type="unfinished">Wiadomość:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Wiadomość, która została dołączona do URI reddcoin:, która będzie przechowywana wraz z transakcją w celach informacyjnych. Uwaga: Ta wiadomość nie będzie rozsyłana w sieci Reddcoin.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Wiadomość, która została dołączona do URI maryjane:, która będzie przechowywana wraz z transakcją w celach informacyjnych. Uwaga: Ta wiadomość nie będzie rozsyłana w sieci MaryJane.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1459,12 +1459,12 @@
         <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">Podpisz wiadomość aby dowieść, że ten adres jest twój</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Reddcoin.</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem MaryJane.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

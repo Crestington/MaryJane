@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1058,7 +1058,7 @@ bool LoadMempool(CTxMemPool& pool, CChainState& active_chainstate, FopenFn mocka
  */
 const AssumeutxoData* ExpectedAssumeutxo(const int height, const CChainParams& params);
 
-// reddcoin specific functions
+// maryjane specific functions
 CAmount GetProofOfWorkReward(unsigned int nBits);
 CAmount GetProofOfStakeReward(int64_t nCoinAge, const CAmount& nFees);
 CAmount GetProofOfStakeReward(int64_t nCoinAge, const CAmount& nFees, double fInflationAdjustment);

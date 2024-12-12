@@ -391,9 +391,9 @@ mkdir -p "$DISTSRC"
                 ;;
         esac
 
-        # copy over the example reddcoin.conf file. if contrib/devtools/gen-reddcoin-conf.sh
+        # copy over the example maryjane.conf file. if contrib/devtools/gen-maryjane-conf.sh
         # has not been run before buildling, this file will be a stub
-        cp "${DISTSRC}/share/examples/reddcoin.conf" "${DISTNAME}/"
+        cp "${DISTSRC}/share/examples/maryjane.conf" "${DISTNAME}/"
 
         # Finally, deterministically produce {non-,}debug binary tarballs ready
         # for release

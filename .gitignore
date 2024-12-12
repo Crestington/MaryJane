@@ -2,17 +2,17 @@
 
 *.exe
 *.pdb
-src/reddcoin
-src/reddcoind
-src/reddcoin-cli
-src/reddcoin-gui
-src/reddcoin-node
-src/reddcoin-tx
-src/reddcoin-util
-src/reddcoin-wallet
+src/maryjane
+src/maryjaned
+src/maryjane-cli
+src/maryjane-gui
+src/maryjane-node
+src/maryjane-tx
+src/maryjane-util
+src/maryjane-wallet
 src/test/fuzz/fuzz
-src/test/test_reddcoin
-src/qt/test/test_reddcoin-qt
+src/test/test_maryjane
+src/qt/test/test_maryjane-qt
 
 # autoreconf
 Makefile.in
@@ -93,8 +93,8 @@ src/qt/bitcoin-qt.includes
 *.qm
 Makefile
 !depends/Makefile
-src/qt/reddcoin-qt
-Reddcoin-Qt.app
+src/qt/maryjane-qt
+MaryJane-Qt.app
 background.tiff*
 
 # Qt Creator
@@ -102,7 +102,7 @@ Makefile.am.user
 
 # Unit-tests
 Makefile.test
-reddcoin-qt_test
+maryjane-qt_test
 
 # Resources cpp
 qrc_*.cpp

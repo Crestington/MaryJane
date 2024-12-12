@@ -66,8 +66,8 @@
         <translation type="unfinished">Ontvangst-adressen</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Dit zijn uw Reddcoin adressen om betalingen mee te doen. Controleer altijd het bedrag en het ontvang adres voordat u uw Reddcoins verstuurt.</translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Dit zijn uw MaryJane adressen om betalingen mee te doen. Controleer altijd het bedrag en het ontvang adres voordat u uw MaryJanes verstuurt.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -152,7 +152,7 @@
         <translation type="unfinished">Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
         <translation type="unfinished">Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BITCOINS VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -276,12 +276,12 @@
         <translation>Toon algemeen overzicht van uw portemonnee</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Verstuur munten naar een Reddcoinadres</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Verstuur munten naar een MaryJaneadres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Vraag betalingen aan (genereert QR codes en reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Vraag betalingen aan (genereert QR codes en maryjane: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -308,15 +308,15 @@
         <translation>Toon informatie over Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Onderteken berichten met uw Reddcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Onderteken berichten met uw MaryJaneadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Reddcoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde MaryJaneadressen</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -639,8 +639,8 @@
         <translation type="unfinished">Kon de portemonnee niet openen.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Het opgegeven adres "%1" is een ongeldig Reddcoin adres.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Het opgegeven adres "%1" is een ongeldig MaryJane adres.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -793,12 +793,12 @@
         <translation type="unfinished">Aantal script &amp;verificatie threads</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Open de Reddcoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Open de MaryJanepoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Verbind met het Reddcoinnetwerk door middel van een SOCKS proxy.</translation>
+        <source>Connect to the MaryJane network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Verbind met het MaryJanenetwerk door middel van een SOCKS proxy.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -964,8 +964,8 @@
         <translation type="unfinished">Saldi</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het Reddcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het MaryJanenetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1002,8 +1002,8 @@
         <translation type="unfinished">Betalingsaanvraag error</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Kan reddcoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Kan maryjane niet starten: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1181,8 +1181,8 @@
         <translation type="unfinished">Een optioneel bedrag om aan te vragen. Laat dit leeg of vul 0 in om geen specifiek bedrag aan te vragen.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Een optioneel bericht om bij te sluiten bij de betalingsaanvraag, die getoond zal worden als de aanvraag geopend worden. Merk op: Het bericht wordt niet verzonden met de betaling over het Reddcoin netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Een optioneel bericht om bij te sluiten bij de betalingsaanvraag, die getoond zal worden als de aanvraag geopend worden. Merk op: Het bericht wordt niet verzonden met de betaling over het MaryJane netwerk.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1386,8 +1386,8 @@
         <translation type="unfinished">Weet u zeker dat u dit wilt verzenden?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">Waarschuwing: Ongeldig Reddcoin adres</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">Waarschuwing: Ongeldig MaryJane adres</translation>
     </message>
     <message>
         <source>or</source>
@@ -1460,8 +1460,8 @@
         <translation type="unfinished">Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Een bericht dat verbonden was aan de 'reddcoin: URI' dat als referentie opgeslagen zal worden, bij uw transactie. Dit bericht zal niet via het Reddcoin-netwerk verzonden worden.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Een bericht dat verbonden was aan de 'maryjane: URI' dat als referentie opgeslagen zal worden, bij uw transactie. Dit bericht zal niet via het MaryJane-netwerk verzonden worden.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1503,12 +1503,12 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Onderteken een bericht om te bewijzen dat u een bepaald Reddcoinadres bezit</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Onderteken een bericht om te bewijzen dat u een bepaald MaryJaneadres bezit</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Controleer een bericht om te verifiëren dat het gespecificeerde Reddcoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Controleer een bericht om te verifiëren dat het gespecificeerde MaryJaneadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

@@ -95,8 +95,8 @@
         <translation>แสดงภาพรวมทั่วไปของกระเป๋าสตางค์</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">ส่งเหรียญไปยังที่อยู่ Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">ส่งเหรียญไปยังที่อยู่ MaryJane</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -123,15 +123,15 @@
         <translation>แสดงข้อมูลเกี่ยวกับ Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">เซ็นชื่อด้วยข้อความ ที่เก็บ Reddcoin เพื่อแสดงว่าท่านเป็นเจ้าของ reddcoin นี้จริง</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">เซ็นชื่อด้วยข้อความ ที่เก็บ MaryJane เพื่อแสดงว่าท่านเป็นเจ้าของ maryjane นี้จริง</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">ตรวจสอบ ข้อความ เพื่อให้แน่ใจว่า การเซ็นต์ชื่อ ด้วยที่เก็บ Reddcoin แล้ว</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">ตรวจสอบ ข้อความ เพื่อให้แน่ใจว่า การเซ็นต์ชื่อ ด้วยที่เก็บ MaryJane แล้ว</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -333,8 +333,8 @@
         <translation>&amp;หลัก</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">เปิด Reddcoin ไคล์เอ็นท์พอร์ต/client port บน router โดยอัตโนมัติ วิธีนี้ใช้ได้เมื่อ router สนับสนุน UPnP และสถานะเปิดใช้งาน</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">เปิด MaryJane ไคล์เอ็นท์พอร์ต/client port บน router โดยอัตโนมัติ วิธีนี้ใช้ได้เมื่อ router สนับสนุน UPnP และสถานะเปิดใช้งาน</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>

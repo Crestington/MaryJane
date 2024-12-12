@@ -5,10 +5,10 @@ Release Process
 
 ### Before every release candidate
 
-* Update translations see [translation_process.md](https://github.com/reddcoin-project/reddcoin/blob/develop/doc/translation_process.md#synchronising-translations).
+* Update translations see [translation_process.md](https://github.com/maryjane-project/maryjane/blob/develop/doc/translation_process.md#synchronising-translations).
 * Update release candidate version in `configure.ac` (`CLIENT_VERSION_RC`).
-* Update manpages (after rebuilding the binaries), see [gen-manpages.py](https://github.com/reddcoin-project/reddcoin/blob/develop/contrib/devtools/README.md#gen-manpagespy).
-* Update reddcoin.conf and commit, see [gen-reddcoin-conf.sh](https://github.com/reddcoin-project/reddcoin/blob/develop/contrib/devtools/README.md#gen-reddcoin-confsh).
+* Update manpages (after rebuilding the binaries), see [gen-manpages.py](https://github.com/maryjane-project/maryjane/blob/develop/contrib/devtools/README.md#gen-manpagespy).
+* Update maryjane.conf and commit, see [gen-maryjane-conf.sh](https://github.com/maryjane-project/maryjane/blob/develop/contrib/devtools/README.md#gen-maryjane-confsh).
 
 ### Before every major and minor release
 

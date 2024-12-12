@@ -107,8 +107,8 @@
         <translation>Prikaži opšti pregled novčanika</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Pošaljite kovanice na Reddcoin adresu</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Pošaljite kovanice na MaryJane adresu</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -131,15 +131,15 @@
         <translation>Prikaži informacije o Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Potpišite poruke sa svojim Reddcoin adresama da biste dokazali da ste njihov vlasnik</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Potpišite poruke sa svojim MaryJane adresama da biste dokazali da ste njihov vlasnik</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Potvrdite poruke kako biste bili sigurni da su potpisane navedenim Reddcoin adresama</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Potvrdite poruke kako biste bili sigurni da su potpisane navedenim MaryJane adresama</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -351,8 +351,8 @@
         <translation>&amp;Glavno</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Automatski otvorite port Reddcoin klijenta na ruteru. Ovo radi samo kada vaš ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Automatski otvorite port MaryJane klijenta na ruteru. Ovo radi samo kada vaš ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -394,8 +394,8 @@
         <translation>Obrazac</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Moguće je da su prikazane informacije zastarjele.Vaš novčanik se automatski sinhronizira sa Reddcoin mrežom nakon što je konekcija uspostavljena, ali proces nije još uvijek dovršen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Moguće je da su prikazane informacije zastarjele.Vaš novčanik se automatski sinhronizira sa MaryJane mrežom nakon što je konekcija uspostavljena, ali proces nije još uvijek dovršen.</translation>
     </message>
     </context>
 <context>

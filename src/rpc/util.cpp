@@ -1,5 +1,5 @@
 // Copyright (c) 2017-2021 The Bitcoin Core developers
-// Copyright (c) 2017-2023 The Reddcoin Core developers
+// Copyright (c) 2017-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -155,12 +155,12 @@ std::string ShellQuoteIfNeeded(const std::string& s)
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> reddcoin-cli " + methodname + " " + args + "\n";
+    return "> maryjane-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleCliNamed(const std::string& methodname, const RPCArgList& args)
 {
-    std::string result = "> reddcoin-cli -named " + methodname;
+    std::string result = "> maryjane-cli -named " + methodname;
     for (const auto& argpair: args) {
         const auto& value = argpair.second.isStr()
                 ? argpair.second.get_str()

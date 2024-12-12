@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1183,7 +1183,7 @@ CAmount GetBlockValue(int nHeight, const CAmount& nFees)
         // Genesis block
         nSubsidy = 10000 * COIN;
     } else if (nHeight < 11) {
-        // Premine: First 10 block are 545,000,000 RDD (5% of the total coin)
+        // Premine: First 10 block are 545,000,000 MARYJ (5% of the total coin)
         nSubsidy = 545000000 * COIN;
     } else if (nHeight < 10000) {
         // Bonus reward for block 10-9,999 of 300,000 coins
@@ -1562,8 +1562,8 @@ int ApplyTxInUndo(Coin&& undo, CCoinsViewCache& view, const COutPoint& out)
         if (!alternate.IsSpent()) {
             undo.nHeight = alternate.nHeight;
             undo.fCoinBase = alternate.fCoinBase;
-            undo.fCoinStake = alternate.fCoinStake; // reddcoin
-            undo.nTime = alternate.nTime;           // reddcoin
+            undo.fCoinStake = alternate.fCoinStake; // maryjane
+            undo.nTime = alternate.nTime;           // maryjane
         } else {
             return DISCONNECT_FAILED; // adding output for transaction without known metadata
         }
@@ -3235,7 +3235,7 @@ bool CheckBlock(const CBlock& block, BlockValidationState& state, const Consensu
     if (fCheckPOW && fCheckMerkleRoot)
         block.fChecked = true;
 
-    // reddcoin: check block signature
+    // maryjane: check block signature
     if (block.IsProofOfStake() && !CheckBlockSignature(block)) {
         return state.Invalid(BlockValidationResult::BLOCK_CONSENSUS, "bad-blk-sign", "bad block signature");
     }

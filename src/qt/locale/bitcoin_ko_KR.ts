@@ -66,7 +66,7 @@
         <translation type="unfinished">받을 주소들</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">이 주소들이 레드코인을 보낼 주소입니다. 항상 송금할 금액과 주소를 다시 확인하고 보내십시오.</translation>
     </message>
     <message>
@@ -161,7 +161,7 @@
         <translation type="unfinished">정말로 지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
         <translation type="unfinished">경고: 지갑을 암호화한 후 암호문구를 잊어버릴 경우, 모든 레드코인이 없어집니다!</translation>
     </message>
     <message>
@@ -216,8 +216,8 @@
         <translation type="unfinished">금액</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. %1)</source>
-        <translation type="unfinished">Reddcoin 주소를 입력하십시오 (예 : %1)</translation>
+        <source>Enter a MaryJane address (e.g. %1)</source>
+        <translation type="unfinished">MaryJane 주소를 입력하십시오 (예 : %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -303,11 +303,11 @@
         <translation>지갑의 일반적인 개요를 표기합니다. </translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">레드코인 주소로 코인을 보냄</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
         <translation type="unfinished">지불 요청하기 (레드코인 주소와 QR 코드를 생성함)</translation>
     </message>
     <message>
@@ -335,15 +335,15 @@
         <translation>Qt에 대한 정보 보기</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">레드코인 주소를  소유한다는 것을 보여주기 위해 주소와 함께 서명하거나 메시지 남기기.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <translation type="unfinished">해당 레드코인 주소에 의해 서명되었다는 것을 확인하기 위해 메시지 검증하기.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -683,7 +683,7 @@
         <translation type="unfinished">지갑을 잠금해제할 수 없습니다.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
         <translation type="unfinished">입력된 주소 "%1"은 유효한 레드코인 주소가 아닙니다.</translation>
     </message>
     <message>
@@ -728,7 +728,7 @@
         <translation type="unfinished">오류: 지정한 데이터 디렉토리 "%1"을 만들 수 없습니다.</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
+        <source>MaryJane</source>
         <translation type="unfinished">레드코인</translation>
     </message>
     <message>
@@ -838,11 +838,11 @@
         <translation type="unfinished">문자 검증 스레드의 갯수</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">라우터에서 레드코인 포트를 자동으로 열기. 라우터가 UPnP를 지원할 경우에만 사용 가능합니다.</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the MaryJane network through a SOCKS5 proxy.</source>
         <translation type="unfinished">SOCKS5 프록시를 통해 레드코인 네트워크에 연결합니다.</translation>
     </message>
     <message>
@@ -1021,7 +1021,7 @@
         <translation type="unfinished">잔액</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">표시된 정보가 지난 정보일 수 있습니다. 당신의 지갑은 레드코인 네트웍과 동기화된 이후에 제대로 표시되지만. 현재 이 과정이 완료되지 않았습니다.</translation>
     </message>
     <message>
@@ -1071,12 +1071,12 @@
         <translation type="unfinished">지불 요구 에러</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
+        <source>Cannot start maryjane: click-to-pay handler</source>
         <translation type="unfinished">레드코인을 시작할 수 없습니다: 클릭-지불 핸들러를 열 수 없습니다.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI를 구문 분석할 수 없습니다! 이 문제는 잘못된 Reddcoin 주소 또는 잘못된 형식의 URI 매개 변수로 인해 발생할 수 있습니다.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid MaryJane address or malformed URI parameters.</source>
+        <translation type="unfinished">URI를 구문 분석할 수 없습니다! 이 문제는 잘못된 MaryJane 주소 또는 잘못된 형식의 URI 매개 변수로 인해 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1333,7 +1333,7 @@
         <translation type="unfinished">요청하고자 하는 선택 금액. 특정한 양을 요구하는 것이 아니면 빈칸이나 0으로 표시하세요.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
         <translation type="unfinished">지불이 요청이 열리면 표시될 첨부된 옵션 메시지. 참고: 이 메시지는 레드코인 네트웍에 보내지지 않습니다.</translation>
     </message>
     <message>
@@ -1558,8 +1558,8 @@
         <translation type="unfinished">정말 송금하시기 원하십니까?</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation type="unfinished">경고 : 유효하지 않은 Reddcoin 주소</translation>
+        <source>Warning: Invalid MaryJane address</source>
+        <translation type="unfinished">경고 : 유효하지 않은 MaryJane 주소</translation>
     </message>
     <message>
         <source>or</source>
@@ -1615,7 +1615,7 @@
         <translation>~에 지불하다.</translation>
     </message>
     <message>
-        <source>The Reddcoin address to send the payment to</source>
+        <source>The MaryJane address to send the payment to</source>
         <translation type="unfinished">결제를 할 레드코인 주소입니다.</translation>
     </message>
     <message>
@@ -1639,7 +1639,7 @@
         <translation type="unfinished">메시지</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
         <translation type="unfinished">거래와 함께 저장되고 레드코인 URI에 첨부될 참조용 메시지 메시지. 참고: 이 메시지는 레드코인 네트워크로 보내지지 않습니다.</translation>
     </message>
     <message>
@@ -1666,7 +1666,7 @@
         <translation>&amp;메시지 서명하기</translation>
     </message>
     <message>
-        <source>The Reddcoin address to sign the message with</source>
+        <source>The MaryJane address to sign the message with</source>
         <translation type="unfinished">메시지에 서명할 레드코인 주소</translation>
     </message>
     <message>
@@ -1690,15 +1690,15 @@
         <translation>서명을 시스템의 클립보드로 복사함</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">당신이 이 레드코인 주소를 소유함을 증명하기 위해 서명하세요.</translation>
     </message>
     <message>
-        <source>The Reddcoin address the message was signed with</source>
+        <source>The MaryJane address the message was signed with</source>
         <translation type="unfinished">메시지가 서명된 레드코인 주소입니다.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished">메시지가 해당 주소로 서명된 것을 확신하기 위해 검증하세요.</translation>
     </message>
     <message>

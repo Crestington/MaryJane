@@ -49,14 +49,14 @@ static bool WalletAppInit(ArgsManager& args, int argc, char* argv[])
         return false;
     }
     if (argc < 2 || HelpRequested(args) || args.IsArgSet("-version")) {
-        std::string strUsage = strprintf("%s reddcoin-wallet version", PACKAGE_NAME) + " " + FormatFullVersion() + "\n";
+        std::string strUsage = strprintf("%s maryjane-wallet version", PACKAGE_NAME) + " " + FormatFullVersion() + "\n";
         if (!args.IsArgSet("-version")) {
             strUsage += "\n"
-                        "reddcoin-wallet is an offline tool for creating and interacting with " PACKAGE_NAME " wallet files.\n"
-                        "By default reddcoin-wallet will act on wallets in the default mainnet wallet directory in the datadir.\n"
+                        "maryjane-wallet is an offline tool for creating and interacting with " PACKAGE_NAME " wallet files.\n"
+                        "By default maryjane-wallet will act on wallets in the default mainnet wallet directory in the datadir.\n"
                         "To change the target wallet, use the -datadir, -wallet and -testnet/-regtest arguments.\n\n"
                         "Usage:\n"
-                        "  reddcoin-wallet [options] <command>\n";
+                        "  maryjane-wallet [options] <command>\n";
             strUsage += "\n" + args.GetHelpMessage();
         }
         tfm::format(std::cout, "%s", strUsage);
@@ -97,7 +97,7 @@ int main(int argc, char* argv[])
 
     const auto command = args.GetCommand();
     if (!command) {
-        tfm::format(std::cerr, "No method provided. Run `reddcoin-wallet -help` for valid methods.\n");
+        tfm::format(std::cerr, "No method provided. Run `maryjane-wallet -help` for valid methods.\n");
         return EXIT_FAILURE;
     }
     if (command->args.size() != 0) {

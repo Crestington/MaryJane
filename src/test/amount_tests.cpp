@@ -1,5 +1,5 @@
 // Copyright (c) 2016-2020 The Bitcoin Core developers
-// Copyright (c) 2016-2023 The Reddcoin Core developers
+// Copyright (c) 2016-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -92,8 +92,8 @@ BOOST_AUTO_TEST_CASE(SizeLimitTest)
 {
     // Maximum size in bytes, should not crash
     BOOST_CHECK(CFeeRate(MAX_MONEY, std::numeric_limits<uint32_t>::max()) == CFeeRate(2147483648487));
-    BOOST_CHECK_EQUAL(CFeeRate(MAX_MONEY, std::numeric_limits<uint32_t>::max()).ToString() , "21474.83648487 RDD/kvB");
-    BOOST_CHECK_EQUAL(CFeeRate(MAX_MONEY, std::numeric_limits<uint32_t>::max()).ToString(FeeEstimateMode::BTC_KVB) , "21474.83648487 RDD/kvB");
+    BOOST_CHECK_EQUAL(CFeeRate(MAX_MONEY, std::numeric_limits<uint32_t>::max()).ToString() , "21474.83648487 MARYJ/kvB");
+    BOOST_CHECK_EQUAL(CFeeRate(MAX_MONEY, std::numeric_limits<uint32_t>::max()).ToString(FeeEstimateMode::BTC_KVB) , "21474.83648487 MARYJ/kvB");
     BOOST_CHECK_EQUAL(CFeeRate(MAX_MONEY, std::numeric_limits<uint32_t>::max()).ToString(FeeEstimateMode::SAT_VB) , "2147483648.487 sat/vB");
 }
 
@@ -118,8 +118,8 @@ BOOST_AUTO_TEST_CASE(ToStringTest)
 {
     CFeeRate feeRate;
     feeRate = CFeeRate(1);
-    BOOST_CHECK_EQUAL(feeRate.ToString(), "0.00000001 RDD/kvB");
-    BOOST_CHECK_EQUAL(feeRate.ToString(FeeEstimateMode::BTC_KVB), "0.00000001 RDD/kvB");
+    BOOST_CHECK_EQUAL(feeRate.ToString(), "0.00000001 MARYJ/kvB");
+    BOOST_CHECK_EQUAL(feeRate.ToString(FeeEstimateMode::BTC_KVB), "0.00000001 MARYJ/kvB");
     BOOST_CHECK_EQUAL(feeRate.ToString(FeeEstimateMode::SAT_VB), "0.001 sat/vB");
 }
 

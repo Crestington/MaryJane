@@ -1,58 +1,58 @@
 4.22.5 Release Notes
 ==================
 
-Reddcoin Core version 4.22.5 is now available from:
+MaryJane Core version 4.22.5 is now available from:
 
-[https://download.reddcoin.com/bin/reddcoin-core-4.22.5/](https://download.reddcoin.com/bin/reddcoin-core-4.22.5/)
+[https://download.maryjane.com/bin/maryjane-core-4.22.5/](https://download.maryjane.com/bin/maryjane-core-4.22.5/)
 
 This release includes new features, various bug fixes and performance
 improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-[Reddcoin Github Issues](https://github.com/reddcoin-project/reddcoin/issues)
+[MaryJane Github Issues](https://github.com/maryjane-project/maryjane/issues)
 
 To receive security and update notifications, please subscribe to:
 
-[Reddcoin Discord Channel](https://discord.com/channels/314599721039691776/610562116688281611)
+[MaryJane Discord Channel](https://discord.com/channels/314599721039691776/610562116688281611)
 
 How to Upgrade
 ==============
 
-Upgrading from earlier versions of Reddcoin Core also runs the risk of losing coins. **PLEASE CREATE BACKUPS**.
+Upgrading from earlier versions of MaryJane Core also runs the risk of losing coins. **PLEASE CREATE BACKUPS**.
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes in some cases), then run the
-installer (on Windows) or just copy over `/Applications/Reddcoin-Qt` (on Mac)
-or `reddcoind`/`reddcoin-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/MaryJane-Qt` (on Mac)
+or `maryjaned`/`maryjane-qt` (on Linux).
 
-Upgrading directly from a version of Reddcoin Core that has reached its EOL is
+Upgrading directly from a version of MaryJane Core that has reached its EOL is
 possible, but it might take some time if the data directory needs to be migrated. Old
-wallet versions of Reddcoin Core are generally supported.
+wallet versions of MaryJane Core are generally supported.
 
 Compatibility
 ==============
 
-Reddcoin Core is supported and extensively tested on operating systems
-using the Linux kernel, macOS 10.14+, and Windows 7 and newer.  Reddcoin
+MaryJane Core is supported and extensively tested on operating systems
+using the Linux kernel, macOS 10.14+, and Windows 7 and newer.  MaryJane
 Core should also work on most other Unix-like systems but is not as
-frequently tested on them.  It is not recommended to use Reddcoin Core on
+frequently tested on them.  It is not recommended to use MaryJane Core on
 unsupported systems.
 
-From Reddcoin Core 4.22.0 onwards, macOS versions earlier than 10.14 are no longer supported.
+From MaryJane Core 4.22.0 onwards, macOS versions earlier than 10.14 are no longer supported.
 
 Notable changes
 ===============
 
 P2P and network changes
 -----------------------
-- Added support for running Reddcoin Core as an
+- Added support for running MaryJane Core as an
   [I2P (Invisible Internet Project)](https://en.wikipedia.org/wiki/I2P) service
-  and connect to such services. See [i2p.md](https://github.com/reddcoin-project/reddcoin/blob/22.x/doc/i2p.md) for details. (#20685)
+  and connect to such services. See [i2p.md](https://github.com/maryjane-project/maryjane/blob/22.x/doc/i2p.md) for details. (#20685)
 - This release removes support for Tor version 2 hidden services in favor of Tor
   v3 only, as the Tor network [dropped support for Tor
   v2](https://blog.torproject.org/v2-deprecation-timeline) with the release of
-  Tor version 0.4.6.  Henceforth, Reddcoin Core ignores Tor v2 addresses; it
+  Tor version 0.4.6.  Henceforth, MaryJane Core ignores Tor v2 addresses; it
   neither rumors them over the network to other peers, nor stores them in memory
   or to `peers.dat`.  (#22050)
 
@@ -111,7 +111,7 @@ New and Updated RPCs
   of `decodescript` these fields are top-level attributes, and included again as attributes
   of the `scriptPubKey` object. (#20286)
 
-- When creating a hex-encoded reddcoin transaction using the `reddcoin-tx` utility
+- When creating a hex-encoded maryjane transaction using the `maryjane-tx` utility
   with the `-json` option set, the following fields: `addresses`, `reqSigs` are no longer
   returned in the tx output of the response. (#20286)
 
@@ -155,7 +155,7 @@ Build System
 
 - Release binaries are now produced using the new `guix`-based build system.
   The [/doc/release-process.md](/doc/release-process.md) document has been updated accordingly.
-- OpenSSL continues to be used by Reddcoin Core for external calls to https (Specifically https://api.github.com).
+- OpenSSL continues to be used by MaryJane Core for external calls to https (Specifically https://api.github.com).
 
 Files
 -----
@@ -163,7 +163,7 @@ Files
 - The list of banned hosts and networks (via `setban` RPC) is now saved on disk
   in JSON format in `banlist.json` instead of `banlist.dat`. `banlist.dat` is
   only read on startup if `banlist.json` is not present. Changes are only written to the new
-  `banlist.json`. A future version of Reddcoin Core may completely ignore
+  `banlist.json`. A future version of MaryJane Core may completely ignore
   `banlist.dat`. (#20966)
 
 New settings
@@ -181,7 +181,7 @@ Updated settings
 
 Changes to Wallet or GUI related settings can be found in the GUI or Wallet section below.
 
-- Passing an invalid `-rpcauth` argument now cause reddcoind to fail to start.  (#20461)
+- Passing an invalid `-rpcauth` argument now cause maryjaned to fail to start.  (#20461)
 
 Tools and Utilities
 -------------------
@@ -189,12 +189,12 @@ Tools and Utilities
 - A new CLI `-addrinfo` command returns the number of addresses known to the
   node per network type (including Tor v2 versus v3) and total. This can be
   useful to see if the node knows enough addresses in a network to use options
-  like `-onlynet=<network>` or to upgrade to this release of Reddcoin Core 22.0
+  like `-onlynet=<network>` or to upgrade to this release of MaryJane Core 22.0
   that supports Tor v3 only.  (#21595)
 
-- A new `-rpcwaittimeout` argument to `reddcoin-cli` sets the timeout
+- A new `-rpcwaittimeout` argument to `maryjane-cli` sets the timeout
   in seconds to use with `-rpcwait`. If the timeout expires,
-  `reddcoin-cli` will report a failure. (#21056)
+  `maryjane-cli` will report a failure. (#21056)
 
 Wallet
 ------
@@ -217,7 +217,7 @@ m / purpose' / coin_type' / account' / change / address_index
 - Support for multilanguage in mnemonic creation. bip39 includes support for multiple languages when creating the Mnemonic sentence within the GUI
 Languages include [English (default), chinese_simplified, chinese_traditional, french, italian, japanese, korean, spanish]
 
-- External signers such as hardware wallets can now be used through the new RPC methods `enumeratesigners` and `displayaddress`. Support is also added to the `send` RPC call. This feature is experimental. See [external-signer.md](https://github.com/reddcoin-project/reddcoin/blob/22.x/doc/external-signer.md) for details. (#16546)
+- External signers such as hardware wallets can now be used through the new RPC methods `enumeratesigners` and `displayaddress`. Support is also added to the `send` RPC call. This feature is experimental. See [external-signer.md](https://github.com/maryjane-project/maryjane/blob/22.x/doc/external-signer.md) for details. (#16546)
 
 - A new `listdescriptors` RPC is available to inspect the contents of descriptor-enabled wallets.
   The RPC returns public versions of all imported descriptors, including their timestamp and flags.
@@ -234,7 +234,7 @@ Languages include [English (default), chinese_simplified, chinese_traditional, f
 - We now support up to 20 keys in `multi()` and `sortedmulti()` descriptors
   under `wsh()`. (#20867)
 
-- Taproot descriptors can be imported into the wallet only after activation has occurred on the network (e.g. mainnet, testnet, signet) in use. See [descriptors.md](https://github.com/reddcoin-project/reddcoin-0.22/blob/22.x/doc/descriptors.md) for supported descriptors.
+- Taproot descriptors can be imported into the wallet only after activation has occurred on the network (e.g. mainnet, testnet, signet) in use. See [descriptors.md](https://github.com/maryjane-project/maryjane-0.22/blob/22.x/doc/descriptors.md) for supported descriptors.
 
 GUI changes
 -----------
@@ -257,7 +257,7 @@ GUI changes
 
 - A new `Check for Software Updates` menu item. Help -> Check for Software Updates. Can be used to determine if there is a later version available.
 
-- A new `Open Social Websites` menu item. Help -> Open Social Websites. Providing a quick access to `reddcoin.com` ,`redd.love`, `Reddcoin Wiki`,  `Discord Chatroom`, `reddcointalk.org`.
+- A new `Open Social Websites` menu item. Help -> Open Social Websites. Providing a quick access to `maryjane.com` ,`redd.love`, `MaryJane Wiki`,  `Discord Chatroom`, `maryjanetalk.org`.
 
 - A new `Staking` menu item. Window -> Staking. Providing further information on staking.
 
@@ -300,13 +300,13 @@ Tests
 
 A detailed list of changes in this version follows. To keep the list to a manageable length, small refactors and typo fixes are not included, and similar changes are sometimes condensed into one line.
 
-### Reddcoin commit history 4.22.5
+### MaryJane commit history 4.22.5
  - #ea7450023 qt: check for model before invalidating (John Nash)
  - #67c2e5665 add missing LOCK (John Nash)
  - #e7ceb99e2 move the notification to reduce the frequency of messages (John Nash)
- - #900f593ce tests: output new values for reddcoin (John Nash)
+ - #900f593ce tests: output new values for maryjane (John Nash)
  - #47ce054b2 contrib: testgen: avoid need for manually setting PYTHONPATH (John Nash)
- - #bb7ca58b3 use reddcoin parameters (John Nash)
+ - #bb7ca58b3 use maryjane parameters (John Nash)
  - #1df6bd8ce Add and bump copyright year (John Nash)
  - #895176f7c updated translations (John Nash)
  - #a45aa6f8b consensus: remove unused variable 'params' (John Nash)
@@ -319,10 +319,10 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #76d3ae916 add to node context (John Nash)
  - #b816e8824 create CStakeman Manager (John Nash)
  
-### Reddcoin commit history 4.22.5rc3
+### MaryJane commit history 4.22.5rc3
  - #917f7967c Update assumed chain params (John Nash)
  - #b84208b11 qt: 4.22.5 translations update (John Nash)
- - #0e8878ce3 docs: update reddcoin configuration (John Nash)
+ - #0e8878ce3 docs: update maryjane configuration (John Nash)
  - #3a674b578 docs: update manpages (John Nash)
  - #fbdb5ddd0 translation update (John Nash)
  - #7d6b2aa37 staking: reset the lastcoinstakesearchinterval when staking is stopped (John Nash)
@@ -332,7 +332,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #b15b938c0 net: Hardcoded seeds update for 4.22 (John Nash)
  - #d1b969841 contrib: update main and testnet nodes (John Nash)
  - #90b7a63bf contrib: reduce uptime percentage to 40% (John Nash)
- - #697e14fcf contrib: branding and configuration for reddcoin (John Nash)
+ - #697e14fcf contrib: branding and configuration for maryjane (John Nash)
  - #6ba67b346 build: add missing resource files to Makefile (John Nash)
  - #173182d3a build: fix compiler warning for unused variable (John Nash)
  - #0676855de qt: expand the definition of coinday (John Nash)
@@ -357,21 +357,21 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #449585519 branding: update error message (John Nash)
  - #98bcdb6e7 qt: update the blockchain start year (John Nash)
  
-### Reddcoin commit history 4.22.5rc2
+### MaryJane commit history 4.22.5rc2
  - #1898fa09c doc: Update release notes (John Nash)
  - #905d03009 doc: update source url in github links (John Nash)
- - #c53b713ea doc: generate example reddcoin.conf for v4.22.5rc2 (John Nash)
+ - #c53b713ea doc: generate example maryjane.conf for v4.22.5rc2 (John Nash)
  - #f0a9380cf doc: Update manual pages for 4.22.2rc2 (John Nash)
  - #43a146324 build: Bump version to 4.22.5rc2 (John Nash)
  - #c9155f9c1 build: update copyright year 2023 (John Nash)
  - #8abeb73e4 qt: update transifex configuration slug (John Nash)
  - #a0d34e94d doc: update init.cpp -conf help text (josibake)
  - #5427a5f78 doc: update devtools, release-process readmes (josibake)
- - #22dd09efe build: include reddcoin.conf in build outputs (josibake)
- - #40a011e57 doc: update reddcoin-conf.md (Josiah Baker)
- - #22efbe113 script: add script to generate example reddcoin.conf (josibake)
- - #21eb04349 doc: replace reddcoin.conf with placeholder file (josibake)
- - #c2cd0d1fd update gen-manpages to support reddcoin (John Nash)
+ - #22dd09efe build: include maryjane.conf in build outputs (josibake)
+ - #40a011e57 doc: update maryjane-conf.md (Josiah Baker)
+ - #22efbe113 script: add script to generate example maryjane.conf (josibake)
+ - #21eb04349 doc: replace maryjane.conf with placeholder file (josibake)
+ - #c2cd0d1fd update gen-manpages to support maryjane (John Nash)
  - #a344a87f0 Updated stats for blockchain transactions (John Nash)
  - #f45aa527c qt: display a warning on GUI if unable to stake (John Nash)
  - #4cef3789b update versionbit timeouts for the following versionbits (John Nash)
@@ -404,7 +404,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #28c1ef4f6 scripted-diff: Bump copyright headers (John Nash)
  - #25235ad0d scripted-diff: Bump copyright headers (John Nash)
  - #ece5204fe add missing copyright headers (John Nash)
- - #023170acc script: update copyright_header for reddcoin (John Nash)
+ - #023170acc script: update copyright_header for maryjane (John Nash)
  - #1521f69ee qt: rework checkupdate to display a statusbar label (John Nash)
  - #39f49907f use semver for version formatting and checking (John Nash)
  - #36e8d1241 remove create wallet from menu (John Nash)
@@ -413,7 +413,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #a4b24512f change wording to reflect the usage (John Nash)
  - #34fd106b4 add page initialisation (John Nash)
  - #4be22e746 import masterkey (John Nash)
- - #7de69ca01 update reddcoin-node (John Nash)
+ - #7de69ca01 update maryjane-node (John Nash)
  - #fd2d753b4 update branding in rpc calls (John Nash)
  - #c31d21e8d add -stakenotify (John Nash)
  - #187b86d7f fix gettransaction rpc (John Nash)
@@ -422,7 +422,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #5e4955352 use seconds (John Nash)
  - #c8d415e1b fix kernal record probability display (John Nash)
  - #1b4a8a1af Split stake when threshold reached (John Nash)
- - #0704861c0 Use the correct parameters for Reddcoin during stake splitting and combining (John Nash)
+ - #0704861c0 Use the correct parameters for MaryJane during stake splitting and combining (John Nash)
  - #a9d0d25de Do not start staking thread if private keys are disabled (lateminer)
  - #aa9f8add5 Avoid getting into infinite loops in staking thread (lateminer)
  - #3d402b78f Check if a wallet is loaded before working with stake thread (lateminer)
@@ -434,7 +434,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #aa9a48031 add missing cli arguments and documentation (John Nash)
  - #9a30eae8b [consensus] remove deployments that have not been buried (John Nash)
  - #708b5cb60 fix comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> (John Nash)
- - #efaa753b4 update test for Reddcoin values (John Nash)
+ - #efaa753b4 update test for MaryJane values (John Nash)
  - #183075656 depends: add windres (John Nash)
  - #b1472d393 depends: update openssl 1.1.1s (John Nash)
  - #b6fded8ea depends: update qt 5.12 url to archive location (BlackcoinDev)
@@ -447,9 +447,9 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #9a41910c3 add missing resources to makefile and update resource order (John Nash)
  - #269ee1a25 comment out unused variables (John Nash)
  - #3ecccdca8 make the signness of integers equivalent (John Nash)
- - #c8353d219 update for reddcoin (John Nash)
+ - #c8353d219 update for maryjane (John Nash)
  - #85b24dd07 [branding] update github templates (John Nash)
- - #e9da8b2fc [CI] enable CI for reddcoin (John Nash)
+ - #e9da8b2fc [CI] enable CI for maryjane (John Nash)
  - #915fc643b [build] include header for disktxpos and remove class declaration (John Nash)
  - #d57ce8388 [build] add missing headers (John Nash)
  - #0526e0001 use correct cli argument (John Nash)
@@ -478,7 +478,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #db0ec5795 split getstakeweight function between wallet and node (John Nash)
  - #20144c795 move nLastCoinStakeSearchInterval (John Nash)
  - #6e86fd605 add fallbackfee if smartfee has not initialised (John Nash)
- - #f520f8b78 adjust fees to better align with reddcoin (John Nash)
+ - #f520f8b78 adjust fees to better align with maryjane (John Nash)
  - #55f315a42 Add support multilanguage tests (John Nash)
  - #9d79c8886 Add support multilanguage (John Nash)
  - #b31c6c1f5 bip44: addresses should not be hardened test for path correctness (John Nash)
@@ -525,7 +525,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #3210c0773 doc: Add 23061 release notes (MarcoFalke)
  - #6c37a435a Fix (inverse) meaning of -persistmempool (MarcoFalke)
  - #4466956cf build: Restrict check for CRC32C intrinsic to aarch64 (W. J. van der Laan)
- - #4cd5e748f refactor rpc commands for reddcoin (John Nash)
+ - #4cd5e748f refactor rpc commands for maryjane (John Nash)
  - #0a43aac1f move social channels to submenu (John Nash)
  - #9bc363eb2 include Wiki social channel (John Nash)
  - #863d77526 add social channels to the UI help menu (John Nash)
@@ -543,14 +543,14 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #1223dbebc [Consensus] bury bip66 testnet (John Nash)
  - #e8df17920 [Consensus] Un-bury segwit deployment (John Nash)
  - #0231434ff [Consensus] Un-bury CSV deployment (John Nash)
- - #bbb8d8bce set reddcoin COINBASE_MATURITY 50 blocks (John Nash)
+ - #bbb8d8bce set maryjane COINBASE_MATURITY 50 blocks (John Nash)
  - #6f0491c25 set LEGACY addresses as default during initial testing (John Nash)
  - #ddca4b32e prevent coinstake from entering mempool (barrystyle)
  - #ef5e4c98c avoid deadlock with miner.cpp; cs_main is held through wallet init, additionally reduce the sleep periods as this holds up the shutdown process. (barrystyle)
  - #5a560b684 remove unnecessary includes for pos/stake.cpp (barrystyle)
  - #167e4c032 update transaction page with POS information (John Nash)
  - #9a8a9d984 make logging optional (John Nash)
- - #600058a04 set DEFAULT_MAX_TIP_AGE to reddcoin tip age (John Nash)
+ - #600058a04 set DEFAULT_MAX_TIP_AGE to maryjane tip age (John Nash)
  - #4386443f2 move some logging into defined categories (John Nash)
  - #755aa3dcf add POS and STAKE logging categories (John Nash)
  - #40341fa8b add interface message if staking during IBD (John Nash)
@@ -563,7 +563,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #c8e86efa2 translations: refresh translation strings after rebrand (John Nash)
  - #cab12f0ee Provide an isolated environment for alpha testing (John Nash)
  - #9ce5728bc update release notes (John Nash)
- - #35ce64203 Update README.md (TechAdeptRDD)
+ - #35ce64203 Update README.md (TechAdeptMARYJ)
  - #424f2becd update transifex config (John Nash)
  - #403b19077 rebrand; update strings for translation (John Nash)
  - #28a0ff3d1 rebrand: continued (John Nash)
@@ -574,7 +574,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #f523fd371 doc: add OpenSSL addition to release-notes.md (John Nash)
  - #1916f8c72 doc: add OpenSSL to build instructions and licensing info (John Nash)
  - #4379d0785 checkupdate when starting wallet (John Nash)
- - #ed6112d4d Added 'Check for updates' feature:   * GUI - Help > Check for software updates   * console - checkupdates   * cli - ./reddcoin-cli checkupdates (John Nash)
+ - #ed6112d4d Added 'Check for updates' feature:   * GUI - Help > Check for software updates   * console - checkupdates   * cli - ./maryjane-cli checkupdates (John Nash)
  - #6d9df8356 build: add OpenSSL [ssl] detection and libs (John Nash)
  - #f29a4101a build: add OpenSSL [crypto] detection and libs (John Nash)
  - #0bed17cb6 depends: add OpenSSL package (John Nash)
@@ -590,7 +590,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #83e974a4f fix macdeploy (John Nash)
  - #64ac5dac8 update .gitignore (John Nash)
  - #5b0f2798c guix: ignore additional failing certvalidator test (John Nash)
- - #3e74ddd03 rebrand codebase via autoconf to become reddcoin (John Nash)
+ - #3e74ddd03 rebrand codebase via autoconf to become maryjane (John Nash)
  - #16e776e6e remove consensus build for mingw32 while itis not working (John Nash)
  - #5fe43a984 update locking for staking thread (John Nash)
  - #364e6fe26 pass the commandline switch to the staking method (John Nash)
@@ -604,7 +604,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #d06a3d2c1 prevent segfault if wallet has not been initialized yet (barrystyle)
  - #35a100847 ensure pow end has been tested for (barrystyle)
  - #b1c017fe9 allow staking thread to exit cleanly on shutdown (barrystyle)
- - #fa531045b match the consensus flow of the legacy reddcoin client (barrystyle)
+ - #fa531045b match the consensus flow of the legacy maryjane client (barrystyle)
  - #0475f141a fix order so that correct dev address is selected during create stake (John Nash)
  - #4851484f4 pass correct parameter to checkstakekernelhash (barrystyle)
  - #64d041056 assign value to nCoinAge (John Nash)
@@ -616,14 +616,14 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #a7f059337 trial new testnet staking (barrystyle)
  - #d542b5613 implement minting probability tab (barrystyle)
  - #d610c4416 implement the existing legacy testnet chain (barrystyle)
- - #2776efa2f clean up the reddcoin staking kernel (barrystyle)
+ - #2776efa2f clean up the maryjane staking kernel (barrystyle)
  - #c11cbae6d implement stakemodifier cache (barrystyle)
  - #05583bda6 correctly journal stake data for block undo and recovery on startup (barrystyle)
  - #1e48ea2e2 allow more blocks per transfer whilst being strict on stallers (barrystyle)
  - #6b86348cd rebrand references in executable resource files (barrystyle)
  - #624b2a1cc rebrand codebase major gui strings (barrystyle)
  - #3cc85dd00 rebrand codebase config/data directory usage (barrystyle)
- - #68deffcf7 rebrand codebase via autoconf to become reddcoin (barrystyle)
+ - #68deffcf7 rebrand codebase via autoconf to become maryjane (barrystyle)
  - #0330ccf64 cache the hash for a given blockindex (barrystyle)
  - #f59923ba3 correct stake modifier calculation when done by blockindex (barrystyle)
  - #51950ebec correct function calls in tests/ due to changes in declaration (barrystyle)
@@ -631,14 +631,14 @@ A detailed list of changes in this version follows. To keep the list to a manage
  - #4359b0cdc add block staking components (barrystyle)
  - #b23c03f1a add block signing components (barrystyle)
  - #6d1b826dd store hashproof in block index, display pos data in block index json output (barrystyle)
- - #80b9c562c Migrate reddcoin basic consensus functions/posv2 over bitcoin 22.x; including several fixes from reddink (redd@redd.ink). (barrystyle)
+ - #80b9c562c Migrate maryjane basic consensus functions/posv2 over bitcoin 22.x; including several fixes from reddink (redd@redd.ink). (barrystyle)
  
-### Reddcoin Credits
+### MaryJane Credits
 - barrystyle
 - BlackcoinDev
 - John Nash
 - lateminer
-- TechAdeptRDD
+- TechAdeptMARYJ
  
 ### Consensus
 - bitcoin/bitcoin#19438 Introduce deploymentstatus (ajtowns)
@@ -1567,7 +1567,7 @@ Thanks to everyone who directly contributed to this release:
 - Suhas Daftuar
 - Sylvain Goumy
 - t-bast
-- TechAdeptRDD
+- TechAdeptMARYJ
 - Troy Giorshev
 - Tushar Singla
 - Tyler Chambers
@@ -1584,4 +1584,4 @@ Thanks to everyone who directly contributed to this release:
 - Zero
 
 As well as to everyone that helped with translations on
-[Transifex](https://www.transifex.com/reddcoin/reddcoin/).
+[Transifex](https://www.transifex.com/maryjane/maryjane/).

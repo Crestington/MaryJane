@@ -144,8 +144,8 @@
         <translation type="unfinished">Haluatko varmasti salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI REDDCOINISI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI MARYJANEISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -272,12 +272,12 @@
         <translation>Lompakon tilanteen yleiskatsaus</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Lähetä kolikoita Reddcoin-osoitteeseen</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Lähetä kolikoita MaryJane-osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Pyydä maksuja (generoi QR-koodit ja reddcoin: -URIt)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Pyydä maksuja (generoi QR-koodit ja maryjane: -URIt)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -304,15 +304,15 @@
         <translation>Näytä tietoja Qt:ta</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Allekirjoita viestisi omalla Reddcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Allekirjoita viestisi omalla MaryJane -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Varmista, että viestisi on allekirjoitettu määritetyllä Reddcoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Varmista, että viestisi on allekirjoitettu määritetyllä MaryJane -osoitteella</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -341,7 +341,7 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Reddcoin-ikkuna</translation>
+        <translation>Näytä tai piilota MaryJane-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
@@ -611,8 +611,8 @@
         <translation type="unfinished">Lompakkoa ei voitu avata.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Antamasi osoite "%1" ei ole validi Reddcoin-osoite.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Antamasi osoite "%1" ei ole validi MaryJane-osoite.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -738,8 +738,8 @@
         <translation>&amp;Yleiset</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Avaa Reddcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Avaa MaryJane-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -807,11 +807,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona reddcoin-määrät näytetään</translation>
+        <translation>Yksikkö jona maryjane-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti reddcoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti maryjane-määrien näyttämiseen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -877,8 +877,8 @@
         <translation>Louhittu saldo, joka ei ole vielä kypsynyt</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Reddcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu MaryJane-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -886,7 +886,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Reddcoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien MaryJaneien määrä</translation>
     </message>
     </context>
 <context>
@@ -1228,11 +1228,11 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation type="unfinished">Hyväksy Reddcoinien lähettäminen</translation>
+        <translation type="unfinished">Hyväksy MaryJaneien lähettäminen</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation type="unfinished">Maksettavan summan tulee olla suurempi kuin 0 Reddcoinia.</translation>
+        <translation type="unfinished">Maksettavan summan tulee olla suurempi kuin 0 MaryJaneia.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
@@ -1304,12 +1304,12 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Allekirjoita viesti todistaaksesi, että omistat tämän Reddcoin-osoitteen</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Allekirjoita viesti todistaaksesi, että omistat tämän MaryJane-osoitteen</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Reddcoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä MaryJane-osoitteella</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

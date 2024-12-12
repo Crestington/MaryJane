@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2018 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -31,7 +31,7 @@ public:
                 id processInfo = [NSProcessInfo processInfo];
                 if ([processInfo respondsToSelector:@selector(beginActivityWithOptions:reason:)])
                 {
-                    activityId = [processInfo beginActivityWithOptions: activityOptions reason:@"Temporarily disable App Nap for reddcoin-qt."];
+                    activityId = [processInfo beginActivityWithOptions: activityOptions reason:@"Temporarily disable App Nap for maryjane-qt."];
                     [activityId retain];
                 }
             }

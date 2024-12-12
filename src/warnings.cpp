@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -44,7 +44,7 @@ bilingual_str GetWarnings(bool verbose)
         warnings_verbose.emplace_back(warnings_concise);
     }
 
-    // reddcoin: wallet warnings for staking
+    // maryjane: wallet warnings for staking
     if (strMintWarning != "")
     {
         warnings_concise = Untranslated(strMintWarning);

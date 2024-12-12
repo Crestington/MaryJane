@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Reddcoin-Qt</string>
+  <string>MaryJane-Qt</string>
 
   <key>CFBundleName</key>
-  <string>Reddcoin-Qt</string>
+  <string>MaryJane-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>com.reddcoin.Reddcoin-Qt</string>
+  <string>com.maryjane.MaryJane-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.reddcoin.ReddcoinPayment</string>
+      <string>org.maryjane.MaryJanePayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>reddcoin</string>
+        <string>maryjane</string>
       </array>
     </dict>
   </array>

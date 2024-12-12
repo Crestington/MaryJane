@@ -62,8 +62,8 @@
         <translation type="unfinished">Mótaka reiknisnúmer </translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Þetta eru þín Reddcoin reikningsnúmerin til að senda greiðslur með.Athugaðu alltaf upphæðina sem á að senda og reikningsnúmer viðtakanda áður en myntin er send. </translation>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Þetta eru þín MaryJane reikningsnúmerin til að senda greiðslur með.Athugaðu alltaf upphæðina sem á að senda og reikningsnúmer viðtakanda áður en myntin er send. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -152,8 +152,8 @@
         <translation type="unfinished">Ertu viss um að þú viljir dulkóða veskið þitt ? </translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Viðvörun: Ef þú dulkóða veskið þitt og tapar lykilorð þínu, munt þú &lt;b&gt; TAPAR ÞÚ ÖLLUM REDDCOINS SEM ÞÚ ÁTT &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
+        <translation type="unfinished">Viðvörun: Ef þú dulkóða veskið þitt og tapar lykilorð þínu, munt þú &lt;b&gt; TAPAR ÞÚ ÖLLUM MARYJANE SEM ÞÚ ÁTT &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -264,12 +264,12 @@
         <translation>Sýna almennt yfirlit af veski</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Senda mynt í Reddcoin færslugildi</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Senda mynt í MaryJane færslugildi</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation type="unfinished">Fara fram á greiðslu (Býr til QR kóða og reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
+        <translation type="unfinished">Fara fram á greiðslu (Býr til QR kóða og maryjane: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -296,15 +296,15 @@
         <translation>Sýna upplýsingar um Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Kvitta undir skilaboð með Reddcoin færslugildunum þínum til að sanna að þú eigir þau</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Kvitta undir skilaboð með MaryJane færslugildunum þínum til að sanna að þú eigir þau</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Yfirfara skilaboð til að tryggja að kvittað hafi verið fyrir þau með tilteknum Reddcoin færslugildum</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Yfirfara skilaboð til að tryggja að kvittað hafi verið fyrir þau með tilteknum MaryJane færslugildum</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -611,8 +611,8 @@
         <translation type="unfinished">Gat ekki opnað veski .</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation type="unfinished">Inn slegið reikningsnúmer ''%1'' er ekki gilt Reddcoin reiknisnúmer.</translation>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
+        <translation type="unfinished">Inn slegið reikningsnúmer ''%1'' er ekki gilt MaryJane reiknisnúmer.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -757,8 +757,8 @@
         <translation type="unfinished">Fjöldi handrita  &amp;skráðum þráðum </translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Opna sjálfkrafa Reddcoin þjónustugátt við router.Opna sjálfkrafa Reddcoin þjónustustjóra gátt í router. Þetta virkar bara þegar leið þín styður UPnP og er þegar virkt.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Opna sjálfkrafa MaryJane þjónustugátt við router.Opna sjálfkrafa MaryJane þjónustustjóra gátt í router. Þetta virkar bara þegar leið þín styður UPnP og er þegar virkt.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -888,8 +888,8 @@
         <translation>Námuunnin innistæða sem hefur enn ekki komið fram</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Uppgefnar upplýsingar gætu verið úreldar. Veskið þitt mun sjálfkrafa samstillast Reddcoin netkerfinu eftir að net tengingu hefur verið komið á, en þetta ferli hefur ekki klárast nú þegar.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Uppgefnar upplýsingar gætu verið úreldar. Veskið þitt mun sjálfkrafa samstillast MaryJane netkerfinu eftir að net tengingu hefur verið komið á, en þetta ferli hefur ekki klárast nú þegar.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -914,8 +914,8 @@
         <translation type="unfinished">Greiðslubeiðni innihélt villu </translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation type="unfinished">Get ekki ræst reddcoin: click-to-pay handler</translation>
+        <source>Cannot start maryjane: click-to-pay handler</source>
+        <translation type="unfinished">Get ekki ræst maryjane: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1101,8 +1101,8 @@
         <translation type="unfinished">Valfrjáls upphæð til að biðja um. Hafðu þennan glugga tóman eða á núll til að óska ekki ​​eftir ákveðna upphæð.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation type="unfinished">Valfrjáls skilaboð til að festa við greiðslubeiðnina, sem verður sýnilegt þegar beiðnin er opnuð . Ath: Þessi skilaboð munu ekki vera send með greiðslu yfir Reddcoin netkerfið.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
+        <translation type="unfinished">Valfrjáls skilaboð til að festa við greiðslubeiðnina, sem verður sýnilegt þegar beiðnin er opnuð . Ath: Þessi skilaboð munu ekki vera send með greiðslu yfir MaryJane netkerfið.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1376,8 +1376,8 @@
         <translation type="unfinished">Skilaboð:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation type="unfinished">Skilaboð sem var fest við reddcoin: URI verður geymt með millifærslunni til viðmiðunar. Ath: Þessi skilaboð munu ekki vera send yfir Reddcoin netið.</translation>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
+        <translation type="unfinished">Skilaboð sem var fest við maryjane: URI verður geymt með millifærslunni til viðmiðunar. Ath: Þessi skilaboð munu ekki vera send yfir MaryJane netið.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -1423,12 +1423,12 @@
         <translation>Af ritaðu núverandi undirskrift til kerfis klippiborðs </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Ritaðu skilaboðinn til að sanna að þú eigir þennan Reddcoin reikning</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Ritaðu skilaboðinn til að sanna að þú eigir þennan MaryJane reikning</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Staðfestu skilaboðinn til að tryggja að þau voru frá réttum Reddcoin reikningi</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Staðfestu skilaboðinn til að tryggja að þau voru frá réttum MaryJane reikningi</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

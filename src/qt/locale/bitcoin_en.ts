@@ -86,12 +86,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>These are your Reddcoin addresses for receiving payments. Use the &apos;Create new receiving address&apos; button in the receive tab to create new addresses.
+        <source>These are your MaryJane addresses for receiving payments. Use the &apos;Create new receiving address&apos; button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -221,12 +221,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your maryjanes from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -366,12 +366,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
+        <source>Request payments (generates QR codes and maryjane: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -431,32 +431,32 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+22"/>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Load Partially Signed Reddcoin Transaction</source>
+        <source>Load Partially Signed MaryJane Transaction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Load Partially Signed Reddcoin Transaction from clipboard</source>
+        <source>Load Partially Signed MaryJane Transaction from clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Open a reddcoin: URI</source>
+        <source>Open a maryjane: URI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Show the %1 help message to get a list with possible Reddcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible MaryJane command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -476,11 +476,11 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message numerus="yes">
         <location line="+451"/>
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n active connection to Reddcoin network.</numerusform>
-            <numerusform>%n active connections to Reddcoin network.</numerusform>
+            <numerusform>%n active connection to MaryJane network.</numerusform>
+            <numerusform>%n active connections to MaryJane network.</numerusform>
         </translation>
     </message>
     <message>
@@ -800,12 +800,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Website - reddcoin.com</source>
+        <source>&amp;Website - maryjane.com</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Open the Reddcoin website in a web browser.</source>
+        <source>Open the MaryJane website in a web browser.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -820,12 +820,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Website - Reddcoin Wiki</source>
+        <source>&amp;Website - MaryJane Wiki</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Open the Reddcoin Wiki website in a web browser.</source>
+        <source>Open the MaryJane Wiki website in a web browser.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -835,7 +835,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Open the Reddcoin Discord chat in a web browser.</source>
+        <source>Open the MaryJane Discord chat in a web browser.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -845,7 +845,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Open reddcointalk.org in a web browser.</source>
+        <source>Open maryjanetalk.org in a web browser.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1492,7 +1492,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="-10"/>
-        <source>The entered address &quot;%1&quot; is not a valid Reddcoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid MaryJane address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1645,7 +1645,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>%1 will download and store a copy of the Reddcoin block chain.</source>
+        <source>%1 will download and store a copy of the MaryJane block chain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1660,12 +1660,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="-117"/>
-        <source>Reddcoin</source>
+        <source>MaryJane</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Blockchain pruning is not compatible with Reddcoin</source>
+        <source>Blockchain pruning is not compatible with MaryJane</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1918,12 +1918,12 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="-102"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the reddcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the maryjane network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Attempting to spend reddcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend maryjanes that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1966,7 +1966,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     <name>OpenURIDialog</name>
     <message>
         <location filename="../forms/openuridialog.ui" line="+14"/>
-        <source>Open reddcoin URI</source>
+        <source>Open maryjane URI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2037,22 +2037,22 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+102"/>
-        <source>Full path to a Reddcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <source>Full path to a MaryJane Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+32"/>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Connect to the Reddcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the MaryJane network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2070,7 +2070,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+35"/>
-        <source>Connect to the Reddcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source>Connect to the MaryJane network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2365,7 +2365,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+52"/>
-        <source>Blockchain pruning is not compatible with Reddcoin</source>
+        <source>Blockchain pruning is not compatible with MaryJane</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2493,7 +2493,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     <message>
         <location line="+16"/>
         <location line="+335"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2705,17 +2705,17 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
+        <source>Cannot start maryjane: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+50"/>
-        <source>&apos;reddcoin://&apos; is not a valid URI. Use &apos;reddcoin:&apos; instead.</source>
+        <source>&apos;maryjane://&apos; is not a valid URI. Use &apos;maryjane:&apos; instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid MaryJane address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2800,7 +2800,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+130"/>
-        <source>Enter a Reddcoin address (e.g. %1)</source>
+        <source>Enter a MaryJane address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3702,7 +3702,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <location line="-143"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MaryJane network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3997,7 +3997,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <location line="+83"/>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for reddcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for maryjane transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4186,7 +4186,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
     </message>
     <message>
         <location line="+5"/>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Reddcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed MaryJane Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4244,7 +4244,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
     </message>
     <message>
         <location line="+274"/>
-        <source>Warning: Invalid Reddcoin address</source>
+        <source>Warning: Invalid MaryJane address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4254,7 +4254,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
     </message>
     <message>
         <location line="-163"/>
-        <source>Creates a Partially Signed Reddcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Creates a Partially Signed MaryJane Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4382,7 +4382,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
     </message>
     <message>
         <location line="+18"/>
-        <source>The Reddcoin address to send the payment to</source>
+        <source>The MaryJane address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4424,7 +4424,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
     </message>
     <message>
         <location line="+7"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less reddcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less maryjanes than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4444,7 +4444,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
+        <source>A message that was attached to the maryjane: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MaryJane network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4503,12 +4503,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive reddcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive maryjanes sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Reddcoin address to sign the message with</source>
+        <source>The MaryJane address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4551,17 +4551,17 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The Reddcoin address the message was signed with</source>
+        <source>The MaryJane address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+51"/>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5652,12 +5652,12 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <location line="-77"/>
-        <source>%s corrupt. Try using the wallet tool reddcoin-wallet to salvage or restoring a backup.</source>
+        <source>%s corrupt. Try using the wallet tool maryjane-wallet to salvage or restoring a backup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+28"/>
-        <source>Error: Dumpfile version is not supported. This version of reddcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
+        <source>Error: Dumpfile version is not supported. This version of maryjane-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6072,12 +6072,12 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <location line="+1"/>
-        <source>Prune mode is incompatible with Reddcoin and -coinstatsindex.</source>
+        <source>Prune mode is incompatible with MaryJane and -coinstatsindex.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Prune mode is incompatible with Reddcoin and -txindex.</source>
+        <source>Prune mode is incompatible with MaryJane and -txindex.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

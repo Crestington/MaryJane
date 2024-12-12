@@ -101,7 +101,7 @@
         <translation>பணப்பை பொது கண்ணோட்டத்தை காட்டு</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">ஒரு விக்கிபீடியா முகவரிக்கு நாணயங்களை அனுப்பவும்</translation>
     </message>
     <message>
@@ -129,15 +129,15 @@
         <translation>Qt பற்றி தகவலைக் காட்டு</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">உங்கள் பிட்டினின் முகவரியுடன் செய்திகளை உங்களிடம் வைத்திருப்பதை நிரூபிக்க</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <translation type="unfinished">குறிப்பிடப்பட்ட விக்கிபீடியா முகவர்களுடன் கையொப்பமிடப்பட்டதை உறுதிப்படுத்த, செய்திகளை சரிபார்க்கவும்</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -348,8 +348,8 @@
         <translation>&amp;தலைமை</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">ரூட்டரில் Reddcoin கிளையன்ட் போர்ட் தானாக திறக்க. இது உங்கள் திசைவி UPnP ஐ ஆதரிக்கும் போது மட்டுமே இயங்குகிறது.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">ரூட்டரில் MaryJane கிளையன்ட் போர்ட் தானாக திறக்க. இது உங்கள் திசைவி UPnP ஐ ஆதரிக்கும் போது மட்டுமே இயங்குகிறது.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -459,7 +459,7 @@
         <translation>இன்னும் முதிர்ச்சியடைந்த மின்கல சமநிலை</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">காட்டப்படும் தகவல் காலாவதியானதாக இருக்கலாம். ஒரு இணைப்பு நிறுவப்பட்ட பிறகு, உங்கள் பணப்பை தானாக பிட்கோடு நெட்வொர்க்குடன் ஒத்திசைக்கிறது, ஆனால் இந்த செயல்முறை இன்னும் முடிவடையவில்லை.</translation>
     </message>
     <message>
@@ -645,11 +645,11 @@
         <translation>தற்போதைய கையொப்பத்தை கிளிப்போர்டுக்கு காபி செய்</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">இந்த பிட்காயின் முகவரி உங்களுக்கு சொந்தமானது என்பதை நிரூபிக்க செய்தியை கையொப்பமிடுங்கள்</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished">குறிப்பிட்ட பிட்காயின் முகவரியுடன் கையொப்பமிடப்பட்டதா என்பதை உறுதிப்படுத்த இந்த செய்தியைச் சரிபார்க்கவும்</translation>
     </message>
     <message>

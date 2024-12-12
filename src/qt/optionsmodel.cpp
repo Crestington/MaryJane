@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -106,7 +106,7 @@ void OptionsModel::Init(bool resetSettings)
         settings.setValue("bPrune", false);
     if (!settings.contains("nPruneSize"))
         settings.setValue("nPruneSize", DEFAULT_PRUNE_TARGET_GB);
-    if (settings.value("bPrune").toBool()) // Reddcoin does not support blockchain pruning, disable if previously enabled
+    if (settings.value("bPrune").toBool()) // MaryJane does not support blockchain pruning, disable if previously enabled
         settings.setValue("bPrune", false);
     SetPruneEnabled(settings.value("bPrune").toBool());
 

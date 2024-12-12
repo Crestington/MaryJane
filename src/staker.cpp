@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -28,7 +28,7 @@
 
 class CScheduler;
 
-// reddcoin: stake manager
+// maryjane: stake manager
 CStakeman::CStakeman(bool stake_active)
 {
     // Options connOptions;

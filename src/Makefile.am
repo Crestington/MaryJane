@@ -87,29 +87,29 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += reddcoind
+  bin_PROGRAMS += maryjaned
 endif
 
 if BUILD_BITCOIN_NODE
-  bin_PROGRAMS += reddcoin-node
+  bin_PROGRAMS += maryjane-node
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += reddcoin-cli
+  bin_PROGRAMS += maryjane-cli
 endif
 
 if BUILD_BITCOIN_TX
-  bin_PROGRAMS += reddcoin-tx
+  bin_PROGRAMS += maryjane-tx
 endif
 
 if ENABLE_WALLET
 if BUILD_BITCOIN_WALLET
-  bin_PROGRAMS += reddcoin-wallet
+  bin_PROGRAMS += maryjane-wallet
 endif
 endif
 
 if BUILD_BITCOIN_UTIL
-  bin_PROGRAMS += reddcoin-util
+  bin_PROGRAMS += maryjane-util
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -687,48 +687,48 @@ bitcoin_bin_ldadd = \
 
 bitcoin_bin_ldadd += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(NATPMP_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS) $(SQLITE_LIBS)
 
-reddcoind_SOURCES = $(bitcoin_daemon_sources) init/bitcoind.cpp
-reddcoind_CPPFLAGS = $(bitcoin_bin_cppflags)
-reddcoind_CXXFLAGS = $(bitcoin_bin_cxxflags)
-reddcoind_LDFLAGS = $(bitcoin_bin_ldflags)
-reddcoind_LDADD = $(LIBBITCOIN_SERVER) $(bitcoin_bin_ldadd)
+maryjaned_SOURCES = $(bitcoin_daemon_sources) init/bitcoind.cpp
+maryjaned_CPPFLAGS = $(bitcoin_bin_cppflags)
+maryjaned_CXXFLAGS = $(bitcoin_bin_cxxflags)
+maryjaned_LDFLAGS = $(bitcoin_bin_ldflags)
+maryjaned_LDADD = $(LIBBITCOIN_SERVER) $(bitcoin_bin_ldadd)
 
-reddcoin_node_SOURCES = $(bitcoin_daemon_sources) init/bitcoin-node.cpp
-reddcoin_node_CPPFLAGS = $(bitcoin_bin_cppflags)
-reddcoin_node_CXXFLAGS = $(bitcoin_bin_cxxflags)
-reddcoin_node_LDFLAGS = $(bitcoin_bin_ldflags)
-reddcoin_node_LDADD = $(LIBBITCOIN_SERVER) $(bitcoin_bin_ldadd) $(LIBBITCOIN_IPC) $(LIBMULTIPROCESS_LIBS)
+maryjane_node_SOURCES = $(bitcoin_daemon_sources) init/bitcoin-node.cpp
+maryjane_node_CPPFLAGS = $(bitcoin_bin_cppflags)
+maryjane_node_CXXFLAGS = $(bitcoin_bin_cxxflags)
+maryjane_node_LDFLAGS = $(bitcoin_bin_ldflags)
+maryjane_node_LDADD = $(LIBBITCOIN_SERVER) $(bitcoin_bin_ldadd) $(LIBBITCOIN_IPC) $(LIBMULTIPROCESS_LIBS)
 
 # bitcoin-cli binary #
-reddcoin_cli_SOURCES = bitcoin-cli.cpp
-reddcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-reddcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-reddcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
+maryjane_cli_SOURCES = bitcoin-cli.cpp
+maryjane_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+maryjane_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+maryjane_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
 
 if TARGET_WINDOWS
-reddcoin_cli_SOURCES += bitcoin-cli-res.rc
+maryjane_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-reddcoin_cli_LDADD = \
+maryjane_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-reddcoin_cli_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+maryjane_cli_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-reddcoin_tx_SOURCES = bitcoin-tx.cpp
-reddcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-reddcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-reddcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
+maryjane_tx_SOURCES = bitcoin-tx.cpp
+maryjane_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+maryjane_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+maryjane_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
 
 if TARGET_WINDOWS
-reddcoin_tx_SOURCES += bitcoin-tx-res.rc
+maryjane_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-reddcoin_tx_LDADD = \
+maryjane_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -736,32 +736,32 @@ reddcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-reddcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+maryjane_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoin-wallet binary #
-reddcoin_wallet_SOURCES = bitcoin-wallet.cpp
-reddcoin_wallet_CPPFLAGS = $(bitcoin_bin_cppflags)
-reddcoin_wallet_CXXFLAGS = $(bitcoin_bin_cxxflags)
-reddcoin_wallet_LDFLAGS = $(bitcoin_bin_ldflags)
-reddcoin_wallet_LDADD = $(LIBBITCOIN_WALLET_TOOL) $(bitcoin_bin_ldadd)
+maryjane_wallet_SOURCES = bitcoin-wallet.cpp
+maryjane_wallet_CPPFLAGS = $(bitcoin_bin_cppflags)
+maryjane_wallet_CXXFLAGS = $(bitcoin_bin_cxxflags)
+maryjane_wallet_LDFLAGS = $(bitcoin_bin_ldflags)
+maryjane_wallet_LDADD = $(LIBBITCOIN_WALLET_TOOL) $(bitcoin_bin_ldadd)
 
 if TARGET_WINDOWS
-reddcoin_wallet_SOURCES += bitcoin-wallet-res.rc
+maryjane_wallet_SOURCES += bitcoin-wallet-res.rc
 endif
 #
 
 # bitcoin-util binary #
-reddcoin_util_SOURCES = bitcoin-util.cpp
-reddcoin_util_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-reddcoin_util_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-reddcoin_util_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
+maryjane_util_SOURCES = bitcoin-util.cpp
+maryjane_util_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+maryjane_util_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+maryjane_util_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
 
 if TARGET_WINDOWS
-reddcoin_util_SOURCES += bitcoin-util-res.rc
+maryjane_util_SOURCES += bitcoin-util-res.rc
 endif
 
-reddcoin_util_LDADD = \
+maryjane_util_LDADD = \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBUNIVALUE) \
@@ -769,7 +769,7 @@ reddcoin_util_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-reddcoin_util_LDADD += $(BOOST_LIBS)
+maryjane_util_LDADD += $(BOOST_LIBS)
 #
 
 # bitcoinconsensus library #

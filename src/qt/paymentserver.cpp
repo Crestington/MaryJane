@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -38,7 +38,7 @@
 #include <QUrlQuery>
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("reddcoin:");
+const QString BITCOIN_IPC_PREFIX("maryjane:");
 
 //
 // Create a name that is unique for:
@@ -47,7 +47,7 @@ const QString BITCOIN_IPC_PREFIX("reddcoin:");
 //
 static QString ipcServerName()
 {
-    QString name("ReddcoinQt");
+    QString name("MaryJaneQt");
 
     // Append a simple hash of the datadir
     // Note that gArgs.GetDataDirNet() returns a different path
@@ -172,7 +172,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "Q_EMIT message()" here
             QMessageBox::critical(nullptr, tr("Payment request error"),
-                tr("Cannot start reddcoin: click-to-pay handler"));
+                tr("Cannot start maryjane: click-to-pay handler"));
         }
         else {
             connect(uriServer, &QLocalServer::newConnection, this, &PaymentServer::handleURIConnection);
@@ -220,9 +220,9 @@ void PaymentServer::handleURIOrFile(const QString& s)
         return;
     }
 
-    if (s.startsWith("reddcoin://", Qt::CaseInsensitive))
+    if (s.startsWith("maryjane://", Qt::CaseInsensitive))
     {
-        Q_EMIT message(tr("URI handling"), tr("'reddcoin://' is not a valid URI. Use 'reddcoin:' instead."),
+        Q_EMIT message(tr("URI handling"), tr("'maryjane://' is not a valid URI. Use 'maryjane:' instead."),
             CClientUIInterface::MSG_ERROR);
     }
     else if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // bitcoin: URI
@@ -252,7 +252,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
             }
             else
                 Q_EMIT message(tr("URI handling"),
-                    tr("URI cannot be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters."),
+                    tr("URI cannot be parsed! This can be caused by an invalid MaryJane address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
             return;

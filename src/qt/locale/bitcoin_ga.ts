@@ -111,8 +111,8 @@
         <translation>Taispeáin forbhreathnú ginearálta den sparán</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Seol boinn chuig seoladh Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Seol boinn chuig seoladh MaryJane</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -139,15 +139,15 @@
         <translation>Taispeáin faisnéis faoi Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Sínigh teachtaireachtaí le do sheoltaí Reddcoin chun a chruthú gur leat iad</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Sínigh teachtaireachtaí le do sheoltaí MaryJane chun a chruthú gur leat iad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Teachtaireachtaí a fhíorú lena chinntiú go raibh siad sínithe le seoltaí sainithe Reddcoin</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Teachtaireachtaí a fhíorú lena chinntiú go raibh siad sínithe le seoltaí sainithe MaryJane</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -363,8 +363,8 @@
         <translation>&amp;Príomh</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Oscail port cliant Reddcoin go huathoibríoch ar an ródaire. Ní oibríonn sé seo ach nuair a thacaíonn do ródaire le UPnP agus nuair a chumasaítear é.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Oscail port cliant MaryJane go huathoibríoch ar an ródaire. Ní oibríonn sé seo ach nuair a thacaíonn do ródaire le UPnP agus nuair a chumasaítear é.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -470,8 +470,8 @@
         <translation>Iarmhéid mianadóireacht nach bhfuil fós aibithe</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Féadfaidh an fhaisnéis a thaispeántar a bheith as dáta. Déanann do sparán sioncrónú go huathoibríoch leis an líonra Reddcoin tar éis nasc a bhunú, ach níl an próiseas seo críochnaithe fós.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Féadfaidh an fhaisnéis a thaispeántar a bheith as dáta. Déanann do sparán sioncrónú go huathoibríoch leis an líonra MaryJane tar éis nasc a bhunú, ach níl an próiseas seo críochnaithe fós.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -665,12 +665,12 @@
         <translation>Cóipeáil an síniú reatha chuig gearrthaisce an chórais</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation type="unfinished">Sínigh an teachtaireacht chun a chruthú gur leat an seoladh Reddcoin seo</translation>
+        <source>Sign the message to prove you own this MaryJane address</source>
+        <translation type="unfinished">Sínigh an teachtaireacht chun a chruthú gur leat an seoladh MaryJane seo</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Fíoraigh an teachtaireacht lena chinntiú go raibh sí sínithe leis an seoladh Reddcoin sainithe </translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Fíoraigh an teachtaireacht lena chinntiú go raibh sí sínithe leis an seoladh MaryJane sainithe </translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

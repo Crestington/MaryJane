@@ -105,8 +105,8 @@
         <translation>საფულის ზოგადი მიმოხილვა</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">მონეტების გაგზავნა Reddcoin-მისამართზე</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">მონეტების გაგზავნა MaryJane-მისამართზე</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -133,15 +133,15 @@
         <translation>ინფორმაცია Qt-ს შესახებ</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">მესიჯებზე ხელმოწერა თქვენი Reddcoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">მესიჯებზე ხელმოწერა თქვენი MaryJane-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Reddcoin-მისამართით</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული MaryJane-მისამართით</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -352,8 +352,8 @@
         <translation>&amp;მთავარი</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">როუტერში Reddcoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">როუტერში MaryJane-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -459,8 +459,8 @@
         <translation>მოპოვებული თანხა, რომელიც ჯერ არ არის მზადყოფნაში</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Reddcoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება MaryJane-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -649,12 +649,12 @@
         <translation>მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Reddcoin-მისამართით</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული MaryJane-მისამართით</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

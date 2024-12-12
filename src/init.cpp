@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -112,7 +112,7 @@ static const char* DEFAULT_ASMAP_FILENAME="ip_asn.map";
 /**
  * The PID file facilities.
  */
-static const char* BITCOIN_PID_FILENAME = "reddcoind.pid";
+static const char* BITCOIN_PID_FILENAME = "maryjaned.pid";
 
 static fs::path GetPidFile(const ArgsManager& args)
 {
@@ -585,7 +585,7 @@ void SetupServerArgs(ArgsManager& argsman)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/reddcoin-project/reddcoin>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/Crestington/MaryJane>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i").translated, 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -865,9 +865,9 @@ bool AppInitParameterInteraction(const ArgsManager& args)
     // if using block pruning, then disallow txindex and coinstatsindex
     if (args.GetArg("-prune", 0)) {
         if (args.GetBoolArg("-txindex", DEFAULT_TXINDEX))
-            return InitError(_("Prune mode is incompatible with Reddcoin and -txindex."));
+            return InitError(_("Prune mode is incompatible with MaryJane and -txindex."));
         if (args.GetBoolArg("-coinstatsindex", DEFAULT_COINSTATSINDEX))
-            return InitError(_("Prune mode is incompatible with Reddcoin and -coinstatsindex."));
+            return InitError(_("Prune mode is incompatible with MaryJane and -coinstatsindex."));
     }
 
     // -bind and -whitebind can't be set when not listening

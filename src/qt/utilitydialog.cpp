@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -130,7 +130,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, const NetworkStyle* networ
     } else {
         resize(780, 400);
         setWindowTitle(tr("Command-line options"));
-        QString header = "Usage:  reddcoin-qt [command-line options]                     \n";
+        QString header = "Usage:  maryjane-qt [command-line options]                     \n";
         QTextCursor cursor(ui->helpMessage->document());
         cursor.insertText(version);
         cursor.insertBlock();

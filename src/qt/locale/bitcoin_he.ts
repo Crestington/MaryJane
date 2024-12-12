@@ -30,7 +30,7 @@
         <translation>&amp;מחיקה</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your MaryJane addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">אלה כתובת הלייטקוין שלך עבור שליחת תשלומים. תמיד בדוק את מספר ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
     </message>
     <message>
@@ -104,7 +104,7 @@
         <translation type="unfinished">האם אתה בטוח שברצונך להצפין את הארנק?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MARYJANE&lt;/b&gt;!</source>
         <translation type="unfinished">אזהרה: אם אתה מצפין את הארנק ומאבד את הסיסמא, אתה &lt;b&gt;תאבד את כל הלייטקוינים שלך&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>הצגת סקירה כללית של הארנק</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a MaryJane address</source>
         <translation type="unfinished">שליחת מטבעות לכתובת ביטקוין</translation>
     </message>
     <message>
@@ -240,15 +240,15 @@
         <translation>הצגת מידע על Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
         <translation type="unfinished">חתום על הודעות עם כתובות הביטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
         <translation type="unfinished">אמת הודעות כדי להבטיח שהן נחתמו עם כתובת ביטקוין מסוימות</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -427,7 +427,7 @@
         <translation type="unfinished">פתיחת הארנק נכשלה.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
+        <source>The entered address "%1" is not a valid MaryJane address.</source>
         <translation type="unfinished">הכתובת שהוכנסה "%1" אינה כתובת לייטקוין תקינה.</translation>
     </message>
     <message>
@@ -469,7 +469,7 @@
         </translation>
     </message>
     <message>
-        <source>Reddcoin</source>
+        <source>MaryJane</source>
         <translation type="unfinished">לייטקוין</translation>
     </message>
     <message>
@@ -555,7 +555,7 @@
         <translation>&amp;ראשי</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">פתיחת הפתחה של ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
     </message>
     <message>
@@ -666,7 +666,7 @@
         <translation>מאזן שנכרה וטרם הבשיל</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת הביטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
@@ -681,7 +681,7 @@
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
+        <source>Cannot start maryjane: click-to-pay handler</source>
         <translation type="unfinished">לא ניתן להתחיל את לייטקוין: מפעיל לחץ-לתשלום </translation>
     </message>
     </context>
@@ -936,11 +936,11 @@
         <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">ניתן לחתום על ההודעה כדי להוכיח שכתובת ביטקוין זו בבעלותך</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
         <translation type="unfinished">ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת הביטקוין הנתונה</translation>
     </message>
     <message>

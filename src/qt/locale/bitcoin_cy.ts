@@ -170,8 +170,8 @@
         <translation>Dangos trosolwg cyffredinol y waled</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Anfon arian i gyfeiriad Reddcoin</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Anfon arian i gyfeiriad MaryJane</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -198,15 +198,15 @@
         <translation>Dangos gwybodaeth am Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Arwyddo negeseuon gyda eich cyfeiriadau Reddcoin i brofi mae chi sy'n berchen arnynt</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Arwyddo negeseuon gyda eich cyfeiriadau MaryJane i brofi mae chi sy'n berchen arnynt</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau Reddcoin penodol</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau MaryJane penodol</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

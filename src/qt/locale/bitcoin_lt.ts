@@ -111,8 +111,8 @@
         <translation>Rodyti piniginės bendrą apžvalgą</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation type="unfinished">Siųsti monetas Reddcoin adresui</translation>
+        <source>Send coins to a MaryJane address</source>
+        <translation type="unfinished">Siųsti monetas MaryJane adresui</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -139,15 +139,15 @@
         <translation>Rodyti informaciją apie Qt</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation type="unfinished">Pasirašydami žinutes su savo Reddcoin adresais įrodysite jog esate jų savininkas</translation>
+        <source>Sign messages with your MaryJane addresses to prove you own them</source>
+        <translation type="unfinished">Pasirašydami žinutes su savo MaryJane adresais įrodysite jog esate jų savininkas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation type="unfinished">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Reddcoin adresas</translation>
+        <source>Verify messages to ensure they were signed with specified MaryJane addresses</source>
+        <translation type="unfinished">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas MaryJane adresas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network.</source>
+        <source>%n active connection(s) to MaryJane network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -363,8 +363,8 @@
         <translation>&amp;Pagrindinės</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Automatiškai atidaryti Reddcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the MaryJane client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Automatiškai atidaryti MaryJane kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -474,8 +474,8 @@
         <translation>Kasyklų balansas, kuris dar nėra subrandintas</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Rodoma informacija gali būti pasenusi. Piniginė automatiškai sinchronizuojasi su „Reddcoin“ tinklu po ryšio užmezgimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MaryJane network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Rodoma informacija gali būti pasenusi. Piniginė automatiškai sinchronizuojasi su „MaryJane“ tinklu po ryšio užmezgimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -669,12 +669,12 @@
         <translation>Nukopijuokite dabartinį parašą į sistemos iškarpinę</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this MaryJane address</source>
         <translation type="unfinished">Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation type="unfinished">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Reddcoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified MaryJane address</source>
+        <translation type="unfinished">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas MaryJane adresas</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

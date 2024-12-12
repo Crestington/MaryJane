@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2016-2020 The Bitcoin Core developers
-# Copyright (c) 2016-2023 The Reddcoin Core developers
+# Copyright (c) 2016-2023 The MaryJane Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,7 +42,7 @@ EXCLUDE_DIRS = [
 INCLUDE = ['*.h', '*.cpp', '*.cc', '*.c', '*.mm', '*.py', '*.sh', '*.bash-completion']
 INCLUDE_COMPILED = re.compile('|'.join([fnmatch.translate(m) for m in INCLUDE]))
 
-DEV_TEAM = 'Reddcoin'
+DEV_TEAM = 'MaryJane'
 
 def applies_to_file(filename):
     for excluded_dir in EXCLUDE_DIRS:
@@ -106,7 +106,7 @@ def compile_copyright_regex(copyright_style, year_style, name):
 EXPECTED_HOLDER_NAMES = [
     r"Satoshi Nakamoto",
     r"The Bitcoin Core developers",
-    r"The Reddcoin Core developers",
+    r"The MaryJane Core developers",
     r"The Dash Core developers",
     r"The Peercoin Core developers",
     r"BitPay Inc\.",
@@ -356,7 +356,7 @@ COPYRIGHT = r'Copyright \(c\)'
 YEAR = "20[0-9][0-9]"
 YEAR_RANGE = '(%s)(-%s)?' % (YEAR, YEAR)
 HOLDER_BITCOIN = 'The Bitcoin Core developers'
-HOLDER = 'The Reddcoin Core developers'
+HOLDER = 'The MaryJane Core developers'
 BITCOIN_LINE_COMPILED = re.compile(' '.join([COPYRIGHT, YEAR_RANGE, HOLDER_BITCOIN]))
 UPDATEABLE_LINE_COMPILED = re.compile(' '.join([COPYRIGHT, YEAR_RANGE, HOLDER]))
 
@@ -500,7 +500,7 @@ def get_header_lines(header, start_year, end_year):
     return [line + '\n' for line in lines]
 
 CPP_HEADER = '''
-// Copyright (c) %s The Reddcoin Core developers
+// Copyright (c) %s The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 '''
@@ -509,7 +509,7 @@ def get_cpp_header_lines_to_insert(start_year, end_year):
     return reversed(get_header_lines(CPP_HEADER, start_year, end_year))
 
 SCRIPT_HEADER = '''
-# Copyright (c) %s The Reddcoin Core developers
+# Copyright (c) %s The MaryJane Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 '''
@@ -651,25 +651,25 @@ def exec_modify_header_year(base_directory):
 
 UPDATE_USAGE = """
 Modifies all the copyright headers of "The Bitcoin Core developers" since commit #80b9c562
-It inserts a new "The Reddcoin Core developers" to the copyright header following the preceding.
+It inserts a new "The MaryJane Core developers" to the copyright header following the preceding.
 
 It will also update a file changed in a year more recent than is listed. For example:
 
-// Copyright (c) <firstYear>-<lastYear> The Reddcoin Core developers
+// Copyright (c) <firstYear>-<lastYear> The MaryJane Core developers
 
 will be updated to:
 
-// Copyright (c) <firstYear>-<lastModifiedYear> The Reddcoin Core developers
+// Copyright (c) <firstYear>-<lastModifiedYear> The MaryJane Core developers
 
 where <lastModifiedYear> is obtained from the 'git log' history.
 
 This subcommand also handles copyright headers that have only a single year. In those cases:
 
-// Copyright (c) <year> The Reddcoin Core developers
+// Copyright (c) <year> The MaryJane Core developers
 
 will be updated to:
 
-// Copyright (c) <year>-<lastModifiedYear> The Reddcoin Core developers
+// Copyright (c) <year>-<lastModifiedYear> The MaryJane Core developers
 
 where the update is appropriate.
 
@@ -677,7 +677,7 @@ Usage:
     $ ./copyright_header.py modify <base_directory>
 
 Arguments:
-    <base_directory> - The base directory of a reddcoin source code repository.
+    <base_directory> - The base directory of a maryjane source code repository.
 """
 
 def modify_cmd(argv):
@@ -694,7 +694,7 @@ def modify_cmd(argv):
 ################################################################################
 
 USAGE = """
-copyright_header.py - utilities for managing copyright headers of 'The Reddcoin
+copyright_header.py - utilities for managing copyright headers of 'The MaryJane
 Core developers' in repository source files.
 
 Usage:

@@ -1,5 +1,5 @@
 // Copyright (c) 2015-2020 The Bitcoin Core developers
-// Copyright (c) 2015-2023 The Reddcoin Core developers
+// Copyright (c) 2015-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -300,7 +300,7 @@ void WalletTests::walletTests()
         // and fails to handle returned nulls
         // (https://bugreports.qt.io/browse/QTBUG-49686).
         QWARN("Skipping WalletTests on mac build with 'minimal' platform set due to Qt bugs. To run AppTests, invoke "
-              "with 'QT_QPA_PLATFORM=cocoa test_reddcoin-qt' on mac, or else use a linux or windows build.");
+              "with 'QT_QPA_PLATFORM=cocoa test_maryjane-qt' on mac, or else use a linux or windows build.");
         return;
     }
 #endif

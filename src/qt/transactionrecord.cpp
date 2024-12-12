@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const interface
     uint256 hash = wtx.tx->GetHash();
     std::map<std::string, std::string> mapValue = wtx.value_map;
 
-    if (wtx.is_coinstake) // Reddcoin coinstake transaction
+    if (wtx.is_coinstake) // MaryJane coinstake transaction
     {
         TransactionRecord sub(hash, nTime, TransactionRecord::Stake, "", -nDebit, wtx.tx->GetValueOut());
         CTxDestination address;

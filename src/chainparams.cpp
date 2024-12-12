@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -150,8 +150,8 @@ public:
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("seed.reddcoin.net");
-        vSeeds.emplace_back("reddcoin.com");
+        vSeeds.emplace_back("seed.maryjane.net");
+        vSeeds.emplace_back("maryjane.com");
         vSeeds.emplace_back("dnsseed01.redd.ink");
         vSeeds.emplace_back("dnsseed02.redd.ink");
         vSeeds.emplace_back("dnsseed03.redd.ink");
@@ -164,7 +164,7 @@ public:
 
         bech32_hrp = "rdd";
 
-        // Reddcoin BIP44 cointype in mainnet is '4'
+        // MaryJane BIP44 cointype in mainnet is '4'
         nExtCoinType = 4;
 
         vFixedSeeds.clear();
@@ -372,7 +372,7 @@ public:
         vSeeds.clear();
 
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("seed-testnet.reddcoin.com");
+        vSeeds.emplace_back("seed-testnet.maryjane.com");
         vSeeds.emplace_back("dnsseed01-testnet.redd.ink");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
@@ -383,7 +383,7 @@ public:
 
         bech32_hrp = "trdd";
 
-        // Reddcoin BIP44 cointype in testnet is '1'
+        // MaryJane BIP44 cointype in testnet is '1'
         nExtCoinType = 1;
 
         vFixedSeeds.clear();
@@ -511,8 +511,8 @@ public:
 
         vFixedSeeds.clear();
 
-        vSeeds.emplace_back("seed.reddcoin.net");
-        vSeeds.emplace_back("reddcoin.com");
+        vSeeds.emplace_back("seed.maryjane.net");
+        vSeeds.emplace_back("maryjane.com");
         vSeeds.emplace_back("dnsseed01.redd.ink");
         vSeeds.emplace_back("dnsseed02.redd.ink");
         vSeeds.emplace_back("dnsseed03.redd.ink");
@@ -525,7 +525,7 @@ public:
 
         bech32_hrp = "rdd";
 
-        // Reddcoin BIP44 cointype in testnet is '1'
+        // MaryJane BIP44 cointype in testnet is '1'
         nExtCoinType = 1;
 
         fDefaultConsistencyChecks = false;
@@ -591,8 +591,8 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc"));
         assert(genesis.hashMerkleRoot == uint256S("b502bc1dc42b07092b9187e92f70e32f9a53247feae16d821bebffa916af79ff"));
 
-        vSeeds.emplace_back("seed.reddcoin.net");
-        vSeeds.emplace_back("reddcoin.com");
+        vSeeds.emplace_back("seed.maryjane.net");
+        vSeeds.emplace_back("maryjane.com");
         vSeeds.emplace_back("dnsseed01.redd.ink");
         vSeeds.emplace_back("dnsseed02.redd.ink");
         vSeeds.emplace_back("dnsseed03.redd.ink");
@@ -605,7 +605,7 @@ public:
 
         bech32_hrp = "rcrt";
 
-        // Reddcoin BIP44 cointype in testnet is '1'
+        // MaryJane BIP44 cointype in testnet is '1'
         nExtCoinType = 1;
 
         fDefaultConsistencyChecks = true;

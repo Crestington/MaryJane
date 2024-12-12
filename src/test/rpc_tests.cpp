@@ -1,5 +1,5 @@
 // Copyright (c) 2012-2020 The Bitcoin Core developers
-// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Copyright (c) 2014-2023 The MaryJane Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -447,16 +447,16 @@ BOOST_AUTO_TEST_CASE(help_example)
     BOOST_CHECK_EQUAL(HelpExampleRpcNamed("test", args), "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\": \"curltest\", \"method\": \"test\", \"params\": {\"foo\":\"bar\",\"b\":true,\"n\":1}}' -H 'content-type: text/plain;' http://127.0.0.1:8332/\n");
 
     // test shell escape
-    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"foo", "b'ar"}}), "> reddcoin-cli -named test foo='b'''ar'\n");
-    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"foo", "b\"ar"}}), "> reddcoin-cli -named test foo='b\"ar'\n");
-    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"foo", "b ar"}}), "> reddcoin-cli -named test foo='b ar'\n");
+    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"foo", "b'ar"}}), "> maryjane-cli -named test foo='b'''ar'\n");
+    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"foo", "b\"ar"}}), "> maryjane-cli -named test foo='b\"ar'\n");
+    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"foo", "b ar"}}), "> maryjane-cli -named test foo='b ar'\n");
 
     // test object params
     UniValue obj_value(UniValue::VOBJ);
     obj_value.pushKV("foo", "bar");
     obj_value.pushKV("b", false);
     obj_value.pushKV("n", 1);
-    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"name", obj_value}}), "> reddcoin-cli -named test name='{\"foo\":\"bar\",\"b\":false,\"n\":1}'\n");
+    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"name", obj_value}}), "> maryjane-cli -named test name='{\"foo\":\"bar\",\"b\":false,\"n\":1}'\n");
     BOOST_CHECK_EQUAL(HelpExampleRpcNamed("test", {{"name", obj_value}}), "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\": \"curltest\", \"method\": \"test\", \"params\": {\"name\":{\"foo\":\"bar\",\"b\":false,\"n\":1}}}' -H 'content-type: text/plain;' http://127.0.0.1:8332/\n");
 
     // test array params
@@ -464,7 +464,7 @@ BOOST_AUTO_TEST_CASE(help_example)
     arr_value.push_back("bar");
     arr_value.push_back(false);
     arr_value.push_back(1);
-    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"name", arr_value}}), "> reddcoin-cli -named test name='[\"bar\",false,1]'\n");
+    BOOST_CHECK_EQUAL(HelpExampleCliNamed("test", {{"name", arr_value}}), "> maryjane-cli -named test name='[\"bar\",false,1]'\n");
     BOOST_CHECK_EQUAL(HelpExampleRpcNamed("test", {{"name", arr_value}}), "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\": \"curltest\", \"method\": \"test\", \"params\": {\"name\":[\"bar\",false,1]}}' -H 'content-type: text/plain;' http://127.0.0.1:8332/\n");
 
     // test types don't matter for shell
