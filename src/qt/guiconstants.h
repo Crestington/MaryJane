@@ -1,0 +1,67 @@
+// Copyright (c) 2011-2020 The Bitcoin Core developers
+// Copyright (c) 2014-2023 The Reddcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef BITCOIN_QT_GUICONSTANTS_H
+#define BITCOIN_QT_GUICONSTANTS_H
+
+#include <cstdint>
+
+/* Milliseconds between model updates */
+static const int MODEL_UPDATE_DELAY = 250;
+
+/* Milliseconds between new update checks */
+static const int CHECK_UPDATE_DELAY = 86400000; // 24 hours
+
+/* AskPassphraseDialog -- Maximum passphrase length */
+static const int MAX_PASSPHRASE_SIZE = 1024;
+
+/* BitcoinGUI -- Size of icons in status bar */
+static const int STATUSBAR_ICONSIZE = 16;
+
+static const bool DEFAULT_SPLASHSCREEN = true;
+
+/* Invalid field background style */
+#define STYLE_INVALID "background:#FF8080"
+
+/* Transaction list -- unconfirmed transaction */
+#define COLOR_UNCONFIRMED QColor(128, 128, 128)
+/* Transaction list -- negative amount */
+#define COLOR_NEGATIVE QColor(255, 0, 0)
+/* Transaction list -- bare address (without label) */
+#define COLOR_BAREADDRESS QColor(140, 140, 140)
+/* Transaction list -- TX status decoration - open until date */
+#define COLOR_TX_STATUS_OPENUNTILDATE QColor(64, 64, 255)
+/* Transaction list -- TX status decoration - danger, tx needs attention */
+#define COLOR_TX_STATUS_DANGER QColor(200, 100, 100)
+/* Transaction list -- TX status decoration - default color */
+#define COLOR_BLACK QColor(0, 0, 0)
+
+/* Tooltips longer than this (in characters) are converted into rich text,
+   so that they can be word-wrapped.
+ */
+static const int TOOLTIP_WRAP_THRESHOLD = 80;
+
+/* Number of frames in spinner animation */
+#define SPINNER_FRAMES 36
+
+#define QAPP_ORG_NAME "Reddcoin"
+#define QAPP_ORG_DOMAIN "reddcoin.com"
+#define QAPP_APP_NAME_DEFAULT "Reddcoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Reddcoin-Qt-testnet"
+#define QAPP_APP_NAME_SIGNET "Reddcoin-Qt-signet"
+#define QAPP_APP_NAME_REGTEST "Reddcoin-Qt-regtest"
+
+/* Colors for minting tab for each coin age group */
+#define COLOR_MINT_YOUNG QColor(255, 224, 226)
+#define COLOR_MINT_MATURE QColor(204, 255, 207)
+#define COLOR_MINT_OLD QColor(111, 252, 141)
+
+/* One gigabyte (GB) in bytes */
+static constexpr uint64_t GB_BYTES{1000000000};
+
+// Default prune target displayed in GUI.
+static constexpr int DEFAULT_PRUNE_TARGET_GB{2};
+
+#endif // BITCOIN_QT_GUICONSTANTS_H
