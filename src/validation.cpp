@@ -1181,22 +1181,16 @@ CAmount GetBlockValue(int nHeight, const CAmount& nFees)
 
     if (nHeight == 0) {
         // Genesis block
-        nSubsidy = 10000 * COIN;
+        nSubsidy = 50 * COIN;
     } else if (nHeight < 11) {
-        // Premine: First 10 block are 545,000,000 MARYJ (5% of the total coin)
-        nSubsidy = 545000000 * COIN;
-    } else if (nHeight < 10000) {
+        // Premine: First 10 block are 5,000,000 MARYJ (5% of the total coin)
+        nSubsidy = 5000000 * COIN;
+    } else if (nHeight < 1000) {
         // Bonus reward for block 10-9,999 of 300,000 coins
-        nSubsidy = 300000 * COIN;
-    } else if (nHeight < 20000) {
+        nSubsidy = 1 * COIN;
+    } else if (nHeight < 43000) {
         // Bonus reward for block 10,000 - 19,999 of 200,000 coins
-        nSubsidy = 200000 * COIN;
-    } else if (nHeight < 30000) {
-        // Bonus reward for block 20,000 - 29,999 of 150,000 coins
-        nSubsidy = 150000 * COIN;
-    } else if (nHeight >= 140000) {
-      // Subsidy is cut in half every 50,000 blocks starting at block 140000
-      nSubsidy >>= ((nHeight - 140000 + 50000) / 50000);
+        nSubsidy = 200 * COIN;
     }
 
     return nSubsidy + nFees;
