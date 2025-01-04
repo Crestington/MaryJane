@@ -51,7 +51,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTimeTx, uint32_t nTimeBlock, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Merry Christmas and a happy New Year!";
+    const char* pszTimestamp = "January 21st 2014 was such a nice day...";
     const CScript genesisOutputScript = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTimeTx, nTimeBlock, nNonce, nBits, nVersion, genesisReward);
 }
@@ -140,22 +140,10 @@ public:
         m_assumed_blockchain_size = 8;
         m_assumed_chain_state_size = 1;
 
-		// Example parameters for the new genesis block
-		int64_t timestamp = 1734426814; // Dec 17, 2024 UTC
-		int32_t nonce = 2083236893; // New nonce (adjusted through process)
-		uint32_t nBits = 0x1e0ffff0; // Difficulty (same as original or adjusted)
-		int64_t reward = 50 * COIN; // Example reward (adjustable)
-		uint256 hashMerkleRoot = genesis.BuildMerkleTree(); // Recalculate Merkle root
-
-		// Create the new genesis block
-		genesis = CreateGenesisBlock(timestamp, timestamp, nonce, nBits, 1, reward);
-
-		// Recalculate the genesis block's hash
-		consensus.hashGenesisBlock = genesis.GetHash();
-
-		// Check that the new hash is correct (you must update this with the new hash)
-		assert(consensus.hashGenesisBlock == uint256S("NEW_GENESIS_BLOCK_HASH"));
-		assert(genesis.hashMerkleRoot == hashMerkleRoot);
+        genesis = CreateGenesisBlock(2083236893, 2083236893, 222583475, 0x1e0ffff0, 1, 50 * COIN);
+        consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc"));
+        assert(genesis.hashMerkleRoot == uint256S("b502bc1dc42b07092b9187e92f70e32f9a53247feae16d821bebffa916af79ff"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
@@ -226,7 +214,7 @@ public:
         consensus.posLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); //! << 20
         consensus.posReset = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); //! << 32
         consensus.nPowTargetTimespan = 48 * 60 * 60; // 48 hours
-        consensus.nPowTargetSpacing = 240;
+        consensus.nPowTargetSpacing = 420;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
 
@@ -280,22 +268,9 @@ public:
         m_assumed_blockchain_size = 1;
         m_assumed_chain_state_size = 0;
 
-		// Example parameters for the new genesis block
-		int64_t timestamp = 1609459200; // January 1, 2021, 00:00:00 UTC
-		int32_t nonce = 2083236893; // New nonce (adjusted through process)
-		uint32_t nBits = 0x1e0ffff0; // Difficulty (same as original or adjusted)
-		int64_t reward = 50 * COIN; // Example reward (adjustable)
-		uint256 hashMerkleRoot = genesis.BuildMerkleTree(); // Recalculate Merkle root
-
-		// Create the new genesis block
-		genesis = CreateGenesisBlock(timestamp, timestamp, nonce, nBits, 1, reward);
-
-		// Recalculate the genesis block's hash
-		consensus.hashGenesisBlock = genesis.GetHash();
-
-		// Check that the new hash is correct (you must update this with the new hash)
-		assert(consensus.hashGenesisBlock == uint256S("NEW_GENESIS_BLOCK_HASH"));
-		assert(genesis.hashMerkleRoot == hashMerkleRoot);
+        genesis = CreateGenesisBlock(2083236893, 2083236893, 4021275, 0x1e0ffff0, 1, 50 * COIN);
+        consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("33a3d9c862e11c8c6b4ca39c9a742556960dbd3b5ccc7154ce2d4e81b3fba56b"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -394,8 +369,8 @@ public:
         consensus.nSubsidyHalvingInterval = 210000;
         consensus.nCoinbaseMaturity = 30;
         consensus.BIP16Exception = uint256S("0x00000000000002dc756eebf4f49723ed8d30cc28a5f108eb94b1ba88ac4f9c22");
-        consensus.BIP66Height = 43000; // 00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
-        consensus.DonationHeight = 43000; //
+        consensus.BIP66Height = 363725; // 00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
+        consensus.DonationHeight = 3382229; //
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 42 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -432,18 +407,10 @@ public:
         nDefaultPort = 454401;
         nPruneAfterHeight = 100000;
 
-		// Example parameters for the new genesis block
-		int64_t timestamp = 1609459200; // January 1, 2021, 00:00:00 UTC
-		int32_t nonce = 2083236893; // New nonce (adjusted through process)
-		uint32_t nBits = 0x1e0ffff0; // Difficulty (same as original or adjusted)
-		int64_t reward = 50 * COIN; // Example reward (adjustable)
-		uint256 hashMerkleRoot = genesis.BuildMerkleTree(); // Recalculate Merkle root
-
-		// Create the new genesis block
-		genesis = CreateGenesisBlock(timestamp, timestamp, nonce, nBits, 1, reward);
-
-		// Recalculate the genesis block's hash
-		consensus.hashGenesisBlock = genesis.GetHash();
+        genesis = CreateGenesisBlock(2083236893, 2083236893, 222583475, 0x1e0ffff0, 1, 50 * COIN);
+        consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc"));
+        assert(genesis.hashMerkleRoot == uint256S("b502bc1dc42b07092b9187e92f70e32f9a53247feae16d821bebffa916af79ff"));
 
         vFixedSeeds.clear();
 
@@ -513,27 +480,15 @@ public:
         pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xdb;
-        nDefaultPort = 454309
+        nDefaultPort = 45309;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 1;
         m_assumed_chain_state_size = 0;
 
-		// Example parameters for the new genesis block
-		int64_t timestamp = 1609459200; // January 1, 2021, 00:00:00 UTC
-		int32_t nonce = 2083236893; // New nonce (adjusted through process)
-		uint32_t nBits = 0x1e0ffff0; // Difficulty (same as original or adjusted)
-		int64_t reward = 50 * COIN; // Example reward (adjustable)
-		uint256 hashMerkleRoot = genesis.BuildMerkleTree(); // Recalculate Merkle root
-
-		// Create the new genesis block
-		genesis = CreateGenesisBlock(timestamp, timestamp, nonce, nBits, 1, reward);
-
-		// Recalculate the genesis block's hash
-		consensus.hashGenesisBlock = genesis.GetHash();
-
-		// Check that the new hash is correct (you must update this with the new hash)
-		assert(consensus.hashGenesisBlock == uint256S("NEW_GENESIS_BLOCK_HASH"));
-		assert(genesis.hashMerkleRoot == hashMerkleRoot);
+        genesis = CreateGenesisBlock(2083236893, 2083236893, 222583475, 0x1e0ffff0, 1, 50 * COIN);
+        consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc"));
+        assert(genesis.hashMerkleRoot == uint256S("b502bc1dc42b07092b9187e92f70e32f9a53247feae16d821bebffa916af79ff"));
 
         vSeeds.emplace_back("");
 
