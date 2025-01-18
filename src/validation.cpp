@@ -1177,22 +1177,30 @@ PackageMempoolAcceptResult ProcessNewPackage(CChainState& active_chainstate, CTx
 
 CAmount GetBlockValue(int nHeight, const CAmount& nFees)
 {
-    int64_t nSubsidy = 100000 * COIN;
+    int64_t nSubsidy = 0 * COIN;
 
     if (nHeight == 0) {
         // Genesis block
         nSubsidy = 50 * COIN;
     } else if (nHeight < 11) {
-        // Premine: First 10 block are 5,000,000 MARYJ (5% of the total coin)
-        nSubsidy = 5000000 * COIN;
+        // Premine: First 10 block are 9,500,000 MARYJ (95% of the total coin)
+        nSubsidy = 9500000 * COIN;
     } else if (nHeight < 1000) {
         // Bonus reward for block 10-9,999 of 300,000 coins
         nSubsidy = 1 * COIN;
-    } else if (nHeight < 43000) {
+    } else if (nHeight < 5000) {
         // Bonus reward for block 10,000 - 19,999 of 200,000 coins
         nSubsidy = 200 * COIN;
+    } else if (nHeight < 10000) {
+        // Bonus reward for block 10,000 - 19,999 of 200,000 coins
+        nSubsidy = 300 * COIN;
+    } else if (nHeight < 21000) {
+        // Bonus reward for block 10,000 - 19,999 of 200,000 coins
+        nSubsidy = 500 * COIN;
+    } else if (nHeight => 21000) {
+        // Bonus reward for block 10,000 - 19,999 of 200,000 coins
+        nSubsidy = 0 * COIN;
     }
-
     return nSubsidy + nFees;
 }
 
