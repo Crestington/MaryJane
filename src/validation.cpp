@@ -1186,20 +1186,20 @@ CAmount GetBlockValue(int nHeight, const CAmount& nFees)
         // Premine: First 10 block are 9,500,000 MARYJ (95% of the total coin)
         nSubsidy = 9500000 * COIN;
     } else if (nHeight < 1000) {
-        // Bonus reward for block 10-9,999 of 300,000 coins
+        // Bonus reward for block under 1000, 1 coin
         nSubsidy = 1 * COIN;
     } else if (nHeight < 5000) {
-        // Bonus reward for block 10,000 - 19,999 of 200,000 coins
-        nSubsidy = 200 * COIN;
+        // Bonus reward for block 1000 - 5,000 - 2 mil coins
+        nSubsidy = 250 * COIN;
     } else if (nHeight < 10000) {
-        // Bonus reward for block 10,000 - 19,999 of 200,000 coins
-        nSubsidy = 300 * COIN;
-    } else if (nHeight < 21000) {
-        // Bonus reward for block 10,000 - 19,999 of 200,000 coins
+        // Bonus reward for block 5,000 - 10,000 of 2 mil coins
+        nSubsidy = 400 * COIN;
+    } else if (nHeight < 15000) {
+        // Bonus reward for block 10,000 - 15, 000 -  2.5 mil coins
         nSubsidy = 500 * COIN;
-    } else if (nHeight => 21000) {
-        // Bonus reward for block 10,000 - 19,999 of 200,000 coins
-        nSubsidy = 0 * COIN;
+    } else if (nHeight < 21000) {
+        // Bonus reward for block 10,000 - 1,5000 - 21,000 - 3.6 mil coins
+        nSubsidy = 600 * COIN;
     }
     return nSubsidy + nFees;
 }
