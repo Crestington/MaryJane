@@ -65,14 +65,14 @@ public:
         strNetworkID = CBaseChainParams::MAIN;
         consensus.signet_blocks = false;
         consensus.signet_challenge.clear();
-        consensus.nSubsidyHalvingInterval = 210000;
-        consensus.nLastPowHeight = 42000;
+        consensus.nSubsidyHalvingInterval = 60;
+        consensus.nLastPowHeight = 79;
         consensus.nRevertCoinbase = 30; //! disregard bip34 from this height (?)
-        consensus.nCoinbaseMaturity = 30;
+        consensus.nCoinbaseMaturity = 20;
         consensus.BIP16Exception = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
-        consensus.POSVHeight = 20;
+        consensus.POSVHeight = 80;
         consensus.BIP66Height = 30; // a6e944cc38a0d8c7c5740569501e622ec2a011e7c9dd97a78e5fba40a45b8c61
-        consensus.DonationHeight = 100; // 77ee468ea88227404a53bad63029a8d0aa58f9f6a470a076a2aa91c8494449ac
+        consensus.DonationHeight = 10000; // 77ee468ea88227404a53bad63029a8d0aa58f9f6a470a076a2aa91c8494449ac
         consensus.MinBIP9WarningHeight = std::numeric_limits<int>::max();
         consensus.devScript = { CScript() << ParseHex("03c8fc5c87f00bcc32b5ce5c036957f8befeff05bf4d88d2dcde720249f78d9313") << OP_CHECKSIG };
 
@@ -81,7 +81,7 @@ public:
         consensus.posLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); //! << 20
         consensus.posReset = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); //! << 32
         consensus.nPowTargetTimespan = 52 * 60 * 60;
-        consensus.nPowTargetSpacing = 420;
+        consensus.nPowTargetSpacing = 260;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
 
@@ -199,13 +199,13 @@ public:
         consensus.signet_blocks = false;
         consensus.signet_challenge.clear();
         consensus.nSubsidyHalvingInterval = 210000;
-        consensus.nLastPowHeight = 1439;
+        consensus.nLastPowHeight = 79;
         consensus.nCoinbaseMaturity = 50;
         consensus.BIP16Exception = uint256S("0x00000000000002dc756eebf4f49723ed8d30cc28a5f108eb94b1ba88ac4f9c22");
-        consensus.POSVHeight = 1440;
-        consensus.BIP66Height = 2189; // 84c24e7ec0023d9cf2ba50366f2a1806c30e7256606aaeb31ebd17a4c0a82e9b
-        consensus.DonationHeight = 13260; // 7e62ee9c868aa8414909dff2c68d5f9a137d9eb8e9b93c28511cbf8a5cac7280
-        consensus.MinBIP9WarningHeight = 483840; // segwit activation height + miner confirmation window
+        consensus.POSVHeight = 80;
+        consensus.BIP66Height = 30; // 84c24e7ec0023d9cf2ba50366f2a1806c30e7256606aaeb31ebd17a4c0a82e9b
+        consensus.DonationHeight = 100; // 7e62ee9c868aa8414909dff2c68d5f9a137d9eb8e9b93c28511cbf8a5cac7280
+        consensus.MinBIP9WarningHeight = 100; // segwit activation height + miner confirmation window
         consensus.devScript = { CScript() << ParseHex("03d4b22ae69b0ff7554f4c343cd213d00fd5131466cc21d8ebfab97c52ec9a00c9") << OP_CHECKSIG, // Correct dev address
                                 CScript() << ParseHex("03081542439583f7632ce9ff7c8851b0e9f56d0a6db9a13645ce102a8809287d4f") << OP_CHECKSIG };
 
@@ -214,7 +214,7 @@ public:
         consensus.posLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); //! << 20
         consensus.posReset = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); //! << 32
         consensus.nPowTargetTimespan = 48 * 60 * 60; // 48 hours
-        consensus.nPowTargetSpacing = 420;
+        consensus.nPowTargetSpacing = 260;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
 
@@ -452,7 +452,7 @@ public:
         consensus.MinBIP9WarningHeight = 483840; // segwit activation height + miner confirmation window
         consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
-        consensus.nPowTargetSpacing = 420;
+        consensus.nPowTargetSpacing = 260;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1815; // 90% of 2016

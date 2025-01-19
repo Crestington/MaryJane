@@ -116,7 +116,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     if (params.fPowAllowMinDifficultyBlocks && pindexLast->nHeight < params.nLastPowHeight)
         return bnPowLimit.GetCompact();
 
-    static const int64_t BlocksTargetSpacing = 420; // 420 seconds
+    static const int64_t BlocksTargetSpacing = 260; // 4:20 seconds
     unsigned int TimeDaySeconds = 60 * 60 * 24;
 
     int64_t PastSecondsMin = TimeDaySeconds * 0.25;
