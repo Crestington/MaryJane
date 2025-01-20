@@ -1,0 +1,11 @@
+--- b/Makefile.am	2025-01-19 23:41:26.997767801 +0000
++++ b/Makefile.am	2025-01-19 23:42:26.914886936 +0000
+@@ -34,7 +34,7 @@
+ 	-I$(top_builddir)/src/xkbcomp \
+ 	-include $(top_builddir)/src/config.h
+ 
+-AM_CFLAGS = $(BASE_CFLAGS)
++AM_CFLAGS = $(BASE_CFLAGS) -Wno-error=array-bounds
+ 
+ AM_LDFLAGS = -no-undefined
+ if HAVE_NO_UNDEFINED

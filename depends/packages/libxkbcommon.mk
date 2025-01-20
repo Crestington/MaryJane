@@ -6,27 +6,29 @@ $(package)_sha256_hash=60ddcff932b7fd352752d51a5c4f04f3d0403230a584df9a2e0d5ed87
 $(package)_dependencies=libxcb
 
 define $(package)_set_vars
-$(package)_config_opts = --enable-option-checking --disable-dependency-tracking
-$(package)_config_opts += --disable-static --disable-docs
+	$(package)_config_opts = --enable-option-checking --disable-dependency-tracking
+	$(package)_config_opts += --disable-static --disable-docs
 endef
 
 define $(package)_preprocess_cmds
-  cp -f $(BASEDIR)/config.guess $(BASEDIR)/config.sub build-aux
+	cp -f $(BASEDIR)/config.guess $(BASEDIR)/config.sub build-aux
+	cd $($(package)_build_dir) && patch -p1 < $(BASEDIR)/patches/libxkbcommon_no_error_array_bounds.patch
+	cd $($(package)_build_dir) && aclocal && automake --add-missing && autoreconf -fi
 endef
 
 define $(package)_config_cmds
-  $($(package)_autoconf)
+	$($(package)_autoconf)
 endef
 
 define $(package)_build_cmds
-  $(MAKE)
+	$(MAKE)
 endef
 
 define $(package)_stage_cmds
-  $(MAKE) DESTDIR=$($(package)_staging_dir) install
+	$(MAKE) DESTDIR=$($(package)_staging_dir) install
 endef
 
 define $(package)_postprocess_cmds
-  rm lib/*.la
+	rm lib/*.la
 endef
 
