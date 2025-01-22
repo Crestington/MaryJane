@@ -1,0 +1,11 @@
+--- /dev/null   2025-01-17 21:18:31.739000000 +0000
++++ b/xcbgen/imp.py     2025-01-19 19:29:41.624019438 +0000
+@@ -0,0 +1,8 @@
++import importlib.util
++
++# Minimal re-implementation of imp.load_source
++def load_source(name, pathname):
++    spec = importlib.util.spec_from_file_location(name, pathname)
++    module = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(module)
++    return module
