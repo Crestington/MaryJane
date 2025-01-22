@@ -5286,7 +5286,7 @@ double GetInflationAdjustment(CChainState* active_chainstate, const Consensus::P
     int64_t nMoneySupply = pindex->pprev->nMoneySupply;
 
     // some rounding for year/ leap year
-    int64_t nBlocksPerDay = 1440; // generate block per 60sec
+    int64_t nBlocksPerDay = 332.31; // generate block per 260 secc...
     int64_t nBlocksPerYear = ((365 * 33 + 8.0) / 33.0) * nBlocksPerDay;
 
     // month are a consistent period
@@ -5342,7 +5342,7 @@ double GetInflation(CChainState* active_chainstate, const Consensus::Params& con
     int64_t nMoneySupply = pindex->pprev->nMoneySupply;
     int64_t nMoneySupplyPrev;
     // some rounding for year/ leap year
-    int64_t nBlocksPerDay = 1440; // generate block per 60sec
+    int64_t nBlocksPerDay = 332.31; // generate block per 260 sec...
     int64_t nBlocksPerYear = ((365 * 33 + 8.0) / 33.0) * nBlocksPerDay;
     // month are a consistent period
     int64_t nBlocksPerMonth = nBlocksPerYear / 12;
